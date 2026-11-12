@@ -1,0 +1,1 @@
+# qgis-satellite-downloader

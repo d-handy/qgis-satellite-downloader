@@ -1,0 +1,19 @@
+# Checks before each commit. Set up once per clone:
+#     pre-commit install
+#
+# The type checkers need the QGIS Python and are run by hand; see README,
+# "Code checks".
+repos:
+  # Lint (rules in pyproject.toml) and format. Same version as the local ruff,
+  # so the hook and a manual run agree.
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.0
+    hooks:
+      - id: ruff-check
+      - id: ruff-format
+
+  # Blocks tokens, keys and passwords before they reach the history.
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.0
+    hooks:
+      - id: gitleaks

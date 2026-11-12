@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+tests/_output/
+*.part
+*.tmp.tif
+.vscode/
+.idea/

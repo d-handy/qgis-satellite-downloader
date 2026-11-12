@@ -1,0 +1,45 @@
+name: Dataset request
+description: Suggest a dataset or provider that the plugin should offer.
+labels: ["dataset"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        The plugin only includes data that can be downloaded without an account. Datasets
+        that are only available through requester-pays S3, as Zarr, JP2, tables or point
+        clouds are left out for now; see tools/catalog_report.md for the current list and
+        reasons.
+  - type: input
+    id: name
+    attributes:
+      label: Dataset
+      placeholder: e.g. Sentinel-2 L2A for Brazil
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Where is it published?
+      description: STAC API, STAC catalogue, or the provider's page.
+      placeholder: https://…
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Can the files be downloaded without an account?
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      placeholder: e.g. CC BY 4.0
+  - type: textarea
+    id: use
+    attributes:
+      label: What would you use it for?

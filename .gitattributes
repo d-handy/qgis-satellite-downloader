@@ -1,0 +1,7 @@
+# Text files are stored with LF, whatever the contributor's core.autocrlf says.
+* text=auto
+
+# Binary data: never convert line endings, never diff as text.
+*.gz binary
+*.png binary
+*.svg text

@@ -1,0 +1,5938 @@
+{
+ "built": "2026-09-17",
+ "summary": "159 collections, 3815 items, 0.07 MB",
+ "notes": [
+  "3980 requests, 0 errors",
+  "soilsuite: access HTTP 404"
+ ],
+ "collections": [
+  {
+   "key": "ecodatacube:wv_mcd19a2v061.seasconv",
+   "label": "EcoDataCube – MCD19A2 monthly water vapor",
+   "provider": "ecodatacube",
+   "collection_id": "wv_mcd19a2v061.seasconv",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv_m_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv_m_1km_s"
+   ],
+   "native_res": 1000.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 276 files · 1000 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:no2_s5p.l3.trop.tmwm.p50",
+   "label": "EcoDataCube – Sentinel-5P long-term tropospheric nitrogen dioxide density",
+   "provider": "ecodatacube",
+   "collection_id": "no2_s5p.l3.trop.tmwm.p50",
+   "category": "Atmosphere",
+   "assets": [
+    "no2_s5p.l3.trop.tmwm.p50_p50_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p10_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p90_2km_a"
+   ],
+   "default_assets": [
+    "no2_s5p.l3.trop.tmwm.p50_p50_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p10_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p90_2km_a"
+   ],
+   "native_res": 2000.0,
+   "mode": "cog",
+   "nodata": -16000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 2000 m · 2018–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.94264,
+    72.64233
+   ],
+   "interval": [
+    "2018-05-01",
+    "2022-11-30"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ch4.vmr_s5p.l2.m.seasconv",
+   "label": "EcoDataCube – Sentinel-5P monthly methane density",
+   "provider": "ecodatacube",
+   "collection_id": "ch4.vmr_s5p.l2.m.seasconv",
+   "category": "Atmosphere",
+   "assets": [
+    "ch4.vmr_s5p.l2.m.seasconv_p50_2km_a",
+    "ch4.vmr_s5p.l2.m.seasconv_p10_2km_a",
+    "ch4.vmr_s5p.l2.m.seasconv_p90_2km_a"
+   ],
+   "default_assets": [
+    "ch4.vmr_s5p.l2.m.seasconv_p50_2km_a",
+    "ch4.vmr_s5p.l2.m.seasconv_p10_2km_a",
+    "ch4.vmr_s5p.l2.m.seasconv_p90_2km_a"
+   ],
+   "native_res": 2000.0,
+   "mode": "cog",
+   "nodata": 9.969209968386869e+36,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 24 files · 2000 m · 2021–2023 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.94264,
+    72.64233
+   ],
+   "interval": [
+    "2021-12-01",
+    "2023-11-30"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:building.mask_wsf",
+   "label": "EcoDataCube – DLR World Settlement Footprint",
+   "provider": "ecodatacube",
+   "collection_id": "building.mask_wsf",
+   "category": "Population and settlement",
+   "assets": [
+    "building.mask_wsf2019_c_10m_s",
+    "building.mask_wsf2015_c_10m_s"
+   ],
+   "default_assets": [
+    "building.mask_wsf2019_c_10m_s",
+    "building.mask_wsf2015_c_10m_s"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 10 m · 2015–2019 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2015-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_road",
+   "label": "EcoDataCube – OpenStreetMap road density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_road",
+   "category": "Population and settlement",
+   "assets": [
+    "lcv_road_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_road_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:clay.tot_iso.11277.2020.wpct",
+   "label": "EcoDataCube – AI4SoilHealth: soil clay weight percent",
+   "provider": "ecodatacube",
+   "collection_id": "clay.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "clay.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "clay.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "clay.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm",
+    "clay.tot_iso.11277.2020.wpct_m_30m_b20cm..50cm",
+    "clay.tot_iso.11277.2020.wpct_p16_30m_b20cm..50cm",
+    "clay.tot_iso.11277.2020.wpct_p84_30m_b20cm..50cm",
+    "clay.tot_iso.11277.2020.wpct_m_30m_b50cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_p16_30m_b50cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_p84_30m_b50cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_m_30m_b100cm..200cm",
+    "clay.tot_iso.11277.2020.wpct_p16_30m_b100cm..200cm",
+    "clay.tot_iso.11277.2020.wpct_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "clay.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "clay.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "clay.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:bd.core_iso.11272.2017.g.cm3",
+   "label": "EcoDataCube – AI4SoilHealth: soil core bulk density",
+   "provider": "ecodatacube",
+   "collection_id": "bd.core_iso.11272.2017.g.cm3",
+   "category": "Soil",
+   "assets": [
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b0cm..20cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_30m_b0cm..20cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_30m_b0cm..20cm",
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b20cm..50cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_30m_b20cm..50cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_30m_b20cm..50cm",
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b50cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_30m_b50cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_30m_b50cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b100cm..200cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_30m_b100cm..200cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b0cm..20cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_30m_b0cm..20cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:k.ext_usda.nrcs.mg.kg",
+   "label": "EcoDataCube – AI4SoilHealth: soil extractable pottasium",
+   "provider": "ecodatacube",
+   "collection_id": "k.ext_usda.nrcs.mg.kg",
+   "category": "Soil",
+   "assets": [
+    "k.ext_usda.nrcs.mg.kg_m_30m_b0cm..20cm",
+    "k.ext_usda.nrcs.mg.kg_p16_30m_b0cm..20cm",
+    "k.ext_usda.nrcs.mg.kg_p84_30m_b0cm..20cm",
+    "k.ext_usda.nrcs.mg.kg_m_30m_b20cm..50cm",
+    "k.ext_usda.nrcs.mg.kg_p16_30m_b20cm..50cm",
+    "k.ext_usda.nrcs.mg.kg_p84_30m_b20cm..50cm",
+    "k.ext_usda.nrcs.mg.kg_m_30m_b50cm..100cm",
+    "k.ext_usda.nrcs.mg.kg_p16_30m_b50cm..100cm",
+    "k.ext_usda.nrcs.mg.kg_p84_30m_b50cm..100cm",
+    "k.ext_usda.nrcs.mg.kg_m_30m_b100cm..200cm",
+    "k.ext_usda.nrcs.mg.kg_p16_30m_b100cm..200cm",
+    "k.ext_usda.nrcs.mg.kg_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "k.ext_usda.nrcs.mg.kg_m_30m_b0cm..20cm",
+    "k.ext_usda.nrcs.mg.kg_p16_30m_b0cm..20cm",
+    "k.ext_usda.nrcs.mg.kg_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:oc_iso.10694.1995.wpct",
+   "label": "EcoDataCube – AI4SoilHealth: Soil organic carbon content",
+   "provider": "ecodatacube",
+   "collection_id": "oc_iso.10694.1995.wpct",
+   "category": "Soil",
+   "assets": [
+    "oc_iso.10694.1995.wpct_m_30m_b0cm..20cm",
+    "oc_iso.10694.1995.wpct_p16_30m_b0cm..20cm",
+    "oc_iso.10694.1995.wpct_p84_30m_b0cm..20cm",
+    "oc_iso.10694.1995.wpct_m_30m_b20cm..50cm",
+    "oc_iso.10694.1995.wpct_p16_30m_b20cm..50cm",
+    "oc_iso.10694.1995.wpct_p84_30m_b20cm..50cm",
+    "oc_iso.10694.1995.wpct_m_30m_b50cm..100cm",
+    "oc_iso.10694.1995.wpct_p16_30m_b50cm..100cm",
+    "oc_iso.10694.1995.wpct_p84_30m_b50cm..100cm",
+    "oc_iso.10694.1995.wpct_m_30m_b100cm..200cm",
+    "oc_iso.10694.1995.wpct_p16_30m_b100cm..200cm",
+    "oc_iso.10694.1995.wpct_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "oc_iso.10694.1995.wpct_m_30m_b0cm..20cm",
+    "oc_iso.10694.1995.wpct_p16_30m_b0cm..20cm",
+    "oc_iso.10694.1995.wpct_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:oc_iso.10694.1995.mg.cm3",
+   "label": "EcoDataCube – AI4SoilHealth: Soil organic carbon density",
+   "provider": "ecodatacube",
+   "collection_id": "oc_iso.10694.1995.mg.cm3",
+   "category": "Soil",
+   "assets": [
+    "oc_iso.10694.1995.mg.cm3_m_30m_b0cm..20cm",
+    "oc_iso.10694.1995.mg.cm3_p16_30m_b0cm..20cm",
+    "oc_iso.10694.1995.mg.cm3_p84_30m_b0cm..20cm",
+    "oc_iso.10694.1995.mg.cm3_m_30m_b20cm..50cm",
+    "oc_iso.10694.1995.mg.cm3_p16_30m_b20cm..50cm",
+    "oc_iso.10694.1995.mg.cm3_p84_30m_b20cm..50cm",
+    "oc_iso.10694.1995.mg.cm3_m_30m_b50cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_p16_30m_b50cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_p84_30m_b50cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_m_30m_b100cm..200cm",
+    "oc_iso.10694.1995.mg.cm3_p16_30m_b100cm..200cm",
+    "oc_iso.10694.1995.mg.cm3_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "oc_iso.10694.1995.mg.cm3_m_30m_b0cm..20cm",
+    "oc_iso.10694.1995.mg.cm3_p16_30m_b0cm..20cm",
+    "oc_iso.10694.1995.mg.cm3_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ph.cacl2_iso.10390.2021.index",
+   "label": "EcoDataCube – AI4SoilHealth: soil pH in CaCl2",
+   "provider": "ecodatacube",
+   "collection_id": "ph.cacl2_iso.10390.2021.index",
+   "category": "Soil",
+   "assets": [
+    "ph.cacl2_iso.10390.2021.index_m_30m_b0cm..20cm",
+    "ph.cacl2_iso.10390.2021.index_p16_30m_b0cm..20cm",
+    "ph.cacl2_iso.10390.2021.index_p84_30m_b0cm..20cm",
+    "ph.cacl2_iso.10390.2021.index_m_30m_b20cm..50cm",
+    "ph.cacl2_iso.10390.2021.index_p16_30m_b20cm..50cm",
+    "ph.cacl2_iso.10390.2021.index_p84_30m_b20cm..50cm",
+    "ph.cacl2_iso.10390.2021.index_m_30m_b50cm..100cm",
+    "ph.cacl2_iso.10390.2021.index_p16_30m_b50cm..100cm",
+    "ph.cacl2_iso.10390.2021.index_p84_30m_b50cm..100cm",
+    "ph.cacl2_iso.10390.2021.index_m_30m_b100cm..200cm",
+    "ph.cacl2_iso.10390.2021.index_p16_30m_b100cm..200cm",
+    "ph.cacl2_iso.10390.2021.index_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "ph.cacl2_iso.10390.2021.index_m_30m_b0cm..20cm",
+    "ph.cacl2_iso.10390.2021.index_p16_30m_b0cm..20cm",
+    "ph.cacl2_iso.10390.2021.index_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ph.h2o_iso.10390.2021.index",
+   "label": "EcoDataCube – AI4SoilHealth: soil pH in water",
+   "provider": "ecodatacube",
+   "collection_id": "ph.h2o_iso.10390.2021.index",
+   "category": "Soil",
+   "assets": [
+    "ph.h2o_iso.10390.2021.index_m_30m_b0cm..20cm",
+    "ph.h2o_iso.10390.2021.index_p16_30m_b0cm..20cm",
+    "ph.h2o_iso.10390.2021.index_p84_30m_b0cm..20cm",
+    "ph.h2o_iso.10390.2021.index_m_30m_b20cm..50cm",
+    "ph.h2o_iso.10390.2021.index_p16_30m_b20cm..50cm",
+    "ph.h2o_iso.10390.2021.index_p84_30m_b20cm..50cm",
+    "ph.h2o_iso.10390.2021.index_m_30m_b50cm..100cm",
+    "ph.h2o_iso.10390.2021.index_p16_30m_b50cm..100cm",
+    "ph.h2o_iso.10390.2021.index_p84_30m_b50cm..100cm",
+    "ph.h2o_iso.10390.2021.index_m_30m_b100cm..200cm",
+    "ph.h2o_iso.10390.2021.index_p16_30m_b100cm..200cm",
+    "ph.h2o_iso.10390.2021.index_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "ph.h2o_iso.10390.2021.index_m_30m_b0cm..20cm",
+    "ph.h2o_iso.10390.2021.index_p16_30m_b0cm..20cm",
+    "ph.h2o_iso.10390.2021.index_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:sand.tot_iso.11277.2020.wpct",
+   "label": "EcoDataCube – AI4SoilHealth: soil sand weight percent",
+   "provider": "ecodatacube",
+   "collection_id": "sand.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "sand.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "sand.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "sand.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm",
+    "sand.tot_iso.11277.2020.wpct_m_30m_b20cm..50cm",
+    "sand.tot_iso.11277.2020.wpct_p16_30m_b20cm..50cm",
+    "sand.tot_iso.11277.2020.wpct_p84_30m_b20cm..50cm",
+    "sand.tot_iso.11277.2020.wpct_m_30m_b50cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_p16_30m_b50cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_p84_30m_b50cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_m_30m_b100cm..200cm",
+    "sand.tot_iso.11277.2020.wpct_p16_30m_b100cm..200cm",
+    "sand.tot_iso.11277.2020.wpct_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "sand.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "sand.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "sand.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:silt.tot_iso.11277.2020.wpct",
+   "label": "EcoDataCube – AI4SoilHealth: soil silt weight percent",
+   "provider": "ecodatacube",
+   "collection_id": "silt.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "silt.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "silt.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "silt.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm",
+    "silt.tot_iso.11277.2020.wpct_m_30m_b20cm..50cm",
+    "silt.tot_iso.11277.2020.wpct_p16_30m_b20cm..50cm",
+    "silt.tot_iso.11277.2020.wpct_p84_30m_b20cm..50cm",
+    "silt.tot_iso.11277.2020.wpct_m_30m_b50cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_p16_30m_b50cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_p84_30m_b50cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_m_30m_b100cm..200cm",
+    "silt.tot_iso.11277.2020.wpct_p16_30m_b100cm..200cm",
+    "silt.tot_iso.11277.2020.wpct_p84_30m_b100cm..200cm"
+   ],
+   "default_assets": [
+    "silt.tot_iso.11277.2020.wpct_m_30m_b0cm..20cm",
+    "silt.tot_iso.11277.2020.wpct_p16_30m_b0cm..20cm",
+    "silt.tot_iso.11277.2020.wpct_p84_30m_b0cm..20cm"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 11 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:soil.types_ensemble",
+   "label": "EcoDataCube – AI4SoilHealth: Soil type dominant class",
+   "provider": "ecodatacube",
+   "collection_id": "soil.types_ensemble",
+   "category": "Soil",
+   "assets": [
+    "soil.types_ensemble_c_30m_epsg.3035"
+   ],
+   "default_assets": [
+    "soil.types_ensemble_c_30m_epsg.3035"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:soil.types_ensemble_prob",
+   "label": "EcoDataCube – AI4SoilHealth: Soil type probability",
+   "provider": "ecodatacube",
+   "collection_id": "soil.types_ensemble_prob",
+   "category": "Soil",
+   "assets": [
+    "soil.types_ensemble.abruptic.acrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.abruptic.alisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleysols.arenic_p_30m_epsg.3035",
+    "soil.types_ensemble.gleysols.humic_p_30m_epsg.3035",
+    "soil.types_ensemble.greyzemic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.acrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.alisols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.calcisols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.chernozems_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.ferrasols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.anthrosols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.solonchaks_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.solonetz_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.haplic.vertisols_p_30m_epsg.3035",
+    "soil.types_ensemble.hemic.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.histic.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.histic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.anthrosols.escalic_p_30m_epsg.3035",
+    "soil.types_ensemble.hortic.anthrosols_p_30m_epsg.3035",
+    "soil.types_ensemble.hyperdystric.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.hyperdystric.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.hypereutric.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.hypereutric.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.hypereutric.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.hyperhumic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.hyperskeletic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.hypocalcic.vertisols_p_30m_epsg.3035",
+    "soil.types_ensemble.brunic.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.leptic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.leptic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.leptic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.leptic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.leptosols.haplic_p_30m_epsg.3035",
+    "soil.types_ensemble.leptosols.humic_p_30m_epsg.3035",
+    "soil.types_ensemble.lithic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.luvic.chernozems_p_30m_epsg.3035",
+    "soil.types_ensemble.luvic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.luvic.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.solonetz_p_30m_epsg.3035",
+    "soil.types_ensemble.mollic.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.murshic.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.nudiargic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.petric.calcisols_p_30m_epsg.3035",
+    "soil.types_ensemble.plaggic.anthrosols_p_30m_epsg.3035",
+    "soil.types_ensemble.podzols.placic_p_30m_epsg.3035",
+    "soil.types_ensemble.protic.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.regosols.aric_p_30m_epsg.3035",
+    "soil.types_ensemble.regosols.humic_p_30m_epsg.3035",
+    "soil.types_ensemble.regosols.hyperhumic_p_30m_epsg.3035",
+    "soil.types_ensemble.relictigleyic.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.rendzic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.retic.stagnosols_p_30m_epsg.3035",
+    "soil.types_ensemble.rustic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.sapric.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.silandic.andosols_p_30m_epsg.3035",
+    "soil.types_ensemble.skeletic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.skeletic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.skeletic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.solimovic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.solimovic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.stagnic.retisols_p_30m_epsg.3035",
+    "soil.types_ensemble.terric.anthrosols_p_30m_epsg.3035",
+    "soil.types_ensemble.umbric.andosols_p_30m_epsg.3035",
+    "soil.types_ensemble.umbric.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.umbric.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.umbrisols.anthric_p_30m_epsg.3035",
+    "soil.types_ensemble.vertic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.vertic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.vertic.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.vertic.stagnosols_p_30m_epsg.3035",
+    "soil.types_ensemble.vitric.andosols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.abruptic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcaric.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.chernozems_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.kastanozems_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.calcic.vertisols_p_30m_epsg.3035",
+    "soil.types_ensemble.cambic.calcisols_p_30m_epsg.3035",
+    "soil.types_ensemble.cambic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.acric.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.cambisols.humic_p_30m_epsg.3035",
+    "soil.types_ensemble.cambisols.hyperhumic_p_30m_epsg.3035",
+    "soil.types_ensemble.carbic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.chromic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.chromic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.chromic.vertisols_p_30m_epsg.3035",
+    "soil.types_ensemble.claric.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.drainic.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.albic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.retisols_p_30m_epsg.3035",
+    "soil.types_ensemble.dystric.stagnosols_p_30m_epsg.3035",
+    "soil.types_ensemble.endocalcaric.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endocalcic.chernozems_p_30m_epsg.3035",
+    "soil.types_ensemble.albic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.endogleyic.retisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoleptic.acrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoleptic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.albic.retisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoleptic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.endoleptic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoleptic.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoskeletic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endoskeletic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.endostagnic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.entic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.epileptic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.epileptic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.albic.stagnosols_p_30m_epsg.3035",
+    "soil.types_ensemble.epileptic.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.epileptic.umbrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.gleysols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.planosols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.regosols_p_30m_epsg.3035",
+    "soil.types_ensemble.amphigleyic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.eutric.stagnosols_p_30m_epsg.3035",
+    "soil.types_ensemble.fibric.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.fluvic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.fluvic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.fluvisols.endosalic_p_30m_epsg.3035",
+    "soil.types_ensemble.fluvisols.hyposalic_p_30m_epsg.3035",
+    "soil.types_ensemble.fluvisols.umbric_p_30m_epsg.3035",
+    "soil.types_ensemble.folic.histosols_p_30m_epsg.3035",
+    "soil.types_ensemble.folic.leptosols_p_30m_epsg.3035",
+    "soil.types_ensemble.amphigleyic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.acrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.arenosols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.cambisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.fluvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.luvisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.phaeozems_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.podzols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.retisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleyic.stagnosols_p_30m_epsg.3035"
+   ],
+   "default_assets": [
+    "soil.types_ensemble.abruptic.acrisols_p_30m_epsg.3035",
+    "soil.types_ensemble.abruptic.alisols_p_30m_epsg.3035",
+    "soil.types_ensemble.gleysols.arenic_p_30m_epsg.3035"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 72° lat, -56° to 72° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.76705,
+    24.27579,
+    72.14741,
+    72.13848
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:savi_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat Bimonthly Soil Adjusted Vegetation Index (SAVI)",
+   "provider": "ecodatacube",
+   "collection_id": "savi_glad.landsat.ard2.seasconv",
+   "category": "Soil",
+   "assets": [
+    "savi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "savi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 135 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndwi_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat long-term trend of Bare Soil Fraction (BSF)",
+   "provider": "ecodatacube",
+   "collection_id": "ndwi_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "category": "Soil",
+   "assets": [
+    "ndwi_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "default_assets": [
+    "ndwi_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:bsf_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Bare Soil Fraction (BSF)",
+   "provider": "ecodatacube",
+   "collection_id": "bsf_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Soil",
+   "assets": [
+    "bsf_glad.landsat.ard2.seasconv.m.yearly_sum_30m_s"
+   ],
+   "default_assets": [
+    "bsf_glad.landsat.ard2.seasconv.m.yearly_sum_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndsi_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Normalized Difference Snow Index (NDSI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndsi_glad.landsat.ard2.seasconv",
+   "category": "Fire and snow",
+   "assets": [
+    "ndsi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "ndsi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 90 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndti_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Landsat Normalized Difference Tillage Intensity (NDTI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndti_glad.landsat.ard2.seasconv",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ndti_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "ndti_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 138 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndti.min_glad.landsat.ard2.seasconv.bimonthly.min",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly min. Normalized Difference Tillage Intensity (NDTI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndti.min_glad.landsat.ard2.seasconv.bimonthly.min",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ndti.min_glad.landsat.ard2.seasconv.bimonthly.min_m_30m_s"
+   ],
+   "default_assets": [
+    "ndti.min_glad.landsat.ard2.seasconv.bimonthly.min_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndti_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Normalized Difference Tillage Intensity (NDTI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndti_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndti_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:dfme_edtm",
+   "label": "EcoDataCube – OpenLandMap Difference from mean elevation (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "dfme_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dfme_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "dfme_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:gedtm_rf",
+   "label": "EcoDataCube – OpenLandMap Ensemble Digital Terrain Model (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "gedtm_rf",
+   "category": "Elevation and terrain",
+   "assets": [
+    "gedtm_rf_m_30m_s",
+    "gedtm_rf_std_30m_s"
+   ],
+   "default_assets": [
+    "gedtm_rf_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": -2147483648.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:geomorphon_edtm",
+   "label": "EcoDataCube – OpenLandMap Geomorphons (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "geomorphon_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "geomorphon_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "geomorphon_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:hillshade_edtm",
+   "label": "EcoDataCube – OpenLandMap Hillshade (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "hillshade_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "hillshade_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "hillshade_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ls.factor_edtm",
+   "label": "EcoDataCube – OpenLandMap LS factor (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "ls.factor_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ls.factor_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "ls.factor_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:maxic_edtm",
+   "label": "EcoDataCube – OpenLandMap Maximal curvature (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "maxic_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "maxic_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "maxic_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:minic_edtm",
+   "label": "EcoDataCube – OpenLandMap Minimal curvature (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "minic_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "minic_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "minic_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:neg.openness_edtm",
+   "label": "EcoDataCube – OpenLandMap Negative openness (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "neg.openness_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "neg.openness_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "neg.openness_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:pos.openness_edtm",
+   "label": "EcoDataCube – OpenLandMap Positive openness (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "pos.openness_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "pos.openness_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "pos.openness_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:pro.curv_edtm",
+   "label": "EcoDataCube – OpenLandMap Profile curvature (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "pro.curv_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "pro.curv_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "pro.curv_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ring.curv_edtm",
+   "label": "EcoDataCube – OpenLandMap Ring curvature (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "ring.curv_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ring.curv_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "ring.curv_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:shpindx_edtm",
+   "label": "EcoDataCube – OpenLandMap Shape index (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "shpindx_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "shpindx_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "shpindx_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:slope.in.degree_edtm",
+   "label": "EcoDataCube – OpenLandMap Slope in degree (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "slope.in.degree_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "slope.in.degree_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "slope.in.degree_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ssdon_edtm",
+   "label": "EcoDataCube – OpenLandMap Spherical Standard Deviation of the Normals (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "ssdon_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ssdon_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "ssdon_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:tan.curv_edtm",
+   "label": "EcoDataCube – OpenLandMap Tangential curvature (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "tan.curv_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "tan.curv_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "tan.curv_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:twi_edtm",
+   "label": "EcoDataCube – OpenLandMap Topographic Wetness Index (GEDTM30)",
+   "provider": "ecodatacube",
+   "collection_id": "twi_edtm",
+   "category": "Elevation and terrain",
+   "assets": [
+    "twi_edtm_m_30m_s"
+   ],
+   "default_assets": [
+    "twi_edtm_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2006–2015 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_building.commercial",
+   "label": "EcoDataCube – OpenStreetMap commercial building density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_building.commercial",
+   "category": "Maps and boundaries",
+   "assets": [
+    "lcv_building.commercial_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_building.commercial_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_building.industrial",
+   "label": "EcoDataCube – OpenStreetMap industrial building density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_building.industrial",
+   "category": "Maps and boundaries",
+   "assets": [
+    "lcv_building.industrial_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_building.industrial_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_building.residential",
+   "label": "EcoDataCube – OpenStreetMap residential building density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_building.residential",
+   "category": "Maps and boundaries",
+   "assets": [
+    "lcv_building.residential_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_building.residential_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:cdr_glad.landsat.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Crop Duration Ratio (CDR)",
+   "provider": "ecodatacube",
+   "collection_id": "cdr_glad.landsat.seasconv",
+   "category": "Land cover and land use",
+   "assets": [
+    "cdr_glad.landsat.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "cdr_glad.landsat.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:landcover_clc.plus",
+   "label": "EcoDataCube – CORINE Land Cover (CLC+) Backbone",
+   "provider": "ecodatacube",
+   "collection_id": "landcover_clc.plus",
+   "category": "Land cover and land use",
+   "assets": [
+    "landcover_clc.plus_f_30m_0..0cm"
+   ],
+   "default_assets": [
+    "landcover_clc.plus_f_30m_0..0cm"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 10 m · 2017–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.50514,
+    24.28418,
+    72.90614,
+    72.63377
+   ],
+   "interval": [
+    "2017-01-01",
+    "2022-12-31"
+   ],
+   "license": "Copernicus data and information policy Regulation (EU) No 1159/2013",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:imd.clms_vhr_10m",
+   "label": "EcoDataCube – Imperviousness density 3-years (10-m)",
+   "provider": "ecodatacube",
+   "collection_id": "imd.clms_vhr_10m",
+   "category": "Land cover and land use",
+   "assets": [
+    "imd.clms_vhr_10m_s_20170101"
+   ],
+   "default_assets": [
+    "imd.clms_vhr_10m_s_20170101"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 10 m · 2017–2019 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2017-01-01",
+    "2019-12-31"
+   ],
+   "license": "Copernicus data and information policy Regulation (EU) No 1159/2013",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:imd.clms_vhr_20m",
+   "label": "EcoDataCube – Imperviousness density 3-years (20-m)",
+   "provider": "ecodatacube",
+   "collection_id": "imd.clms_vhr_20m",
+   "category": "Land cover and land use",
+   "assets": [
+    "imd.clms_vhr_20m_s_20050101"
+   ],
+   "default_assets": [
+    "imd.clms_vhr_20m_s_20050101"
+   ],
+   "native_res": 20.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 4 files · 20 m · 2005–2016 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2005-01-01",
+    "2016-12-31"
+   ],
+   "license": "Copernicus data and information policy Regulation (EU) No 1159/2013",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.hcl",
+   "label": "EcoDataCube – Land cover dominant class (CORINE compatible)",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.hcl",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.hcl_lucas.corine.eml_f_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.hcl_lucas.corine.eml_f_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.244",
+   "label": "EcoDataCube – Land cover probability for agro-forestry areas",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.244",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.244_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.244_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.124",
+   "label": "EcoDataCube – Land cover probability for airports",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.124",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.124_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.124_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.241",
+   "label": "EcoDataCube – Land cover probability for annual crops associated with permanent crops",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.241",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.241_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.241_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.332",
+   "label": "EcoDataCube – Land cover probability for bare rocks",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.332",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.332_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.332_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.331",
+   "label": "EcoDataCube – Land cover probability for beaches, dunes, sands",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.331",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.331_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.331_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.311",
+   "label": "EcoDataCube – Land cover probability for broad-leaved forest",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.311",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.311_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.311_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.334",
+   "label": "EcoDataCube – Land cover probability for burnt areas",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.334",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.334_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.334_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.521",
+   "label": "EcoDataCube – Land cover probability for coastal lagoons",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.521",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.521_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.521_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.242",
+   "label": "EcoDataCube – Land cover probability for complex cultivation patterns",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.242",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.242_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.242_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.312",
+   "label": "EcoDataCube – Land cover probability for coniferous forest",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.312",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.312_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.312_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.133",
+   "label": "EcoDataCube – Land cover probability for construction sites",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.133",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.133_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.133_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.111",
+   "label": "EcoDataCube – Land cover probability for continuous urban fabric",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.111",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.111_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.111_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.112",
+   "label": "EcoDataCube – Land cover probability for discontinuous urban fabric",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.112",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.112_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.112_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.132",
+   "label": "EcoDataCube – Land cover probability for dump sites",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.132",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.132_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.132_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.522",
+   "label": "EcoDataCube – Land cover probability for estuaries",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.522",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.522_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.522_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.222",
+   "label": "EcoDataCube – Land cover probability for fruit trees and berry plantations",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.222",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.222_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.222_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.335",
+   "label": "EcoDataCube – Land cover probability for glaciers and perpetual snow",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.335",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.335_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.335_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.141",
+   "label": "EcoDataCube – Land cover probability for green urban areas",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.141",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.141_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.141_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 7 files · 30 m · 2000–2006 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2006-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.121",
+   "label": "EcoDataCube – Land cover probability for industrial or commercial units",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.121",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.121_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.121_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.411",
+   "label": "EcoDataCube – Land cover probability for inland marshes",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.411",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.411_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.411_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.423",
+   "label": "EcoDataCube – Land cover probability for intertidal flats",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.423",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.423_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.423_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.243",
+   "label": "EcoDataCube – Land cover probability for land principally occupied by agriculture, with significant areas of natural vegetation",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.243",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.243_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.243_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.131",
+   "label": "EcoDataCube – Land cover probability for mineral extraction sites",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.131",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.131_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.131_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.313",
+   "label": "EcoDataCube – Land cover probability for mixed forest",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.313",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.313_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.313_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.322",
+   "label": "EcoDataCube – Land cover probability for moors and heathland",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.322",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.322_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.322_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.321",
+   "label": "EcoDataCube – Land cover probability for natural grasslands",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.321",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.321_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.321_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.211",
+   "label": "EcoDataCube – Land cover probability for non-irrigated arable land",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.211",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.211_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.211_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.223",
+   "label": "EcoDataCube – Land cover probability for olive groves",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.223",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.223_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.223_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.231",
+   "label": "EcoDataCube – Land cover probability for pastures",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.231",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.231_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.231_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.412",
+   "label": "EcoDataCube – Land cover probability for peat bogs",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.412",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.412_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.412_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.212",
+   "label": "EcoDataCube – Land cover probability for permanently irrigated arable land",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.212",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.212_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.212_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 18 files · 30 m · 2002–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2002-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.123",
+   "label": "EcoDataCube – Land cover probability for port areas",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.123",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.123_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.123_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.213",
+   "label": "EcoDataCube – Land cover probability for rice fields",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.213",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.213_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.213_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.122",
+   "label": "EcoDataCube – Land cover probability for road and rail networks and associated land",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.122",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.122_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.122_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.422",
+   "label": "EcoDataCube – Land cover probability for salines",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.422",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.422_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.422_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.421",
+   "label": "EcoDataCube – Land cover probability for salt marshes",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.421",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.421_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.421_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.323",
+   "label": "EcoDataCube – Land cover probability for sclerophyllous vegetation",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.323",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.323_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.323_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.333",
+   "label": "EcoDataCube – Land cover probability for sparsely vegetated areas",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.333",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.333_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.333_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.142",
+   "label": "EcoDataCube – Land cover probability for sport and leisure facilities",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.142",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.142_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.142_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.324",
+   "label": "EcoDataCube – Land cover probability for transitional woodland-shrub",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.324",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.324_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.324_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.221",
+   "label": "EcoDataCube – Land cover probability for vineyards",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.221",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.221_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.221_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.512",
+   "label": "EcoDataCube – Land cover probability for water bodies",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.512",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.512_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.512_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_landcover.511",
+   "label": "EcoDataCube – Land cover probability for water courses",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_landcover.511",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_landcover.511_lucas.corine.eml_p_30m"
+   ],
+   "default_assets": [
+    "lcv_landcover.511_lucas.corine.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 20 files · 30 m · 2000–2019 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_cemetery",
+   "label": "EcoDataCube – OpenStreetMap cemetery density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_cemetery",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_cemetery_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_cemetery_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_construction.site",
+   "label": "EcoDataCube – OpenStreetMap construction site density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_construction.site",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_construction.site_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_construction.site_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_dump.site",
+   "label": "EcoDataCube – OpenStreetMap dump site density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_dump.site",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_dump.site_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_dump.site_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_farmland",
+   "label": "EcoDataCube – OpenStreetMap farmland density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_farmland",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_farmland_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_farmland_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_forest",
+   "label": "EcoDataCube – OpenStreetMap forest density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_forest",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_forest_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_forest_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_grass",
+   "label": "EcoDataCube – OpenStreetMap grassland density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_grass",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_grass_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_grass_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_greenhouse",
+   "label": "EcoDataCube – OpenStreetMap greenhouse density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_greenhouse",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_greenhouse_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_greenhouse_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_harbour",
+   "label": "EcoDataCube – OpenStreetMap harbour density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_harbour",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_harbour_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_harbour_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_meadow",
+   "label": "EcoDataCube – OpenStreetMap meadow density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_meadow",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_meadow_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_meadow_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_military",
+   "label": "EcoDataCube – OpenStreetMap military area density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_military",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_military_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_military_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_orchard",
+   "label": "EcoDataCube – OpenStreetMap orchard density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_orchard",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_orchard_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_orchard_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_quarry",
+   "label": "EcoDataCube – OpenStreetMap quarry density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_quarry",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_quarry_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_quarry_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_railway",
+   "label": "EcoDataCube – OpenStreetMap railway density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_railway",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_railway_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_railway_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_reservoir",
+   "label": "EcoDataCube – OpenStreetMap reservoir density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_reservoir",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_reservoir_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_reservoir_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_salt",
+   "label": "EcoDataCube – OpenStreetMap saline density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_salt",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_salt_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_salt_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lcv_vineyard",
+   "label": "EcoDataCube – OpenStreetMap vineyard density",
+   "provider": "ecodatacube",
+   "collection_id": "lcv_vineyard",
+   "category": "Land cover and land use",
+   "assets": [
+    "lcv_vineyard_osm_p_30m"
+   ],
+   "default_assets": [
+    "lcv_vineyard_osm_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2021–2021 · 25° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.53573,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndti.min.slopes_glad.landsat.ard2.seasconv.yearly.min.theilslopes",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat long-term trend of NDTI",
+   "provider": "ecodatacube",
+   "collection_id": "ndti.min.slopes_glad.landsat.ard2.seasconv.yearly.min.theilslopes",
+   "category": "Optical",
+   "assets": [
+    "ndti.min.slopes_glad.landsat.ard2.seasconv.yearly.min.theilslopes_m_30m_s"
+   ],
+   "default_assets": [
+    "ndti.min.slopes_glad.landsat.ard2.seasconv.yearly.min.theilslopes_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:blue_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly blue band",
+   "provider": "ecodatacube",
+   "collection_id": "blue_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "blue_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:green_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly green band",
+   "provider": "ecodatacube",
+   "collection_id": "green_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "green_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "green_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "green_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "green_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "green_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "green_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:nir_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Near-Infrared band (NIR)",
+   "provider": "ecodatacube",
+   "collection_id": "nir_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "nir_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s"
+   ],
+   "default_assets": [
+    "nir_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 22 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:nos_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Number of Seasons (NOS)",
+   "provider": "ecodatacube",
+   "collection_id": "nos_glad.landsat.ard2.seasconv",
+   "category": "Optical",
+   "assets": [
+    "nos_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "nos_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:red_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly red band",
+   "provider": "ecodatacube",
+   "collection_id": "red_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "red_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "red_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "red_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "red_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "red_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "red_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:swir2_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Shortwave Near-Infrared 2 band (SWIR2)",
+   "provider": "ecodatacube",
+   "collection_id": "swir2_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "swir2_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:swir1_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Shortwave Near-Infrared band (SWIR1)",
+   "provider": "ecodatacube",
+   "collection_id": "swir1_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Optical",
+   "assets": [
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "swir1_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:accum.precipitation_chelsa.montlhy",
+   "label": "EcoDataCube – CHELSA Monthly accumulated precipitation",
+   "provider": "ecodatacube",
+   "collection_id": "accum.precipitation_chelsa.montlhy",
+   "category": "Temperature and climate",
+   "assets": [
+    "accum.precipitation_chelsa.montlhy_m_1km_s"
+   ],
+   "default_assets": [
+    "accum.precipitation_chelsa.montlhy_m_1km_s"
+   ],
+   "native_res": 1000.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 234 files · 1000 m · 2000–2019 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2019-06-30"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:clm_air.temp_era5.copernicus",
+   "label": "EcoDataCube – ERA5 monthly land air temperature",
+   "provider": "ecodatacube",
+   "collection_id": "clm_air.temp_era5.copernicus",
+   "category": "Temperature and climate",
+   "assets": [
+    "clm_air.temp_era5.copernicus_av_1km",
+    "clm_air.temp_era5.copernicus_mx_1km"
+   ],
+   "default_assets": [
+    "clm_air.temp_era5.copernicus_av_1km",
+    "clm_air.temp_era5.copernicus_mx_1km"
+   ],
+   "native_res": 1000.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 252 files · 1000 m · 2000–2020 · 24° to 72° lat, -56° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -55.9618,
+    24.28426,
+    61.0977,
+    72.28501
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lst_mod11a2.daytime",
+   "label": "EcoDataCube – MOD11A2 monthly land surface temperature (day-time)",
+   "provider": "ecodatacube",
+   "collection_id": "lst_mod11a2.daytime",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.daytime_p50_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.daytime_p50_1km_s"
+   ],
+   "native_res": 1000.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 264 files · 1000 m · 2000–2021 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:lst_mod11a2.nighttime",
+   "label": "EcoDataCube – MOD11A2 monthly land surface temperature (night-time)",
+   "provider": "ecodatacube",
+   "collection_id": "lst_mod11a2.nighttime",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.nighttime_p50_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.nighttime_p50_1km_s"
+   ],
+   "native_res": 1000.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 264 files · 1000 m · 2000–2021 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_abies.alba_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Abies alba (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_abies.alba_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_abies.alba_anv.eml_p_30m",
+    "veg_abies.alba_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_abies.alba_anv.eml_p_30m",
+    "veg_abies.alba_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_castanea.sativa_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Castanea sativa (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_castanea.sativa_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_castanea.sativa_anv.eml_p_30m",
+    "veg_castanea.sativa_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_castanea.sativa_anv.eml_p_30m",
+    "veg_castanea.sativa_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_corylus.avellana_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Corylus avellana (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_corylus.avellana_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_corylus.avellana_anv.eml_p_30m",
+    "veg_corylus.avellana_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_corylus.avellana_anv.eml_p_30m",
+    "veg_corylus.avellana_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_fagus.sylvatica_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Fagus Sylvatica (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_fagus.sylvatica_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_fagus.sylvatica_anv.eml_p_30m",
+    "veg_fagus.sylvatica_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_fagus.sylvatica_anv.eml_p_30m",
+    "veg_fagus.sylvatica_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_olea.europaea_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Olea europaea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_olea.europaea_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_olea.europaea_anv.eml_p_30m",
+    "veg_olea.europaea_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_olea.europaea_anv.eml_p_30m",
+    "veg_olea.europaea_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.halepensis_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Pinus halepensis (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.halepensis_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.halepensis_anv.eml_p_30m",
+    "veg_pinus.halepensis_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.halepensis_anv.eml_p_30m",
+    "veg_pinus.halepensis_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.nigra_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Pinus nigra (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.nigra_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.nigra_anv.eml_p_30m",
+    "veg_pinus.nigra_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.nigra_anv.eml_p_30m",
+    "veg_pinus.nigra_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.pinea_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Pinus pinea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.pinea_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.pinea_anv.eml_p_30m",
+    "veg_pinus.pinea_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.pinea_anv.eml_p_30m",
+    "veg_pinus.pinea_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.sylvestris_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Pinus sylvestris (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.sylvestris_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.sylvestris_anv.eml_p_30m",
+    "veg_pinus.sylvestris_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.sylvestris_anv.eml_p_30m",
+    "veg_pinus.sylvestris_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_prunus.avium_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Prunus avium (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_prunus.avium_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_prunus.avium_anv.eml_p_30m",
+    "veg_prunus.avium_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_prunus.avium_anv.eml_p_30m",
+    "veg_prunus.avium_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.cerris_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Quercus cerris (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.cerris_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.cerris_anv.eml_p_30m",
+    "veg_quercus.cerris_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.cerris_anv.eml_p_30m",
+    "veg_quercus.cerris_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.ilex_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Quercus ilex (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.ilex_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.ilex_anv.eml_p_30m",
+    "veg_quercus.ilex_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.ilex_anv.eml_p_30m",
+    "veg_quercus.ilex_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.robur_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Quercus robur (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.robur_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.robur_anv.eml_p_30m",
+    "veg_quercus.robur_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.robur_anv.eml_p_30m",
+    "veg_quercus.robur_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.suber_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Quercus suber (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.suber_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.suber_anv.eml_p_30m",
+    "veg_quercus.suber_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.suber_anv.eml_p_30m",
+    "veg_quercus.suber_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_salix.caprea_anv.eml",
+   "label": "EcoDataCube – Actual probability distribution for Salix caprea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_salix.caprea_anv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_salix.caprea_anv.eml_p_30m",
+    "veg_salix.caprea_anv.eml_md_30m"
+   ],
+   "default_assets": [
+    "veg_salix.caprea_anv.eml_p_30m",
+    "veg_salix.caprea_anv.eml_md_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 30 m · 2000–2020 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:evi_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Enhanced Vegetation Index (EVI)",
+   "provider": "ecodatacube",
+   "collection_id": "evi_glad.landsat.ard2.seasconv",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "evi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "evi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 138 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:fapar_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR)",
+   "provider": "ecodatacube",
+   "collection_id": "fapar_glad.landsat.ard2.seasconv",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "fapar_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "fapar_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 137 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndvi_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Normalized Difference Vegetation Index (NDVI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndvi_glad.landsat.ard2.seasconv",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "ndvi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "ndvi_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 138 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndvi_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat long-term trend of min. Normalized Difference Lillage Index (NDTI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndvi_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "ndvi_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "default_assets": [
+    "ndvi_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndvi_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Normalized Difference Vegetation Index (NDVI)",
+   "provider": "ecodatacube",
+   "collection_id": "ndvi_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndvi_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:short.veg.height_lgb",
+   "label": "EcoDataCube – Global Pasture Watch: Annual short vegetation height",
+   "provider": "ecodatacube",
+   "collection_id": "short.veg.height_lgb",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "short.veg.height_lgb_m_30m_s"
+   ],
+   "default_assets": [
+    "short.veg.height_lgb_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": -32000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_abies.alba_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Abies alba (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_abies.alba_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_abies.alba_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_abies.alba_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_castanea.sativa_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Castanea sativa (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_castanea.sativa_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_castanea.sativa_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_castanea.sativa_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_corylus.avellana_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Corylus avellana (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_corylus.avellana_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_corylus.avellana_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_corylus.avellana_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_fagus.sylvatica_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Fagus sylvatica (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_fagus.sylvatica_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_fagus.sylvatica_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_fagus.sylvatica_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_olea.europaea_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Olea europaea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_olea.europaea_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_olea.europaea_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_olea.europaea_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_picea.abies_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Picea abies (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_picea.abies_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_picea.abies_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_picea.abies_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.halepensis_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Pinus halepensis (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.halepensis_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.halepensis_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.halepensis_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.nigra_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Pinus nigra (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.nigra_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.nigra_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.nigra_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.pinea_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Pinus pinea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.pinea_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.pinea_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.pinea_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_pinus.sylvestris_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Pinus sylvestris (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_pinus.sylvestris_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_pinus.sylvestris_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_pinus.sylvestris_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_prunus.avium_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Prunus avium (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_prunus.avium_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_prunus.avium_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_prunus.avium_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.cerris_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Quercus cerris (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.cerris_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.cerris_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.cerris_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.ilex_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Quercus ilex (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.ilex_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.ilex_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.ilex_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.robur_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Quercus robur (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.robur_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.robur_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.robur_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_quercus.suber_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Quercus suber (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_quercus.suber_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_quercus.suber_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_quercus.suber_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:veg_salix.caprea_pnv.eml",
+   "label": "EcoDataCube – Potential probability distribution for Salix caprea (2000–2020)",
+   "provider": "ecodatacube",
+   "collection_id": "veg_salix.caprea_pnv.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "veg_salix.caprea_pnv.eml_p_30m"
+   ],
+   "default_assets": [
+    "veg_salix.caprea_pnv.eml_p_30m"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 30 m · 2018–2024 · 27° to 72° lat, -49° to 61° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -48.5225,
+    26.77119,
+    60.65073,
+    72.02045
+   ],
+   "interval": [
+    "2018-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndwi.gao_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Normalized Difference Water Index (NDWI, Gao)",
+   "provider": "ecodatacube",
+   "collection_id": "ndwi.gao_glad.landsat.ard2.seasconv",
+   "category": "Water",
+   "assets": [
+    "ndwi.gao_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "ndwi.gao_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 135 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndwi.mcfeeters_glad.landsat.ard2.seasconv",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat bimonthly Normalized Difference Water Index (NDWI, McFeeters)",
+   "provider": "ecodatacube",
+   "collection_id": "ndwi.mcfeeters_glad.landsat.ard2.seasconv",
+   "category": "Water",
+   "assets": [
+    "ndwi.mcfeeters_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "default_assets": [
+    "ndwi.mcfeeters_glad.landsat.ard2.seasconv_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 135 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:bsf_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat long-term trend of Normalized Difference Water Index (NDWI, Gao)",
+   "provider": "ecodatacube",
+   "collection_id": "bsf_glad.landsat.ard2.seasconv.yearly.m.theilslopes",
+   "category": "Water",
+   "assets": [
+    "bsf_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "default_assets": [
+    "bsf_glad.landsat.ard2.seasconv.yearly.m.theilslopes_m_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "ecodatacube:ndwi.gao_glad.landsat.ard2.seasconv.m.yearly",
+   "label": "EcoDataCube – Cloud-free reconstructed Landsat yearly Normalized Difference Water Index (NDWI, Gao)",
+   "provider": "ecodatacube",
+   "collection_id": "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly",
+   "category": "Water",
+   "assets": [
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "default_assets": [
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p25_30m_s",
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p50_30m_s",
+    "ndwi.gao_glad.landsat.ard2.seasconv.m.yearly_p75_30m_s"
+   ],
+   "native_res": 30.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 30 m · 2000–2022 · 24° to 73° lat, -57° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -56.51881,
+    24.27579,
+    72.93153,
+    72.6426
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  }
+ ]
+}

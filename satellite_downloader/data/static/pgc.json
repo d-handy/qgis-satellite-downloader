@@ -1,0 +1,219 @@
+{
+ "built": "2026-09-17",
+ "summary": "6 collections, 22941 items, 1.30 MB",
+ "notes": [
+  "34974 requests, 1 errors"
+ ],
+ "collections": [
+  {
+   "key": "pgc:arcticdem-mosaics-v4.1-10m",
+   "label": "ArcticDEM DEM mosaics v4.1 10m",
+   "provider": "pgc",
+   "collection_id": "arcticdem-mosaics-v4.1-10m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 2484 files · 10 m · 2007–2021 · 51° to 84° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    50.59382,
+    180.0,
+    83.98823
+   ],
+   "interval": [
+    "2007-11-05T00:00:00Z",
+    "2021-11-09T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "pgc:arcticdem-mosaics-v4.1-2m",
+   "label": "ArcticDEM DEM mosaics v4.1 2m",
+   "provider": "pgc",
+   "collection_id": "arcticdem-mosaics-v4.1-2m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 2.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 9126 files · 2 m · 2007–2021 · 51° to 84° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    50.74927,
+    180.0,
+    83.98823
+   ],
+   "interval": [
+    "2007-11-05T00:00:00Z",
+    "2021-11-09T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "pgc:arcticdem-mosaics-v4.1-32m",
+   "label": "ArcticDEM DEM mosaics v4.1 32m",
+   "provider": "pgc",
+   "collection_id": "arcticdem-mosaics-v4.1-32m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 32.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 2485 files · 32 m · 2007–2021 · 51° to 84° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    50.59386,
+    180.0,
+    83.98803
+   ],
+   "interval": [
+    "2007-11-05T00:00:00Z",
+    "2021-11-09T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "pgc:rema-mosaics-v2.0-10m",
+   "label": "REMA DEM mosaics v2.0 10m",
+   "provider": "pgc",
+   "collection_id": "rema-mosaics-v2.0-10m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 1523 files · 10 m · 2007–2021 · -89° to -54° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -179.99591,
+    -89.08057,
+    179.99576,
+    -53.54439
+   ],
+   "interval": [
+    "2007-11-27T00:00:00Z",
+    "2021-10-26T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "pgc:rema-mosaics-v2.0-2m",
+   "label": "REMA DEM mosaics v2.0 2m",
+   "provider": "pgc",
+   "collection_id": "rema-mosaics-v2.0-2m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 2.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 5800 files · 2 m · 2007–2021 · -89° to -54° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -179.99576,
+    -88.97226,
+    179.99576,
+    -53.54439
+   ],
+   "interval": [
+    "2007-11-27T00:00:00Z",
+    "2021-10-26T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "pgc:rema-mosaics-v2.0-32m",
+   "label": "REMA DEM mosaics v2.0 32m",
+   "provider": "pgc",
+   "collection_id": "rema-mosaics-v2.0-32m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dem"
+   ],
+   "default_assets": [
+    "dem"
+   ],
+   "native_res": 32.0,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 1523 files · 32 m · 2007–2021 · -89° to -54° lat, -180° to 180° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -179.99607,
+    -89.08054,
+    179.99593,
+    -53.54447
+   ],
+   "interval": [
+    "2007-11-27T00:00:00Z",
+    "2021-10-26T00:00:00Z"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "built": "2026-09-17",
+ "summary": "1 collections, 2286 items, 0.18 MB",
+ "notes": [
+  "2287 requests, 0 errors"
+ ],
+ "collections": [
+  {
+   "key": "capella:capella-open-data-geo",
+   "label": "Capella SAR – geocoded (GEO)",
+   "provider": "capella",
+   "collection_id": "capella-open-data-geo",
+   "category": "Radar",
+   "assets": [
+    "backscatter"
+   ],
+   "default_assets": [
+    "backscatter"
+   ],
+   "native_res": 0.412,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2286 files · 0.412 m · 2021–2026 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -179.7967,
+    -83.86728,
+    179.23079,
+    81.63119
+   ],
+   "interval": [
+    "2021-01-20T04:18:37.133922Z",
+    "2026-08-24T14:16:38.118175Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  }
+ ]
+}

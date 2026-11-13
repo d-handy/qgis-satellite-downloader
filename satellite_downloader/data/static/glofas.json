@@ -1,0 +1,569 @@
+{
+ "built": "2026-09-17",
+ "summary": "16 collections, 4336 items, 0.07 MB",
+ "notes": [
+  "4353 requests, 0 errors"
+ ],
+ "collections": [
+  {
+   "key": "glofas:depth-rp10",
+   "label": "GloFAS flood hazard – Depth Rp10",
+   "provider": "glofas",
+   "collection_id": "depth-rp10",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp100",
+   "label": "GloFAS flood hazard – Depth Rp100",
+   "provider": "glofas",
+   "collection_id": "depth-rp100",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp20",
+   "label": "GloFAS flood hazard – Depth Rp20",
+   "provider": "glofas",
+   "collection_id": "depth-rp20",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp200",
+   "label": "GloFAS flood hazard – Depth Rp200",
+   "provider": "glofas",
+   "collection_id": "depth-rp200",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp50",
+   "label": "GloFAS flood hazard – Depth Rp50",
+   "provider": "glofas",
+   "collection_id": "depth-rp50",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp500",
+   "label": "GloFAS flood hazard – Depth Rp500",
+   "provider": "glofas",
+   "collection_id": "depth-rp500",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:depth-rp75",
+   "label": "GloFAS flood hazard – Depth Rp75",
+   "provider": "glofas",
+   "collection_id": "depth-rp75",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": -9999.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp10",
+   "label": "GloFAS flood hazard – Hazard Rp10",
+   "provider": "glofas",
+   "collection_id": "hazard-rp10",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp100",
+   "label": "GloFAS flood hazard – Hazard Rp100",
+   "provider": "glofas",
+   "collection_id": "hazard-rp100",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp20",
+   "label": "GloFAS flood hazard – Hazard Rp20",
+   "provider": "glofas",
+   "collection_id": "hazard-rp20",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp200",
+   "label": "GloFAS flood hazard – Hazard Rp200",
+   "provider": "glofas",
+   "collection_id": "hazard-rp200",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp50",
+   "label": "GloFAS flood hazard – Hazard Rp50",
+   "provider": "glofas",
+   "collection_id": "hazard-rp50",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp500",
+   "label": "GloFAS flood hazard – Hazard Rp500",
+   "provider": "glofas",
+   "collection_id": "hazard-rp500",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:hazard-rp75",
+   "label": "GloFAS flood hazard – Hazard Rp75",
+   "provider": "glofas",
+   "collection_id": "hazard-rp75",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:permanent-water",
+   "label": "GloFAS flood hazard – Permanent Water",
+   "provider": "glofas",
+   "collection_id": "permanent-water",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  },
+  {
+   "key": "glofas:spurious-depths",
+   "label": "GloFAS flood hazard – Spurious Depths",
+   "provider": "glofas",
+   "collection_id": "spurious-depths",
+   "category": "Water",
+   "assets": [
+    "data"
+   ],
+   "default_assets": [
+    "data"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 271 files · 92.8 m · 1900–9999 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -100.00708,
+    179.96959,
+    80.00123
+   ],
+   "interval": [
+    "1900-01-01T00:00:00Z",
+    "9999-12-31T23:59:59Z"
+   ],
+   "license": "proprietary",
+   "generated": true
+  }
+ ]
+}

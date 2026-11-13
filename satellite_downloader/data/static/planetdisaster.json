@@ -1,0 +1,225 @@
+{
+ "built": "2026-09-17",
+ "summary": "6 collections, 336 items, 0.02 MB",
+ "notes": [
+  "377 requests, 0 errors"
+ ],
+ "collections": [
+  {
+   "key": "planetdisaster:nepal-flash-flood-2026-08-26",
+   "label": "Planet Crisis Response — Bhote Koshi–Trishuli Outburst Flood, Nepal (2026)",
+   "provider": "planetdisaster",
+   "collection_id": "nepal-flash-flood-2026-08-26",
+   "category": "Events",
+   "assets": [
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 29 files · 0.5 m · 2026–2026 · 28° to 29° lat, 85° to 86° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    84.89431,
+    27.71068,
+    85.64803,
+    28.65945
+   ],
+   "interval": [
+    "2026-05-27T05:32:17.727510Z",
+    "2026-09-01T05:06:35.683725Z"
+   ],
+   "license": null,
+   "generated": true
+  },
+  {
+   "key": "planetdisaster:colombia-earthquake-2026-08-10",
+   "label": "Planet Crisis Response — Colombia Earthquake (2026)",
+   "provider": "planetdisaster",
+   "collection_id": "colombia-earthquake-2026-08-10",
+   "category": "Events",
+   "assets": [
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 164 files · 0.5 m · 2026–2026 · 3° to 6° lat, -77° to -75° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -77.17467,
+    2.61355,
+    -75.05859,
+    6.3153
+   ],
+   "interval": [
+    "2026-04-01T00:00:00Z",
+    "2026-08-18T20:00:22.063000Z"
+   ],
+   "license": null,
+   "generated": true
+  },
+  {
+   "key": "planetdisaster:gironde-wildfire-2026",
+   "label": "Planet Crisis Response — Gironde/Landes Wildfire, France (2026)",
+   "provider": "planetdisaster",
+   "collection_id": "gironde-wildfire-2026",
+   "category": "Events",
+   "assets": [
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 19 files · 0.5 m · 2026–2026 · 45° to 45° lat, -2° to -0° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -1.53642,
+    44.51107,
+    -0.33707,
+    45.26849
+   ],
+   "interval": [
+    "2026-07-08T10:55:58.915839Z",
+    "2026-07-29T15:09:22.817000Z"
+   ],
+   "license": null,
+   "generated": true
+  },
+  {
+   "key": "planetdisaster:hurricane-melissa-2025",
+   "label": "Planet Crisis Response — Hurricane Melissa, Jamaica (2025)",
+   "provider": "planetdisaster",
+   "collection_id": "hurricane-melissa-2025",
+   "category": "Events",
+   "assets": [
+    "visual",
+    "pansharpened",
+    "udm",
+    "udm2"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 62 files · 0.5 m · 2023–2025 · 18° to 18° lat, -78° to -78° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -78.17349,
+    17.99458,
+    -77.82105,
+    18.26004
+   ],
+   "interval": [
+    "2023-10-11T15:28:40.187000Z",
+    "2025-11-04T19:50:01.019000Z"
+   ],
+   "license": null,
+   "generated": true
+  },
+  {
+   "key": "planetdisaster:philippines-earthquake-2026-06-08",
+   "label": "Planet Crisis Response — Philippines Earthquake (2026)",
+   "provider": "planetdisaster",
+   "collection_id": "philippines-earthquake-2026-06-08",
+   "category": "Events",
+   "assets": [
+    "analytic",
+    "udm2",
+    "udm",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 0.5 m · 2026–2026 · 6° to 6° lat, 125° to 125° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    124.9358,
+    5.78464,
+    125.25081,
+    6.21133
+   ],
+   "interval": [
+    "2026-06-08T23:24:26Z",
+    "2026-06-09T22:54:06.714000Z"
+   ],
+   "license": null,
+   "generated": true
+  },
+  {
+   "key": "planetdisaster:venezuela-earthquake-2026-06-24",
+   "label": "Planet Crisis Response — Venezuela Earthquake (2026)",
+   "provider": "planetdisaster",
+   "collection_id": "venezuela-earthquake-2026-06-24",
+   "category": "Events",
+   "assets": [
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.5,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": true,
+   "time_filter": true,
+   "note": "Static catalogue, 58 files · 0.5 m · 2026–2026 · 10° to 11° lat, -69° to -66° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -68.70821,
+    10.08996,
+    -66.09375,
+    10.83331
+   ],
+   "interval": [
+    "2026-01-01T00:00:00Z",
+    "2026-06-28T12:20:47.540000Z"
+   ],
+   "license": null,
+   "generated": true
+  }
+ ]
+}

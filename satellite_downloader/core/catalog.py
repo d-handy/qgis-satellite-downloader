@@ -325,7 +325,7 @@ LANDSAT_QA_MASK = MaskSpec("qa_pixel", "bits", invalid=(0,), cloudy=(1, 2, 3, 4)
 # CBERS/INPE CMASK: 0 nodata, 127 clear, 255 cloud (only values seen)
 CBERS_CMASK = MaskSpec("CMASK", "classes", invalid=(0,), clear=(127,))
 
-COLLECTIONS: list[Collection] = [
+CURATED: list[Collection] = [
     Collection(
         "s2-l2a",
         "Sentinel-2 L2A (surface reflectance)",
@@ -577,8 +577,6 @@ COLLECTIONS: list[Collection] = [
     ),
 ]
 
-CURATED = COLLECTIONS
-
 GENERATED_FILE = Path(__file__).resolve().parent.parent / "data" / "collections.json"
 STATIC_DIR = "static"  # next to GENERATED_FILE
 
@@ -649,5 +647,6 @@ def load_generated(path: Path = GENERATED_FILE) -> list[Collection]:
     return out
 
 
-COLLECTIONS = CURATED + load_generated()
+# Everything the plugin offers: curated entries first, then the generated ones.
+COLLECTIONS: list[Collection] = CURATED + load_generated()
 COLLECTIONS_BY_KEY = {c.key: c for c in COLLECTIONS}

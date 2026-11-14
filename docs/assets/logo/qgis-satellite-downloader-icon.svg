@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 300 340">
+<title>QGIS Satellite Downloader</title>
+<defs><clipPath id="hexs"><polygon points="150,12 286,91 286,249 150,328 14,249 14,91"/></clipPath></defs>
+<polygon points="150,12 286,91 286,249 150,328 14,249 14,91" fill="#1E3550"/>
+<g clip-path="url(#hexs)"><circle cx="150" cy="430" r="200" fill="#306998"/></g>
+<polygon points="150,130 106,236 194,236" fill="#FFD43B" opacity="0.3"/>
+<rect x="136" y="146" width="28" height="40" fill="#FFD43B"/>
+<polygon points="114,182 186,182 150,226" fill="#FFD43B"/>
+<g transform="translate(150,96)">
+<rect x="-90" y="-22" width="58" height="44" rx="4" fill="#5B9BD5"/>
+<rect x="32" y="-22" width="58" height="44" rx="4" fill="#5B9BD5"/>
+<rect x="-34" y="-6" width="68" height="12" fill="#EAF0F6"/>
+<rect x="-24" y="-24" width="48" height="48" rx="5" fill="#FFD43B"/>
+</g>
+<polygon points="150,12 286,91 286,249 150,328 14,249 14,91" fill="none" stroke="#FFD43B" stroke-width="20" stroke-linejoin="round"/>
+</svg>

@@ -1,4 +1,4 @@
-# qgis-satellite-downloader
+# qgis-satellite-downloader <img src="docs/assets/logo/qgis-satellite-downloader-logo.svg" align="right" height="139" alt="QGIS Satellite Downloader logo" />
 
 A QGIS plugin that loads satellite data for any place on Earth. You don't need an account,
 an API key or any extra Python packages: it runs on QGIS and the GDAL that ships with it.
@@ -154,6 +154,8 @@ satellite_downloader/
   gui/       simple mode (dock), expert mode, styling, locator filter
   data/      generated catalogue (collections.json) and static indexes (static/)
   tasks.py   QgsTask wrappers around the core
+docs/
+  assets/    logos and screenshots; see docs/README.md
 tools/
   build_catalog.py       builds the catalogue from the live STAC APIs
   build_static_index.py  search index for static catalogues without an API

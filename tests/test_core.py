@@ -722,6 +722,30 @@ class PipelineResamplingTest(unittest.TestCase):
         leftovers = [f for f in os.listdir(os.path.dirname(out)) if f.endswith(".xml")]
         self.assertEqual(leftovers, [])
 
+    def test_clip_without_cutline_wkt_gives_the_same_pixels(self):
+        # GDAL before 3.9 (QGIS 3.34) has no cutlineWKT; the cutline then goes
+        # through a /vsimem/ file, which must clip identically and be removed.
+        src = os.path.join(self.dir, "a.tif")
+        _write_raster(src, np.full((_SIZE, _SIZE), 100, np.uint8), 10.0, nodata=0)
+        c = self.collection(("a",), native_res=10.0, nodata=None, mask=None)
+
+        def clipped() -> tuple[np.ndarray, float]:
+            ds = gdal.Open(self.run_job(c, {"a": src}, 10.0, "nearest", clip=True))
+            band = ds.GetRasterBand(1)
+            values, nodata = band.ReadAsArray(), band.GetNoDataValue()
+            band = ds = None
+            shutil.rmtree(os.path.join(self.dir, "out"))  # no reuse of the file
+            return values, nodata
+
+        default, _ = clipped()
+        with mock.patch.object(geometry, "_WARP_TAKES_WKT", False):
+            fallback, nodata = clipped()
+        np.testing.assert_array_equal(fallback, default)
+        self.assertEqual(fallback[0, 0], nodata)  # outside the area
+        self.assertEqual(fallback[_SIZE // 2, _SIZE // 2], 100)
+        left = [n for n in gdal.ReadDir("/vsimem/") or [] if n.startswith("cutline_")]
+        self.assertEqual(left, [])
+
 
 class PipelineBehaviourTest(unittest.TestCase):
     """Output grid, CRS choice, file contents and retries of ``Downloader``."""

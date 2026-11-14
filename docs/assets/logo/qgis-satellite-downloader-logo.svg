@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="340" viewBox="0 0 300 340">
+<title>QGIS Satellite Downloader</title>
+<defs><clipPath id="hex"><polygon points="150,12 286,91 286,249 150,328 14,249 14,91"/></clipPath></defs>
+<polygon points="150,12 286,91 286,249 150,328 14,249 14,91" fill="#1E3550"/>
+<g clip-path="url(#hex)">
+<circle cx="150" cy="440" r="218" fill="#306998"/>
+<ellipse cx="150" cy="440" rx="96" ry="218" fill="none" stroke="#5B9BD5" stroke-width="3"/>
+<ellipse cx="150" cy="440" rx="180" ry="218" fill="none" stroke="#5B9BD5" stroke-width="3"/>
+<path d="M-60,268 Q150,236 360,268" fill="none" stroke="#5B9BD5" stroke-width="3"/>
+</g>
+<polygon points="150,134 118,222 182,222" fill="#FFD43B" opacity="0.2"/>
+<polygon points="122,222 178,222 186,240 114,240" fill="#FFD43B" fill-opacity="0.35" stroke="#FFD43B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="143" y="146" width="14" height="34" fill="#FFD43B"/>
+<polygon points="131,178 169,178 150,202" fill="#FFD43B"/>
+<g transform="translate(150,98)">
+<line x1="-76" y1="0" x2="76" y2="0" stroke="#EAF0F6" stroke-width="5"/>
+<rect x="-76" y="-15" width="50" height="30" rx="2" fill="#5B9BD5"/>
+<rect x="26" y="-15" width="50" height="30" rx="2" fill="#5B9BD5"/>
+<g stroke="#1E3550" stroke-width="2.5">
+<line x1="-59" y1="-15" x2="-59" y2="15"/><line x1="-43" y1="-15" x2="-43" y2="15"/>
+<line x1="43" y1="-15" x2="43" y2="15"/><line x1="59" y1="-15" x2="59" y2="15"/>
+<line x1="-76" y1="0" x2="-26" y2="0"/><line x1="26" y1="0" x2="76" y2="0"/>
+</g>
+<rect x="-17" y="-17" width="34" height="34" rx="3" fill="#FFD43B"/>
+<line x1="0" y1="17" x2="0" y2="27" stroke="#EAF0F6" stroke-width="4"/>
+<path d="M-11,27 A11,11 0 0 0 11,27 Z" fill="#EAF0F6"/>
+</g>
+<polygon points="150,12 286,91 286,249 150,328 14,249 14,91" fill="none" stroke="#FFD43B" stroke-width="12" stroke-linejoin="round"/>
+</svg>

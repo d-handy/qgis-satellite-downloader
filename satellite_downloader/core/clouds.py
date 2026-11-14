@@ -110,23 +110,23 @@ def _sample_mask(
     if size <= 0:
         return None
     fill = _fill_value(mask)
-    ds = gdal.Warp(
-        "",
-        sources,
-        format="MEM",
-        dstSRS=ref.ExportToWkt(),
-        outputBounds=(xmin, ymin, xmax, ymax),
-        xRes=size / _MAX_PIXELS,
-        yRes=size / _MAX_PIXELS,
-        outputType=gdal.GDT_Int32,
-        srcNodata=fill if fill is not None else "None",
-        dstNodata=_OUTSIDE,
-        resampleAlg="near",
-        overviewLevel="NONE",
-        cutlineWKT=projected.ExportToWkt(),
-        cutlineSRS=ref.ExportToWkt(),
-        warpOptions=["INIT_DEST=NO_DATA"],
-    )
+    with geometry.cutline_options(projected.ExportToWkt(), ref.ExportToWkt()) as cut:
+        ds = gdal.Warp(
+            "",
+            sources,
+            format="MEM",
+            dstSRS=ref.ExportToWkt(),
+            outputBounds=(xmin, ymin, xmax, ymax),
+            xRes=size / _MAX_PIXELS,
+            yRes=size / _MAX_PIXELS,
+            outputType=gdal.GDT_Int32,
+            srcNodata=fill if fill is not None else "None",
+            dstNodata=_OUTSIDE,
+            resampleAlg="near",
+            overviewLevel="NONE",
+            warpOptions=["INIT_DEST=NO_DATA"],
+            **cut,
+        )
     return None if ds is None else ds.GetRasterBand(1).ReadAsArray()
 
 

@@ -166,9 +166,14 @@ def type_holding(data_type: int, value: float) -> int:
 
 def _has_valid_pixels(path: str) -> bool:
     ds = gdal.Open(path)
-    return (
-        ds.GetRasterBand(1).ComputeRasterMinMax(False, can_return_none=True) is not None
-    )
+    try:
+        minmax = ds.GetRasterBand(1).ComputeRasterMinMax(False, can_return_none=True)
+    except RuntimeError as exc:
+        # GDAL before 3.9 (QGIS 3.34) raises here instead of returning None.
+        if "no valid pixels" in str(exc):
+            return False
+        raise
+    return minmax is not None
 
 
 def _catalogue_code(props: dict) -> str | None:
@@ -654,21 +659,28 @@ class Downloader:
 
         kwargs = self._warp_options(asset, bounds)
         kwargs["callback"] = progress
-        for attempt in (1, 2):
-            sources = [self._source(it, asset) for it in items if asset in it["assets"]]
-            try:
-                ds = gdal.Warp(dst, sources, **kwargs)
-                if ds is None:
-                    raise RuntimeError(gdal.GetLastErrorMsg() or "gdal.Warp failed")
-                ds = None
-                return
-            except RuntimeError as exc:
-                # SAS tokens expire after ~45 min; a long read then fails with 403.
-                if attempt == 1 and "403" in str(exc) and not self.canceled():
-                    self.signer.invalidate()
-                    self.log("Access token expired; got a new one.")
-                    continue
-                raise
+        cutline = geometry.cutline_options(
+            self.cutline_wkt, self.dst_crs_wkt if self.cutline_wkt else None
+        )
+        with cutline as cutline_kwargs:
+            kwargs.update(cutline_kwargs)
+            for attempt in (1, 2):
+                sources = [
+                    self._source(it, asset) for it in items if asset in it["assets"]
+                ]
+                try:
+                    ds = gdal.Warp(dst, sources, **kwargs)
+                    if ds is None:
+                        raise RuntimeError(gdal.GetLastErrorMsg() or "gdal.Warp failed")
+                    ds = None
+                    return
+                except RuntimeError as exc:
+                    # SAS tokens expire after ~45 min; a long read then fails with 403.
+                    if attempt == 1 and "403" in str(exc) and not self.canceled():
+                        self.signer.invalidate()
+                        self.log("Access token expired; got a new one.")
+                        continue
+                    raise
 
     def _warp_options(self, asset: str, bounds) -> dict:
         """gdal.Warp options for one asset on the shared output grid."""
@@ -677,8 +689,6 @@ class Downloader:
             "srcNodata": self.src_nodata.get(asset),
             "dstNodata": self.out_nodata,
             "overviewLevel": overview_level,
-            "cutlineWKT": self.cutline_wkt,
-            "cutlineSRS": self.dst_crs_wkt if self.cutline_wkt else None,
         }
         return {
             "format": "GTiff",

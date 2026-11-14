@@ -29,6 +29,7 @@ from qgis.core import Qgis, QgsFeedback
 from . import geometry, stac
 from .catalog import MODE_RAW, Collection, Provider
 from .text import plural
+from .version import PLUGIN_VERSION
 
 GDAL_HTTP_OPTIONS = {
     "GDAL_DISABLE_READDIR_ON_OPEN": "EMPTY_DIR",
@@ -49,6 +50,10 @@ _RAW_CHUNK = 8 * 1024 * 1024
 _RAW_ATTEMPTS = 3
 # Scenes whose headers are read when the catalogue lacks projection metadata
 _MAX_HEADER_PROBES = 10
+# Part of every output file name. Raise it when the same settings would now
+# produce different pixels (warping, nodata, grid, band order …), so earlier
+# results are not reused as if they were current.
+PIPELINE_VERSION = 1
 
 LogFn = Callable[[str, Qgis.MessageLevel], None]
 
@@ -491,6 +496,7 @@ class Downloader:
     def _params(self, items: list[dict], bounds) -> dict:
         job = self.job
         return {
+            "pipeline": PIPELINE_VERSION,
             "provider": job.provider.stac_url,
             "collection": job.collection.collection_id,
             "items": sorted(it["id"] for it in items),
@@ -623,10 +629,15 @@ class Downloader:
         return "done"
 
     def _write_sidecar(self, target: str, params: dict) -> None:
+        """Settings (as hashed into the name) plus when and with what it was made."""
         sidecar = os.path.splitext(target)[0] + ".json"
-        created = datetime.now(timezone.utc).isoformat()
+        made_with = {
+            "created": datetime.now(timezone.utc).isoformat(),
+            "plugin_version": PLUGIN_VERSION,
+            "gdal_version": gdal.__version__,
+        }
         with open(sidecar, "w", encoding="utf-8") as fh:
-            json.dump({**params, "created": created}, fh, indent=2)
+            json.dump({**params, **made_with}, fh, indent=2)
 
     def _warp(
         self,

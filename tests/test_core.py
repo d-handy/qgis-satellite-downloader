@@ -873,6 +873,27 @@ class PipelineBehaviourTest(unittest.TestCase):
         self.assertEqual(params["nodata"], 0)
         self.assertEqual(params["data_type"], "UInt16")
         self.assertEqual(params["resampling"], {"rgb": "nearest", "h": "nearest"})
+        # Provenance: which code made the file
+        from satellite_downloader.core import pipeline
+        from satellite_downloader.core.version import PLUGIN_VERSION
+
+        self.assertEqual(params["pipeline"], pipeline.PIPELINE_VERSION)
+        self.assertEqual(params["plugin_version"], PLUGIN_VERSION)
+        self.assertEqual(params["gdal_version"], gdal.__version__)
+
+    def test_pipeline_version_goes_into_the_file_name(self):
+        """After a change to how files are made, old results are not reused."""
+        from satellite_downloader.core import pipeline
+
+        items = [self.item("s", {"a": self.raster("a.tif")}, **{"proj:code": _UTM32})]
+        c = self.collection(("a",))
+        first = self.downloader(c, items, ["a"]).run().outputs[0]
+        with mock.patch.object(
+            pipeline, "PIPELINE_VERSION", pipeline.PIPELINE_VERSION + 1
+        ):
+            second = self.downloader(c, items, ["a"]).run().outputs[0]
+        self.assertNotEqual(os.path.basename(first), os.path.basename(second))
+        self.assertFalse(any("Already downloaded" in m for m in self.logs))
 
     def test_settings_go_into_the_file_name(self):
         hrefs = {"a": self.raster("a.tif"), "SCL": self.raster("scl.tif")}

@@ -115,7 +115,10 @@ blocks programmatic access with bot protection. Details and reasons are in
 - **File names and metadata:**
   - Each result is written as `<name>_<hash>.tif`, with a `.json` of the same name listing
     scenes, CRS, extent, resolution and NoData.
-  - Identical settings reuse existing files; changed settings produce new ones.
+  - Identical settings reuse existing files; changed settings produce new ones. So does
+    a plugin update that changes how files are made, so an old result is never reused
+    as if it were current.
+  - The `.json` also records the plugin and GDAL version that made the file.
 
 ## Notes on values
 

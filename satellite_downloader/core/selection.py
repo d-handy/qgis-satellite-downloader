@@ -17,6 +17,7 @@ from qgis.core import QgsFeedback
 
 from . import stac
 from .catalog import COLLECTIONS_BY_KEY, PROVIDERS, Collection
+from .text import or_join
 
 BBox = tuple[float, float, float, float]  # west, south, east, north
 COLLECTION_KEY = "satellite_downloader:collection"
@@ -84,11 +85,6 @@ def limited(outcome: SearchOutcome, max_items_each: int) -> list[str]:
     return [key for key, n in outcome.counts.items() if n >= max_items_each]
 
 
-def _or_join(parts: list[str]) -> str:
-    """ "a", "a or b", "a, b or c"."""
-    return parts[0] if len(parts) == 1 else f"{', '.join(parts[:-1])} or {parts[-1]}"
-
-
 def no_results_hint(
     collections: list[Collection], start: str, end: str, max_cloud: float | None
 ) -> str:
@@ -97,7 +93,7 @@ def no_results_hint(
         first, last = collections[0].interval
         span = f"{(first or '')[:10]} to {(last or 'today')[:10]}".strip()
         return f"No scenes: data exists from {span}. Adjust the period."
-    return f"No scenes found. You could {_or_join(_tips(collections, max_cloud))}."
+    return f"No scenes found. You could {or_join(_tips(collections, max_cloud))}."
 
 
 def _tips(collections: list[Collection], max_cloud: float | None) -> list[str]:

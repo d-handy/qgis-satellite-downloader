@@ -404,6 +404,60 @@ class RecipePlanTest(unittest.TestCase):
             self.plan("current", {}, {})
         self.assertIn("Sentinel-2", str(ctx.exception))
 
+    def plan_with_failing(
+        self,
+        failing: set[str],
+        items: dict[str, list[dict]],
+        calls: list[str] | None = None,
+    ):
+        """``plan`` where the sources in ``failing`` raise like an unreachable API.
+
+        Every searched collection key is appended to ``calls``.
+        """
+        calls = [] if calls is None else calls
+
+        def search(provider, collection, *_args, **_kw):
+            calls.append(collection.key)
+            if collection.key in failing:
+                raise stac.StacError(f"{collection.key}: 503 Service Unavailable", 503)
+            return items.get(collection.key, []), 0
+
+        with (
+            mock.patch.object(recipes.stac, "search", side_effect=search),
+            mock.patch.object(recipes.clouds, "clear_percent", return_value=99.0),
+        ):
+            result = recipes.plan(
+                recipes.RECIPES_BY_KEY["current"], _COLOGNE, self.today
+            )
+        return result, calls
+
+    def test_one_unreachable_source_does_not_stop_the_recipe(self):
+        result, _ = self.plan_with_failing(
+            {"landsat-c2-l2"}, {"s2-l2a": [_s2_item("s2", "2026-09-18")]}
+        )
+        self.assertEqual(result.acquisition.items[0]["id"], "s2")
+        self.assertEqual(len(result.notes), 1)
+        self.assertIn("Landsat", result.notes[0])
+        self.assertIn("could not be reached", result.notes[0])
+
+    def test_unreachable_source_is_not_asked_again_in_wider_windows(self):
+        # Sentinel-2 finds nothing, so all three time windows are searched.
+        calls: list[str] = []
+        with self.assertRaises(recipes.NoDataError) as ctx:
+            self.plan_with_failing({"landsat-c2-l2"}, {}, calls)
+        self.assertEqual(calls.count("s2-l2a"), 3)
+        self.assertEqual(calls.count("landsat-c2-l2"), 1)
+        # The explanation for "nothing found" mentions the missing source.
+        self.assertIn("could not be reached", str(ctx.exception))
+
+    def test_all_sources_unreachable_says_so(self):
+        with self.assertRaises(recipes.NoDataError) as ctx:
+            self.plan_with_failing({"s2-l2a", "landsat-c2-l2"}, {})
+        message = str(ctx.exception)
+        self.assertIn("Could not reach", message)
+        self.assertIn("Try again later", message)
+        self.assertNotIn("open sea", message)  # not the "nothing here" explanation
+
     def test_partial_coverage_is_reported(self):
         item = _s2_item("edge", "2026-09-18")
         item["geometry"] = {

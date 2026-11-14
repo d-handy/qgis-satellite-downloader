@@ -22,7 +22,7 @@ from qgis.core import Qgis, QgsFeedback
 from . import clouds, geometry, places, postprocess, stac
 from .catalog import COLLECTIONS_BY_KEY, PROVIDERS, SEARCH_STATIC, Collection
 from .pipeline import GDAL_HTTP_OPTIONS, Downloader, DownloadJob, LogFn, group_key
-from .text import LOG_HINT
+from .text import LOG_HINT, or_join
 
 MAX_OUTPUT_PIXELS = 10_000  # long side of a recipe output
 STEP_LABELS = {
@@ -186,22 +186,37 @@ def _acquisitions(
     start: date,
     end: date,
     feedback,
+    unreachable: dict[str, str],
 ) -> list[Acquisition]:
+    """Acquisitions of all sources that answer, newest first.
+
+    A source whose catalogue fails is recorded in ``unreachable`` (key ->
+    error) and skipped from then on: its retries already took their time, and
+    the other sources may still have what the recipe needs.
+    """
     found: list[Acquisition] = []
     for key in recipe.sources:
+        if key in unreachable:
+            continue
         c = COLLECTIONS_BY_KEY[key]
         # Scene-wide cloud cover only as a coarse pre-filter; the AOI decides.
         max_cloud = 90.0 if recipe.min_clear is not None and c.has_cloud_cover else None
-        items, _ = stac.search(
-            PROVIDERS[c.provider],
-            c,
-            aoi_geojson,
-            start.isoformat(),
-            end.isoformat(),
-            max_cloud,
-            60 if not recipe.static else 50,
-            feedback,
-        )
+        try:
+            items, _ = stac.search(
+                PROVIDERS[c.provider],
+                c,
+                aoi_geojson,
+                start.isoformat(),
+                end.isoformat(),
+                max_cloud,
+                60 if not recipe.static else 50,
+                feedback,
+            )
+        except stac.StacError as exc:
+            if feedback is not None and feedback.isCanceled():
+                raise
+            unreachable[key] = str(exc)
+            continue
         groups: dict[str, list[dict]] = {}
         for item in items:
             groups.setdefault(group_key(item, c, True), []).append(item)
@@ -291,8 +306,15 @@ class _Planner:
         self.notes: list[str] = []
         self.checked: dict[str, float | None] = {}
         self.best: Acquisition | None = None
+        self.unreachable: dict[str, str] = {}  # collection key -> error
 
     def choose(self) -> Acquisition:
+        chosen = self._choose()
+        if self.unreachable:
+            self.notes.append(self._unreachable_note())
+        return chosen
+
+    def _choose(self) -> Acquisition:
         windows = self.recipe.windows_days or (0,)
         for days in windows:
             if self.feedback and self.feedback.isCanceled():
@@ -302,7 +324,10 @@ class _Planner:
                 return chosen
         if self.best is None:
             lat = self.aoi_unwrapped.Centroid().GetY()
-            raise NoDataError(explain_missing(self.recipe, lat, self.today))
+            reason = explain_missing(self.recipe, lat, self.today)
+            if self.unreachable:
+                reason += " " + self._unreachable_note()
+            raise NoDataError(reason)
         self.notes.append(
             f"No acquisition in the last {windows[-1]} days had at least "
             f"{self.recipe.min_clear:g} % clear sky over the area. Using the clearest: "
@@ -318,9 +343,26 @@ class _Planner:
         else:
             self.say(f"Searching acquisitions from the last {days} days …")
         start = self.today - timedelta(days=days)
+        known_failures = set(self.unreachable)
         found = _acquisitions(
-            recipe, self.aoi_geojson, self.aoi_split, start, self.today, self.feedback
+            recipe,
+            self.aoi_geojson,
+            self.aoi_split,
+            start,
+            self.today,
+            self.feedback,
+            self.unreachable,
         )
+        for key in self.unreachable.keys() - known_failures:
+            error = self.unreachable[key][:120]
+            self.say(
+                f"{COLLECTIONS_BY_KEY[key].label}: catalogue not reachable ({error})"
+            )
+        if len(self.unreachable) == len(recipe.sources):
+            raise NoDataError(
+                f"Could not reach {or_join(self._unreachable_labels())}. Try again later. "
+                f"{LOG_HINT}"
+            )
         if not found:
             return None
         pool, covering = _candidates(found, recipe.min_coverage)
@@ -332,6 +374,17 @@ class _Planner:
                 f"largest coverage ({pool[0].coverage or 0:.0f} %)."
             )
         return pool[0]
+
+    def _unreachable_labels(self) -> list[str]:
+        return [COLLECTIONS_BY_KEY[k].label for k in self.unreachable]
+
+    def _unreachable_note(self) -> str:
+        labels = self._unreachable_labels()
+        left_out = "it was" if len(labels) == 1 else "they were"
+        return (
+            f"{or_join(labels, 'and')} could not be reached, so {left_out} left out; "
+            "a later attempt may find newer data."
+        )
 
     def _first_clear(
         self, pool: list[Acquisition], min_clear: float

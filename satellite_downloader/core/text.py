@@ -10,6 +10,13 @@ LOG_HINT = (
 _IRREGULAR = {"category": "categories"}
 
 
+def or_join(parts: list[str], word: str = "or") -> str:
+    """ "a", "a or b", "a, b or c" (``word`` may be "and")."""
+    if len(parts) == 1:
+        return parts[0]
+    return f"{', '.join(parts[:-1])} {word} {parts[-1]}"
+
+
 def plural(count: int, noun: str) -> str:
     """Return ``count`` with ``noun`` in singular or plural, e.g. "1 scene", "3 scenes"."""
     if count == 1:

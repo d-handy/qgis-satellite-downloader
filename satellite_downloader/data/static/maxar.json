@@ -1,0 +1,2006 @@
+{
+ "built": "2026-09-17",
+ "summary": "54 collections, 39743 items, 2.32 MB",
+ "notes": [
+  "41192 requests, 0 errors",
+  "volcano-indonesia21: access HTTP 404"
+ ],
+ "collections": [
+  {
+   "key": "maxar:afghanistan-earthquake22",
+   "label": "Maxar – Afghanistan Earthquake",
+   "provider": "maxar",
+   "collection_id": "afghanistan-earthquake22",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 395 files · 0.305 m · 2021–2022 · 26° to 33° lat, 69° to 89° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    69.18366,
+    25.87191,
+    89.49114,
+    33.32974
+   ],
+   "interval": [
+    "2021-06-09T06:13:36Z",
+    "2022-06-27T06:09:09Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:BayofBengal-Cyclone-Mocha-May-23",
+   "label": "Maxar – Bay of Bengal Cyclone Mocha 2023",
+   "provider": "maxar",
+   "collection_id": "BayofBengal-Cyclone-Mocha-May-23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 206 files · 0.305 m · 2023–2023 · 20° to 22° lat, 92° to 93° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    91.83161,
+    19.98208,
+    92.97426,
+    21.6661
+   ],
+   "interval": [
+    "2023-01-03T04:30:17Z",
+    "2023-05-22T04:35:25Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Belize-Wildfires-June24",
+   "label": "Maxar – Belize Wildfires",
+   "provider": "maxar",
+   "collection_id": "Belize-Wildfires-June24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 90 files · 0.305 m · 2019–2024 · 17° to 17° lat, -89° to -89° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -89.16435,
+    16.82956,
+    -88.8118,
+    17.10424
+   ],
+   "interval": [
+    "2019-08-29T16:48:24Z",
+    "2024-06-03T16:15:09Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Brazil-Flooding-May24",
+   "label": "Maxar – Brazil Flooding",
+   "provider": "maxar",
+   "collection_id": "Brazil-Flooding-May24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 824 files · 0.305 m · 2018–2024 · -30° to -29° lat, -53° to -51° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -52.8316,
+    -30.31072,
+    -50.9704,
+    -29.09698
+   ],
+   "interval": [
+    "2018-12-17T13:45:15Z",
+    "2024-05-17T14:01:42Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Cyclone-Chido-Dec15",
+   "label": "Maxar – Cyclone Chido 2024",
+   "provider": "maxar",
+   "collection_id": "Cyclone-Chido-Dec15",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 118 files · 0.305 m · 2024–2025 · -13° to -12° lat, 40° to 49° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    40.47086,
+    -13.04737,
+    49.34516,
+    -11.65508
+   ],
+   "interval": [
+    "2024-05-23T07:18:23Z",
+    "2025-01-01T07:22:22Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Cyclone-Ditwah-Sri-Lanka-Nov-2025",
+   "label": "Maxar – Cyclone Ditwah Sri Lanka November 2025",
+   "provider": "maxar",
+   "collection_id": "Cyclone-Ditwah-Sri-Lanka-Nov-2025",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 433 files · 0.305 m · 2025–2025 · 6° to 8° lat, 80° to 80° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    79.75553,
+    5.96953,
+    80.19894,
+    7.52887
+   ],
+   "interval": [
+    "2025-01-17T05:06:44Z",
+    "2025-12-05T08:00:38Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:cyclone-emnati22",
+   "label": "Maxar – Cyclone Emnati",
+   "provider": "maxar",
+   "collection_id": "cyclone-emnati22",
+   "category": "Events",
+   "assets": [
+    "cloud-mask-raster",
+    "ms_analytic",
+    "ms-saturation-mask-raster",
+    "pan_analytic",
+    "terrain-shadow-mask-raster",
+    "water-mask-raster",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 794 files · 0.305 m · 2020–2022 · -25° to -21° lat, 47° to 48° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    46.95805,
+    -25.08975,
+    48.39405,
+    -20.9484
+   ],
+   "interval": [
+    "2020-08-11T07:18:42Z",
+    "2022-02-28T06:52:25Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Cyclone-Senyar-Indonesia-Nov-2025",
+   "label": "Maxar – Cyclone Senyar Indonesia November 2025",
+   "provider": "maxar",
+   "collection_id": "Cyclone-Senyar-Indonesia-Nov-2025",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 44 files · 0.305 m · 2025–2025 · 2° to 2° lat, 99° to 99° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    98.88575,
+    1.61732,
+    99.16721,
+    1.90793
+   ],
+   "interval": [
+    "2025-11-30T06:42:49Z",
+    "2025-11-30T06:42:50Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Cyclone-Senyar-Thailand-Nov-2025",
+   "label": "Maxar – Cyclone Senyar Thailand November 2025",
+   "provider": "maxar",
+   "collection_id": "Cyclone-Senyar-Thailand-Nov-2025",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 127 files · 0.305 m · 2025–2025 · 6° to 7° lat, 100° to 101° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    100.32739,
+    6.48797,
+    100.78337,
+    7.18034
+   ],
+   "interval": [
+    "2025-12-01T03:33:47Z",
+    "2025-12-01T03:41:46Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Emilia-Romagna-Italy-flooding-may23",
+   "label": "Maxar – Emilia Romagna Italy Flooding",
+   "provider": "maxar",
+   "collection_id": "Emilia-Romagna-Italy-flooding-may23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 245 files · 0.305 m · 2015–2023 · 44° to 45° lat, 11° to 13° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    11.48638,
+    43.7833,
+    12.71079,
+    44.53512
+   ],
+   "interval": [
+    "2015-05-28T09:58:35Z",
+    "2023-05-23T10:24:11Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Floods-Spain-Oct24",
+   "label": "Maxar – Floods Spain Oct24",
+   "provider": "maxar",
+   "collection_id": "Floods-Spain-Oct24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 136 files · 0.305 m · 2024–2024 · 38° to 40° lat, -2° to -0° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -2.18592,
+    38.29263,
+    -0.30274,
+    39.52737
+   ],
+   "interval": [
+    "2024-03-14T11:15:15Z",
+    "2024-11-10T11:01:43Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Gambia-flooding-8-11-2022",
+   "label": "Maxar – Gambia flooding 8-11-2022",
+   "provider": "maxar",
+   "collection_id": "Gambia-flooding-8-11-2022",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 80 files · 0.305 m · 2022–2022 · 13° to 13° lat, -17° to -17° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -16.74237,
+    13.32883,
+    -16.56883,
+    13.49353
+   ],
+   "interval": [
+    "2022-03-15T11:33:20Z",
+    "2022-08-13T11:33:20Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:ghana-explosion22",
+   "label": "Maxar – Ghana Explosion",
+   "provider": "maxar",
+   "collection_id": "ghana-explosion22",
+   "category": "Events",
+   "assets": [
+    "cloud-mask-raster",
+    "ms_analytic",
+    "ms-saturation-mask-raster",
+    "pan_analytic",
+    "terrain-shadow-mask-raster",
+    "water-mask-raster",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 223 files · 0.305 m · 2020–2022 · 5° to 6° lat, -2° to -2° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -2.16306,
+    4.68687,
+    -1.9415,
+    6.00935
+   ],
+   "interval": [
+    "2020-01-06T10:43:48Z",
+    "2022-01-22T10:49:54Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Hurricane-Fiona-9-19-2022",
+   "label": "Maxar – Hurricane Fiona 9-19-2022",
+   "provider": "maxar",
+   "collection_id": "Hurricane-Fiona-9-19-2022",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 274 files · 0.305 m · 2022–2022 · 18° to 45° lat, -71° to -63° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -71.18759,
+    17.95415,
+    -63.43902,
+    44.77302
+   ],
+   "interval": [
+    "2022-02-07T15:18:25Z",
+    "2022-09-29T15:26:07Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:HurricaneHelene-Oct24",
+   "label": "Maxar – Hurricane Helene",
+   "provider": "maxar",
+   "collection_id": "HurricaneHelene-Oct24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 651 files · 0.305 m · 2019–2024 · 29° to 38° lat, -86° to -82° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -85.89297,
+    29.09508,
+    -81.56043,
+    38.35229
+   ],
+   "interval": [
+    "2019-11-09T16:12:05Z",
+    "2024-10-06T16:34:55Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Hurricane-Ian-9-26-2022",
+   "label": "Maxar – Hurricane Ian 9-26-2022",
+   "provider": "maxar",
+   "collection_id": "Hurricane-Ian-9-26-2022",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 4207 files · 0.305 m · 2021–2022 · 22° to 34° lat, -84° to -79° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -83.90116,
+    22.17945,
+    -78.76564,
+    33.96945
+   ],
+   "interval": [
+    "2021-04-29T18:51:09Z",
+    "2022-10-08T19:09:10Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Hurricane-Idalia-Florida-Aug23",
+   "label": "Maxar – Hurricane Idalia",
+   "provider": "maxar",
+   "collection_id": "Hurricane-Idalia-Florida-Aug23",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 677 files · 0.305 m · 2017–2023 · 29° to 30° lat, -84° to -82° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -83.86361,
+    28.74621,
+    -82.40423,
+    30.23155
+   ],
+   "interval": [
+    "2017-10-20T16:35:02Z",
+    "2023-08-30T19:19:59Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Hurricane-Maria-PuertoRico-Oct-2017",
+   "label": "Maxar – Hurricane Maria PuertoRico Oct 2017",
+   "provider": "maxar",
+   "collection_id": "Hurricane-Maria-PuertoRico-Oct-2017",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 46 files · 0.305 m · 2017–2017 · 18° to 18° lat, -66° to -66° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -66.21459,
+    18.27493,
+    -66.0768,
+    18.47857
+   ],
+   "interval": [
+    "2017-08-29T14:52:30Z",
+    "2017-10-12T15:06:54Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Hurricane-Melissa-Oct-2025",
+   "label": "Maxar – Hurricane Melissa October 2025",
+   "provider": "maxar",
+   "collection_id": "Hurricane-Melissa-Oct-2025",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 8469 files · 0.305 m · 2022–2025 · 17° to 23° lat, -79° to -71° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -78.95731,
+    17.38233,
+    -70.76681,
+    22.7806
+   ],
+   "interval": [
+    "2022-10-13T15:53:19Z",
+    "2025-11-09T15:53:51Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:HurricaneMilton-Oct24",
+   "label": "Maxar – Hurricane Milton",
+   "provider": "maxar",
+   "collection_id": "HurricaneMilton-Oct24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1066 files · 0.305 m · 2023–2024 · 27° to 29° lat, -83° to -82° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -82.9456,
+    26.91385,
+    -82.19088,
+    28.51623
+   ],
+   "interval": [
+    "2023-11-04T16:29:15Z",
+    "2024-10-10T16:26:38Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Iceland-Volcano_Eruption-Dec-2023",
+   "label": "Maxar – Iceland Volcano",
+   "provider": "maxar",
+   "collection_id": "Iceland-Volcano_Eruption-Dec-2023",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 32 files · 0.305 m · 2023–2023 · 64° to 64° lat, -23° to -22° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -22.57455,
+    63.75691,
+    -22.23709,
+    64.09518
+   ],
+   "interval": [
+    "2023-07-08T13:11:21Z",
+    "2023-07-08T13:11:29Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Indonesia-Earthquake22",
+   "label": "Maxar – Indonesia Earthquake22",
+   "provider": "maxar",
+   "collection_id": "Indonesia-Earthquake22",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 124 files · 0.305 m · 2021–2022 · -7° to -7° lat, 107° to 107° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    106.90473,
+    -6.97846,
+    107.17529,
+    -6.77508
+   ],
+   "interval": [
+    "2021-07-04T03:22:31Z",
+    "2022-11-28T03:24:19Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Japan-Earthquake-Jan-2024",
+   "label": "Maxar – Japan Earthquake Jan 2024",
+   "provider": "maxar",
+   "collection_id": "Japan-Earthquake-Jan-2024",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 242 files · 0.305 m · 2023–2024 · 37° to 38° lat, 137° to 139° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    136.58411,
+    36.50513,
+    139.08691,
+    37.8949
+   ],
+   "interval": [
+    "2023-08-29T01:48:32Z",
+    "2024-01-02T04:34:50Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Kalehe-DRC-Flooding-5-8-23",
+   "label": "Maxar – Kalehe DRC Flooding 2023",
+   "provider": "maxar",
+   "collection_id": "Kalehe-DRC-Flooding-5-8-23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 24 files · 0.305 m · 2023–2023 · -2° to -2° lat, 29° to 29° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    28.82296,
+    -2.10548,
+    28.95752,
+    -1.9497
+   ],
+   "interval": [
+    "2023-04-10T08:41:23Z",
+    "2023-05-12T08:24:47Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:kentucky-flooding-7-29-2022",
+   "label": "Maxar – Kentucky Flooding",
+   "provider": "maxar",
+   "collection_id": "kentucky-flooding-7-29-2022",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 185 files · 0.305 m · 2021–2022 · 37° to 37° lat, -83° to -83° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -83.40065,
+    37.01626,
+    -82.79572,
+    37.38762
+   ],
+   "interval": [
+    "2021-07-03T16:31:19Z",
+    "2022-08-07T15:59:01Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Kenya-Flooding-May24",
+   "label": "Maxar – Kenya Flooding",
+   "provider": "maxar",
+   "collection_id": "Kenya-Flooding-May24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 55 files · 0.305 m · 2023–2024 · -1° to -1° lat, 37° to 37° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    36.72409,
+    -1.38461,
+    36.97307,
+    -1.14065
+   ],
+   "interval": [
+    "2023-11-30T08:00:58Z",
+    "2024-05-11T07:34:02Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Libya-Floods-Sept-2023",
+   "label": "Maxar – Libya Floods",
+   "provider": "maxar",
+   "collection_id": "Libya-Floods-Sept-2023",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 186 files · 0.305 m · 2023–2023 · 30° to 33° lat, 19° to 23° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    19.49159,
+    30.38651,
+    22.72649,
+    32.91112
+   ],
+   "interval": [
+    "2023-01-22T09:24:17Z",
+    "2023-09-22T09:24:38Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:WildFires-LosAngeles-Jan-2025",
+   "label": "Maxar – Los Angeles Wildfires 2025",
+   "provider": "maxar",
+   "collection_id": "WildFires-LosAngeles-Jan-2025",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 525 files · 0.305 m · 2024–2025 · 34° to 34° lat, -119° to -118° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -118.83596,
+    33.94835,
+    -117.96801,
+    34.38302
+   ],
+   "interval": [
+    "2024-12-14T18:39:04Z",
+    "2025-01-20T18:32:44Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Marshall-Fire-21-Update",
+   "label": "Maxar – Marshall Fire",
+   "provider": "maxar",
+   "collection_id": "Marshall-Fire-21-Update",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 15 files · 0.305 m · 2021–2021 · 40° to 40° lat, -105° to -105° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -105.31095,
+    39.92116,
+    -105.08938,
+    40.01052
+   ],
+   "interval": [
+    "2021-12-30T21:00:34Z",
+    "2021-12-30T21:00:35Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Maui-Hawaii-fires-Aug-23",
+   "label": "Maxar – Maui Fires",
+   "provider": "maxar",
+   "collection_id": "Maui-Hawaii-fires-Aug-23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 123 files · 0.305 m · 2023–2023 · 21° to 21° lat, -157° to -156° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -156.75411,
+    20.61864,
+    -156.2388,
+    21.03021
+   ],
+   "interval": [
+    "2023-08-09T21:10:34Z",
+    "2023-08-12T21:18:20Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:McDougallCreekWildfire-BC-Canada-Aug-23",
+   "label": "Maxar – McDougall Creek Wildfire",
+   "provider": "maxar",
+   "collection_id": "McDougallCreekWildfire-BC-Canada-Aug-23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 31 files · 0.305 m · 2022–2022 · 50° to 50° lat, -120° to -119° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -119.67608,
+    49.84775,
+    -119.37081,
+    49.98858
+   ],
+   "interval": [
+    "2022-05-18T18:59:06Z",
+    "2022-07-14T18:49:27Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Morocco-Earthquake-Sept-2023",
+   "label": "Maxar – Morocco Earthquake",
+   "provider": "maxar",
+   "collection_id": "Morocco-Earthquake-Sept-2023",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 8724 files · 0.305 m · 2010–2023 · 30° to 32° lat, -10° to -7° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -9.72346,
+    30.14697,
+    -6.8571,
+    32.42077
+   ],
+   "interval": [
+    "2010-06-02T11:32:07Z",
+    "2023-09-11T11:08:54Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Earthquake-Myanmar-March-2025",
+   "label": "Maxar – Myanmar Earthquake 2025",
+   "provider": "maxar",
+   "collection_id": "Earthquake-Myanmar-March-2025",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 200 files · 0.305 m · 2025–2025 · 14° to 22° lat, 96° to 101° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    95.8579,
+    13.73263,
+    100.60938,
+    21.98737
+   ],
+   "interval": [
+    "2025-02-02T03:44:47Z",
+    "2025-04-04T07:03:38Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Nepal-Earthquake-Nov-2023",
+   "label": "Maxar – Nepal Earthquake",
+   "provider": "maxar",
+   "collection_id": "Nepal-Earthquake-Nov-2023",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 697 files · 0.305 m · 2014–2023 · 28° to 29° lat, 82° to 83° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    81.66526,
+    28.29174,
+    82.79766,
+    29.29781
+   ],
+   "interval": [
+    "2014-12-04T05:32:05Z",
+    "2023-11-09T05:04:10Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Nepal-Earthquake-Apr-2015",
+   "label": "Maxar – Nepal Earthquake Apr 2015",
+   "provider": "maxar",
+   "collection_id": "Nepal-Earthquake-Apr-2015",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": false,
+   "note": "Static catalogue, 12 files · 0.305 m · 2023–2023 · 28° to 28° lat, 85° to 86° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    85.45449,
+    28.16,
+    85.61,
+    28.26001
+   ],
+   "interval": [
+    "2023-10-25T04:57:18Z",
+    "2023-10-25T04:57:20Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Nepal-Floods-Sept-2024",
+   "label": "Maxar – Nepal Flooding 2024",
+   "provider": "maxar",
+   "collection_id": "Nepal-Floods-Sept-2024",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 533 files · 0.305 m · 2022–2024 · 26° to 28° lat, 84° to 87° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    83.8905,
+    26.35194,
+    87.29444,
+    27.78549
+   ],
+   "interval": [
+    "2022-03-26T04:54:40Z",
+    "2024-10-06T05:12:36Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:New-Zealand-Flooding23",
+   "label": "Maxar – New Zealand Flooding 2023",
+   "provider": "maxar",
+   "collection_id": "New-Zealand-Flooding23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 37 files · 0.305 m · 2022–2023 · -37° to -37° lat, 175° to 175° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    174.59289,
+    -36.79549,
+    174.77188,
+    -36.69541
+   ],
+   "interval": [
+    "2022-11-01T22:36:52Z",
+    "2023-02-08T22:44:18Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Nigeria-Floods-Sept-2024",
+   "label": "Maxar – Nigeria Flooding 2024",
+   "provider": "maxar",
+   "collection_id": "Nigeria-Floods-Sept-2024",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 18 files · 0.305 m · 2024–2024 · 12° to 12° lat, 13° to 13° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    13.12014,
+    11.76556,
+    13.25763,
+    11.8796
+   ],
+   "interval": [
+    "2024-01-12T09:33:15Z",
+    "2024-03-25T09:39:24Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Nigeria-Flooding-May-2025",
+   "label": "Maxar – Nigeria Flooding May 2025",
+   "provider": "maxar",
+   "collection_id": "Nigeria-Flooding-May-2025",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 18 files · 0.305 m · 2023–2025 · 9° to 9° lat, 5° to 5° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    5.00539,
+    9.248,
+    5.10189,
+    9.34266
+   ],
+   "interval": [
+    "2023-10-09T10:14:02Z",
+    "2025-06-02T10:24:19Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:India-Floods-Oct-2023",
+   "label": "Maxar – North India Floods",
+   "provider": "maxar",
+   "collection_id": "India-Floods-Oct-2023",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 51 files · 0.305 m · 2022–2023 · 27° to 28° lat, 88° to 89° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    88.09994,
+    27.11511,
+    88.68617,
+    27.98493
+   ],
+   "interval": [
+    "2022-03-07T04:53:47Z",
+    "2023-10-06T05:04:41Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:NWT-Canada-Aug-23",
+   "label": "Maxar – Northwest Territories Fires",
+   "provider": "maxar",
+   "collection_id": "NWT-Canada-Aug-23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 86 files · 0.305 m · 2023–2023 · 50° to 63° lat, -120° to -114° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -119.71523,
+    49.78177,
+    -114.24686,
+    62.54185
+   ],
+   "interval": [
+    "2023-08-08T19:00:54Z",
+    "2023-08-21T19:06:38Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:pakistan-flooding22",
+   "label": "Maxar – Pakistan Flooding",
+   "provider": "maxar",
+   "collection_id": "pakistan-flooding22",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2549 files · 0.305 m · 2019–2022 · 25° to 36° lat, 66° to 73° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    66.31126,
+    24.72937,
+    73.30833,
+    35.92242
+   ],
+   "interval": [
+    "2019-11-29T06:22:38Z",
+    "2022-10-11T06:18:37Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:PNG-Landslide-June24",
+   "label": "Maxar – Papua New Guinea Landslide",
+   "provider": "maxar",
+   "collection_id": "PNG-Landslide-June24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 48 files · 0.305 m · 2023–2024 · -5° to -5° lat, 143° to 143° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    143.2964,
+    -5.48321,
+    143.45099,
+    -5.27896
+   ],
+   "interval": [
+    "2023-06-27T00:40:13Z",
+    "2024-05-27T00:42:42Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Morocco-Flooding-Dec-2025",
+   "label": "Maxar – Safi Morocco Flooding December 2025",
+   "provider": "maxar",
+   "collection_id": "Morocco-Flooding-Dec-2025",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 37 files · 0.305 m · 2025–2025 · 32° to 32° lat, -9° to -9° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -9.32278,
+    32.21881,
+    -9.13709,
+    32.36013
+   ],
+   "interval": [
+    "2025-11-11T11:30:25Z",
+    "2025-12-18T11:22:04Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:shovi-georgia-landslide-8Aug23",
+   "label": "Maxar – Shovi Landslide",
+   "provider": "maxar",
+   "collection_id": "shovi-georgia-landslide-8Aug23",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 18 files · 0.305 m · 2011–2023 · 43° to 43° lat, 44° to 44° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    43.60889,
+    42.6507,
+    43.78528,
+    42.77884
+   ],
+   "interval": [
+    "2011-09-19T08:15:02Z",
+    "2023-08-08T07:46:56Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:SmokeHouseCreek-Wildfires-Texas-Mar24",
+   "label": "Maxar – Smokehouse Creek Wildfires",
+   "provider": "maxar",
+   "collection_id": "SmokeHouseCreek-Wildfires-Texas-Mar24",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 782 files · 0.305 m · 2021–2024 · 35° to 37° lat, -102° to -100° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -101.68056,
+    35.46243,
+    -100.31846,
+    36.57774
+   ],
+   "interval": [
+    "2021-07-31T17:39:11Z",
+    "2024-03-04T17:35:41Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:southafrica-flooding22",
+   "label": "Maxar – South Africa Flooding",
+   "provider": "maxar",
+   "collection_id": "southafrica-flooding22",
+   "category": "Events",
+   "assets": [
+    "cloud-mask-raster",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 933 files · 0.305 m · 2022–2022 · -30° to -29° lat, 30° to 32° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    30.45653,
+    -30.47812,
+    32.18752,
+    -28.67678
+   ],
+   "interval": [
+    "2022-04-12T07:59:11Z",
+    "2022-04-21T08:11:20Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Sudan-flooding-8-22-2022",
+   "label": "Maxar – Sudan Flooding",
+   "provider": "maxar",
+   "collection_id": "Sudan-flooding-8-22-2022",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 57 files · 0.305 m · 2022–2022 · 10° to 16° lat, 23° to 36° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    23.26428,
+    10.48511,
+    36.4267,
+    15.50488
+   ],
+   "interval": [
+    "2022-03-23T08:58:30Z",
+    "2022-09-07T09:06:15Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Texas-Flooding-July-2025",
+   "label": "Maxar – Texas Flooding July 2025",
+   "provider": "maxar",
+   "collection_id": "Texas-Flooding-July-2025",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 124 files · 0.305 m · 2025–2025 · 30° to 30° lat, -99° to -99° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -99.46355,
+    29.93957,
+    -99.02438,
+    30.14724
+   ],
+   "interval": [
+    "2025-07-08T17:33:56Z",
+    "2025-07-09T17:30:46Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:tonga-volcano21",
+   "label": "Maxar – Tonga Volcano",
+   "provider": "maxar",
+   "collection_id": "tonga-volcano21",
+   "category": "Events",
+   "assets": [
+    "cloud-mask-raster",
+    "ms_analytic",
+    "ms-saturation-mask-raster",
+    "pan_analytic",
+    "terrain-shadow-mask-raster",
+    "water-mask-raster",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 339 files · 0.305 m · 2021–2022 · -22° to -20° lat, -175° to -175° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -175.49649,
+    -21.81191,
+    -174.72164,
+    -20.38389
+   ],
+   "interval": [
+    "2021-03-27T21:58:24Z",
+    "2022-01-18T21:43:51Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Kahramanmaras-turkey-earthquake-23",
+   "label": "Maxar – Turkey and Syria Earthquake 2023",
+   "provider": "maxar",
+   "collection_id": "Kahramanmaras-turkey-earthquake-23",
+   "category": "Events",
+   "assets": [
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2115 files · 0.305 m · 2021–2023 · 36° to 38° lat, 35° to 40° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    35.3026,
+    35.87512,
+    40.3105,
+    38.47293
+   ],
+   "interval": [
+    "2021-02-28T08:10:22Z",
+    "2023-03-11T08:29:15Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Typhoon-Kalmaegi-Nov-2025",
+   "label": "Maxar – Typhoons Kalmaegi and Fung-wong November 2025",
+   "provider": "maxar",
+   "collection_id": "Typhoon-Kalmaegi-Nov-2025",
+   "category": "Events",
+   "assets": [
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1420 files · 0.305 m · 2025–2025 · 7° to 19° lat, 108° to 126° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    107.79898,
+    6.9865,
+    125.80352,
+    18.95151
+   ],
+   "interval": [
+    "2025-03-04T02:14:02Z",
+    "2025-11-14T02:17:44Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:Vanuatu-Earthquake-Dec17",
+   "label": "Maxar – Vanuatu Earthquake 2024",
+   "provider": "maxar",
+   "collection_id": "Vanuatu-Earthquake-Dec17",
+   "category": "Events",
+   "assets": [
+    "cloud-mask-raster",
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 18 files · 0.305 m · 2024–2024 · -18° to -18° lat, 168° to 168° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    168.27284,
+    -17.78492,
+    168.36716,
+    -17.69508
+   ],
+   "interval": [
+    "2024-09-21T23:05:30Z",
+    "2024-12-02T23:03:43Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  },
+  {
+   "key": "maxar:yellowstone-flooding22",
+   "label": "Maxar – Yellowstone Flooding",
+   "provider": "maxar",
+   "collection_id": "yellowstone-flooding22",
+   "category": "Events",
+   "assets": [
+    "ms_analytic",
+    "pan_analytic",
+    "visual"
+   ],
+   "default_assets": [
+    "visual"
+   ],
+   "native_res": 0.305,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 280 files · 0.305 m · 2022–2022 · 45° to 46° lat, -111° to -111° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -110.94198,
+    44.77585,
+    -110.50786,
+    45.76724
+   ],
+   "interval": [
+    "2022-06-15T18:27:58Z",
+    "2022-06-18T18:18:32Z"
+   ],
+   "license": "CC-BY-NC-4.0",
+   "generated": true
+  }
+ ]
+}

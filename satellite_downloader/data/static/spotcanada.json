@@ -1,0 +1,83 @@
+{
+ "built": "2026-09-17",
+ "summary": "2 collections, 3902 items, 0.15 MB",
+ "notes": [
+  "5364 requests, 0 errors"
+ ],
+ "collections": [
+  {
+   "key": "spotcanada:canada_spot4_orthoimages",
+   "label": "SPOT 4 Orthoimages of Canada 2005-2010",
+   "provider": "spotcanada",
+   "collection_id": "canada_spot4_orthoimages",
+   "category": "Optical",
+   "assets": [
+    "pan"
+   ],
+   "default_assets": [
+    "pan"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1709 files · 10 m · 2003–2010 · 43° to 82° lat, -142° to -52° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {
+    "pan": "pan"
+   },
+   "asset_patterns": {},
+   "bbox": [
+    -142.46311,
+    42.71289,
+    -51.99628,
+    81.521
+   ],
+   "interval": [
+    "2003-09-12T00:00:00Z",
+    "2010-10-30T00:00:00Z"
+   ],
+   "license": "Proprietery",
+   "generated": true
+  },
+  {
+   "key": "spotcanada:canada_spot5_orthoimages",
+   "label": "SPOT 5 Orthoimages of Canada 2005-2010",
+   "provider": "spotcanada",
+   "collection_id": "canada_spot5_orthoimages",
+   "category": "Optical",
+   "assets": [
+    "pan"
+   ],
+   "default_assets": [
+    "pan"
+   ],
+   "native_res": 10.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2195 files · 10 m · 2004–2011 · 41° to 81° lat, -142° to -53° lon",
+   "group_by": [],
+   "mask": null,
+   "bands": {
+    "pan": "pan"
+   },
+   "asset_patterns": {},
+   "bbox": [
+    -142.34315,
+    40.9256,
+    -52.68367,
+    81.44196
+   ],
+   "interval": [
+    "2004-02-25T00:00:00Z",
+    "2011-04-12T00:00:00Z"
+   ],
+   "license": "Proprietery",
+   "generated": true
+  }
+ ]
+}

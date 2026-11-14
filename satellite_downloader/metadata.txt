@@ -1,0 +1,18 @@
+[general]
+name=Satellite Downloader
+qgisMinimumVersion=3.34
+description=Satellite data for any place on Earth without registration: type a place, choose a purpose (current image, radar, elevation), load. Expert mode with 1267 datasets from 27 providers.
+about=Searches public STAC catalogues (Microsoft Planetary Computer, INPE Brazil Data Cube, Digital Earth Africa, Element84, swisstopo and others) and bundled indexes of static catalogues for a rectangle or polygon and a date range. Cloud-optimised GeoTIFFs are read only where they overlap the area of interest (GDAL /vsicurl/), mosaicked per day, stacked and clipped. Sentinel-3 netCDF swath products are downloaded as whole files. No account or API key is needed.
+version=0.4.0
+author=dhandy
+email=dhandy1@uni-koeln.de
+homepage=https://github.com/d-handy/qgis-satellite-downloader
+repository=https://github.com/d-handy/qgis-satellite-downloader
+tracker=https://github.com/d-handy/qgis-satellite-downloader/issues
+category=Raster
+tags=satellite,sentinel,landsat,cbers,stac,download,planetary computer,dem,radar,geocoding
+icon=icon.svg
+changelog=0.4.0: English user interface and catalogue; results are saved under SatelliteData/ in the project folder, derived files are named _hillshade.tif and _slope.tif. 0.3.0: usability: a typed place is used when loading or searching, Enter no longer clears the ticks, the display follows the ticked datasets, all native resolutions, notice when the scene limit is reached, hints for empty results, scrolling settings, readable messages, folder choice, more coordinate formats. 0.2.0: simple mode (place, purpose, load), recipes current image/radar/elevation, clear sky inside the area, orbit-aware mosaics, antimeridian and polar support, retries and resumable downloads, pixel-exact grids.
+experimental=True
+deprecated=False
+hasProcessingProvider=no

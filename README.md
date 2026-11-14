@@ -115,7 +115,10 @@ blocks programmatic access with bot protection. Details and reasons are in
 - **File names and metadata:**
   - Each result is written as `<name>_<hash>.tif`, with a `.json` of the same name listing
     scenes, CRS, extent, resolution and NoData.
-  - Identical settings reuse existing files; changed settings produce new ones.
+  - Identical settings reuse existing files; changed settings produce new ones. So does
+    a plugin update that changes how files are made, so an old result is never reused
+    as if it were current.
+  - The `.json` also records the plugin and GDAL version that made the file.
 
 ## Notes on values
 
@@ -127,7 +130,11 @@ blocks programmatic access with bot protection. Details and reasons are in
 
 ## Installation
 
-Copy or link the `satellite_downloader` folder into the plugin directory of your QGIS profile:
+**From a release:** download `satellite_downloader-<version>.zip` from the
+[releases page](https://github.com/d-handy/qgis-satellite-downloader/releases) and choose
+*Plugins → Manage and Install Plugins → Install from ZIP*.
+
+**From the source:** copy or link the `satellite_downloader` folder into the plugin directory of your QGIS profile:
 
 ```
 Windows:  %APPDATA%\QGIS\QGIS3\profiles\default\python\plugins\satellite_downloader
@@ -150,10 +157,14 @@ satellite_downloader/
 tools/
   build_catalog.py       builds the catalogue from the live STAC APIs
   build_static_index.py  search index for static catalogues without an API
+  package_plugin.py      builds the installable plugin ZIP (dist/)
 tests/
   test_core.py           offline tests of the logic
   test_catalog.py        generated catalogue, band mapping, normalisation (offline)
   test_static_index.py   static index search, footprints, antimeridian (offline)
+  test_offline_io.py     GDAL reads, cloud estimate, raw downloads via a local server (offline)
+  test_download_plan.py  download jobs and size estimate (offline)
+  test_package.py        release ZIP contents and version tag (offline)
   test_gui_usability.py  both modes driven with real keys and clicks (offline)
   test_gui_layout.py     window sizes with real fonts (QT_QPA_PLATFORM=windows only)
   test_live.py           against the live catalogues (SD_LIVE=1)
@@ -167,7 +178,7 @@ Run the tests with the Python that ships with QGIS, from the `tests` folder. On 
 (OSGeo4W):
 
 ```
-C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_gui_usability
+C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_download_plan test_gui_usability test_package
 set QT_QPA_PLATFORM=windows && C:\OSGeo4W\bin\python-qgis.bat -m unittest test_gui_layout
 set SD_LIVE=1 && C:\OSGeo4W\bin\python-qgis.bat -m unittest test_live test_gui_expert test_gui_simple
 ```

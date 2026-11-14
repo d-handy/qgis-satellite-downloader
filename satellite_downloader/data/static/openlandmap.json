@@ -1,0 +1,4640 @@
+{
+ "built": "2026-09-17",
+ "summary": "96 collections, 2602 items, 0.09 MB",
+ "notes": [
+  "2715 requests, 0 errors"
+ ],
+ "collections": [
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv.m.yearly",
+   "label": "OpenLandMap – MCD19A2 annual water vapor",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv.m.yearly",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv.m.yearly_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.yearly_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.yearly_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.yearly_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.sd.yearly_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.sd.yearly_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.sd.yearly_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.sd.yearly_sd_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv.m.yearly_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.yearly_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.yearly_p75_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv.m_p25",
+   "label": "OpenLandMap – MCD19A2 long-term water vapor (perc. 25th)",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv.m_p25",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m04_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m05_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m06_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m07_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m08_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m09_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m10_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m11_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m12_p25_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p25_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p25_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv.m_p50",
+   "label": "OpenLandMap – MCD19A2 long-term water vapor (perc. 50th)",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv.m_p50",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m04_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m05_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m06_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m07_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m08_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m09_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m10_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m11_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m12_p50_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p50_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p50_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv.m_p75",
+   "label": "OpenLandMap – MCD19A2 long-term water vapor (perc. 75th)",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv.m_p75",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m04_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m05_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m06_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m07_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m08_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m09_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m10_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m11_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m12_p75_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_p75_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_p75_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv.m_std",
+   "label": "OpenLandMap – MCD19A2 long-term water vapor (std. dev.)",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv.m_std",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m04_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m05_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m06_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m07_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m08_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m09_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m10_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m11_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m12_sd_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv.m.m01_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m02_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.m.m03_sd_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wv_mcd19a2v061.seasconv",
+   "label": "OpenLandMap – MCD19A2 monthly water vapor",
+   "provider": "openlandmap",
+   "collection_id": "wv_mcd19a2v061.seasconv",
+   "category": "Atmosphere",
+   "assets": [
+    "wv_mcd19a2v061.seasconv_m_1km_s",
+    "wv_mcd19a2v061.seasconv_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.qa_m_1km_s",
+    "wv_mcd19a2v061.seasconv.whittaker_m_1km_s",
+    "wv_mcd19a2v061.seasconv.whittaker_sd_1km_s",
+    "wv_mcd19a2v061_n_1km_s"
+   ],
+   "default_assets": [
+    "wv_mcd19a2v061.seasconv_m_1km_s",
+    "wv_mcd19a2v061.seasconv_sd_1km_s",
+    "wv_mcd19a2v061.seasconv.whittaker_m_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 276 files · 928 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:no2_s5p.l3.trop.tmwm.ltm",
+   "label": "OpenLandMap – Sentinel-5P long-term tropospheric nitrogen dioxide density",
+   "provider": "openlandmap",
+   "collection_id": "no2_s5p.l3.trop.tmwm.ltm",
+   "category": "Atmosphere",
+   "assets": [
+    "no2_s5p.l3.trop.tmwm.p50_p50_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p10_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p90_2km_a"
+   ],
+   "default_assets": [
+    "no2_s5p.l3.trop.tmwm.p50_p50_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p10_2km_a",
+    "no2_s5p.l3.trop.tmwm.p50_p90_2km_a"
+   ],
+   "native_res": 2450.0,
+   "mode": "cog",
+   "nodata": -16000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 2450 m · 2018–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00012,
+    179.97803,
+    87.37
+   ],
+   "interval": [
+    "2018-05-01",
+    "2022-11-30"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:no2_s5p.l3.trop.tmwm",
+   "label": "OpenLandMap – Sentinel-5P monthly tropospheric nitrogen dioxide density",
+   "provider": "openlandmap",
+   "collection_id": "no2_s5p.l3.trop.tmwm",
+   "category": "Atmosphere",
+   "assets": [
+    "no2_s5p.l3.trop.tmwm_p50_2km_a"
+   ],
+   "default_assets": [
+    "no2_s5p.l3.trop.tmwm_p50_2km_a"
+   ],
+   "native_res": 2450.0,
+   "mode": "cog",
+   "nodata": -16000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 55 files · 2450 m · 2018–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00012,
+    179.97803,
+    87.37
+   ],
+   "interval": [
+    "2018-05-01",
+    "2022-11-30"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:wilderness_li2022.human.footprint",
+   "label": "OpenLandMap – Annual terrestrial human footprint",
+   "provider": "openlandmap",
+   "collection_id": "wilderness_li2022.human.footprint",
+   "category": "Population and settlement",
+   "assets": [
+    "wilderness_li2022.human.footprint_p_1km_s"
+   ],
+   "default_assets": [
+    "wilderness_li2022.human.footprint_p_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 19 files · 928 m · 2000–2018 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -65.25237,
+    179.99999,
+    89.89762
+   ],
+   "interval": [
+    "2000-01-01",
+    "2018-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:pop.count_ghs.jrc",
+   "label": "OpenLandMap – JRC Global Human Settlement annual population (GHS)",
+   "provider": "openlandmap",
+   "collection_id": "pop.count_ghs.jrc",
+   "category": "Population and settlement",
+   "assets": [
+    "pop.count_ghs.jrc_m_100m_s"
+   ],
+   "default_assets": [
+    "pop.count_ghs.jrc_m_100m_s"
+   ],
+   "native_res": 92.8,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 22 files · 92.8 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00042,
+    -89.09292,
+    180.00125,
+    89.09208
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:nightlights.average_viirs.v21",
+   "label": "OpenLandMap – VIIRS annual nighttime lights",
+   "provider": "openlandmap",
+   "collection_id": "nightlights.average_viirs.v21",
+   "category": "Population and settlement",
+   "assets": [
+    "nightlights.average_viirs.v21_m_500m_s"
+   ],
+   "default_assets": [
+    "nightlights.average_viirs.v21_m_500m_s"
+   ],
+   "native_res": 464.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 22 files · 464 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00083,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:nightlights.difference_viirs.v21",
+   "label": "OpenLandMap – VIIRS long-term nighttime lights difference",
+   "provider": "openlandmap",
+   "collection_id": "nightlights.difference_viirs.v21",
+   "category": "Population and settlement",
+   "assets": [
+    "nightlights.difference_viirs.v21_m_500m_s"
+   ],
+   "default_assets": [
+    "nightlights.difference_viirs.v21_m_500m_s"
+   ],
+   "native_res": 464.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 464 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00083,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:bulkdens.fineearth_usda.4a1h",
+   "label": "OpenLandMap – Long-term soil bulk density for fine earth",
+   "provider": "openlandmap",
+   "collection_id": "bulkdens.fineearth_usda.4a1h",
+   "category": "Soil",
+   "assets": [
+    "bulkdens.fineearth_usda.4a1h_m_250m_b0cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b10cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b30cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b60cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b100cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b200cm"
+   ],
+   "default_assets": [
+    "bulkdens.fineearth_usda.4a1h_m_250m_b0cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b10cm",
+    "bulkdens.fineearth_usda.4a1h_m_250m_b30cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:log.oc_iso.10694",
+   "label": "OpenLandMap – OpenLandMap annual soil organic carbon",
+   "provider": "openlandmap",
+   "collection_id": "log.oc_iso.10694",
+   "category": "Soil",
+   "assets": [
+    "log.oc_iso.10694_m_1km_s",
+    "log.oc_iso.10694_m_1km_b30cm"
+   ],
+   "default_assets": [
+    "log.oc_iso.10694_m_1km_s",
+    "log.oc_iso.10694_m_1km_b30cm"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 37 files · 928 m · 1982–2018 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1982-01-01",
+    "2018-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:grtgroup_usda.soiltax.hapludalfs",
+   "label": "OpenLandMap – OpenLandMap Haopludalfs of USDA soil great groups",
+   "provider": "openlandmap",
+   "collection_id": "grtgroup_usda.soiltax.hapludalfs",
+   "category": "Soil",
+   "assets": [
+    "grtgroup_usda.soiltax.hapludalfs_p_250m_s"
+   ],
+   "default_assets": [
+    "grtgroup_usda.soiltax.hapludalfs_p_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lithology_usgs.ecotapestry",
+   "label": "OpenLandMap – OpenLandMap lithology classes",
+   "provider": "openlandmap",
+   "collection_id": "lithology_usgs.ecotapestry",
+   "category": "Soil",
+   "assets": [
+    "lithology_usgs.ecotapestry_c_250m_s"
+   ],
+   "default_assets": [
+    "lithology_usgs.ecotapestry_c_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2014–2014 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2014-01-01",
+    "2014-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:sand.wfraction_usda.3a1a1a",
+   "label": "OpenLandMap – OpenLandMap long-term sand content",
+   "provider": "openlandmap",
+   "collection_id": "sand.wfraction_usda.3a1a1a",
+   "category": "Soil",
+   "assets": [
+    "sand.wfraction_usda.3a1a1a_m_250m_b0cm",
+    "sand.wfraction_usda.3a1a1a_m_250m_b10cm",
+    "sand.wfraction_usda.3a1a1a_m_250m_b60cm",
+    "sand.wfraction_usda.3a1a1a_m_250m_b100cm"
+   ],
+   "default_assets": [
+    "sand.wfraction_usda.3a1a1a_m_250m_b0cm",
+    "sand.wfraction_usda.3a1a1a_m_250m_b10cm",
+    "sand.wfraction_usda.3a1a1a_m_250m_b60cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:organic.carbon_usda.6a1c",
+   "label": "OpenLandMap – OpenLandMap long-term soil organic carbon content",
+   "provider": "openlandmap",
+   "collection_id": "organic.carbon_usda.6a1c",
+   "category": "Soil",
+   "assets": [
+    "organic.carbon_usda.6a1c_m_250m_b0cm",
+    "organic.carbon_usda.6a1c_m_250m_b10cm",
+    "organic.carbon_usda.6a1c_m_250m_b30cm",
+    "organic.carbon_usda.6a1c_m_250m_b60cm",
+    "organic.carbon_usda.6a1c_m_250m_b100cm",
+    "organic.carbon_usda.6a1c_m_250m_b200cm"
+   ],
+   "default_assets": [
+    "organic.carbon_usda.6a1c_m_250m_b0cm",
+    "organic.carbon_usda.6a1c_m_250m_b10cm",
+    "organic.carbon_usda.6a1c_m_250m_b30cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:organic.carbon.stock_msa.kgm2",
+   "label": "OpenLandMap – OpenLandMap long-term soil organic carbon stock",
+   "provider": "openlandmap",
+   "collection_id": "organic.carbon.stock_msa.kgm2",
+   "category": "Soil",
+   "assets": [
+    "organic.carbon.stock_msa.kgm2_m_250m_b0t10cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b0t10cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b0t30cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b0t30cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b10t30cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b10t30cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b30t60cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b30t60cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b60t100cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b60t100cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b100t200cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b100t200cm"
+   ],
+   "default_assets": [
+    "organic.carbon.stock_msa.kgm2_m_250m_b0t10cm",
+    "organic.carbon.stock_msa.kgm2_td_250m_b0t10cm",
+    "organic.carbon.stock_msa.kgm2_m_250m_b0t30cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:ph.h2o_usda.4c1a2a",
+   "label": "OpenLandMap – OpenLandMap long-term soil pH",
+   "provider": "openlandmap",
+   "collection_id": "ph.h2o_usda.4c1a2a",
+   "category": "Soil",
+   "assets": [
+    "ph.h2o_usda.4c1a2a_m_250m_b0cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b100cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b10cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b200cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b30cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b60cm"
+   ],
+   "default_assets": [
+    "ph.h2o_usda.4c1a2a_m_250m_b0cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b100cm",
+    "ph.h2o_usda.4c1a2a_m_250m_b10cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:texture.class_usda.tt",
+   "label": "OpenLandMap – OpenLandMap long-term soil texture classes (USDA system)",
+   "provider": "openlandmap",
+   "collection_id": "texture.class_usda.tt",
+   "category": "Soil",
+   "assets": [
+    "texture.class_usda.tt_m_250m_b0cm",
+    "texture.class_usda.tt_m_250m_b10cm",
+    "texture.class_usda.tt_m_250m_b30cm",
+    "texture.class_usda.tt_m_250m_b60cm",
+    "texture.class_usda.tt_m_250m_",
+    "texture.class_usda.tt_m_250m_b100cm",
+    "texture.class_usda.tt_m_250m_b200cm"
+   ],
+   "default_assets": [
+    "texture.class_usda.tt_m_250m_b0cm",
+    "texture.class_usda.tt_m_250m_b10cm",
+    "texture.class_usda.tt_m_250m_b30cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:watercontent.33kPa_usda.4b1c",
+   "label": "OpenLandMap – OpenLandMap long-term soil water content",
+   "provider": "openlandmap",
+   "collection_id": "watercontent.33kPa_usda.4b1c",
+   "category": "Soil",
+   "assets": [
+    "watercontent.33kPa_usda.4b1c_m_250m_b0cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b100cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b200cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b30cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b60cm"
+   ],
+   "default_assets": [
+    "watercontent.33kPa_usda.4b1c_m_250m_b0cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b100cm",
+    "watercontent.33kPa_usda.4b1c_m_250m_b200cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:bd.core_iso.11272.2017.g.cm3",
+   "label": "OpenLandMap – OpenLandMap-soildb: Bulk density ﬁne earth [kg/m3]",
+   "provider": "openlandmap",
+   "collection_id": "bd.core_iso.11272.2017.g.cm3",
+   "category": "Soil",
+   "assets": [
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_m_120m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_120m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_120m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b30cm..60cm",
+    "bd.core_iso.11272.2017.g.cm3_m_120m_b30cm..60cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_120m_b30cm..60cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_120m_b30cm..60cm",
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b60cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_m_120m_b60cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_120m_b60cm..100cm",
+    "bd.core_iso.11272.2017.g.cm3_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "bd.core_iso.11272.2017.g.cm3_m_30m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_m_120m_b0cm..30cm",
+    "bd.core_iso.11272.2017.g.cm3_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2020–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2020-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:oc_iso.10694.1995.wpml",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil organic carbon [g/kg]",
+   "provider": "openlandmap",
+   "collection_id": "oc_iso.10694.1995.wpml",
+   "category": "Soil",
+   "assets": [
+    "oc_iso.10694.1995.wpml_m_30m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_m_120m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_p16_120m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_p84_120m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_m_30m_b30cm..60cm",
+    "oc_iso.10694.1995.wpml_m_120m_b30cm..60cm",
+    "oc_iso.10694.1995.wpml_p16_120m_b30cm..60cm",
+    "oc_iso.10694.1995.wpml_p84_120m_b30cm..60cm",
+    "oc_iso.10694.1995.wpml_m_30m_b60cm..100cm",
+    "oc_iso.10694.1995.wpml_m_120m_b60cm..100cm",
+    "oc_iso.10694.1995.wpml_p16_120m_b60cm..100cm",
+    "oc_iso.10694.1995.wpml_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "oc_iso.10694.1995.wpml_m_30m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_m_120m_b0cm..30cm",
+    "oc_iso.10694.1995.wpml_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:oc_iso.10694.1995.mg.cm3",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil organic carbon density [kg/m3]",
+   "provider": "openlandmap",
+   "collection_id": "oc_iso.10694.1995.mg.cm3",
+   "category": "Soil",
+   "assets": [
+    "oc_iso.10694.1995.mg.cm3_m_30m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_m_120m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_p16_120m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_p84_120m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_m_30m_b30cm..60cm",
+    "oc_iso.10694.1995.mg.cm3_m_120m_b30cm..60cm",
+    "oc_iso.10694.1995.mg.cm3_p16_120m_b30cm..60cm",
+    "oc_iso.10694.1995.mg.cm3_p84_120m_b30cm..60cm",
+    "oc_iso.10694.1995.mg.cm3_m_30m_b60cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_m_120m_b60cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_p16_120m_b60cm..100cm",
+    "oc_iso.10694.1995.mg.cm3_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "oc_iso.10694.1995.mg.cm3_m_30m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_m_120m_b0cm..30cm",
+    "oc_iso.10694.1995.mg.cm3_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:ph.h2o_iso.10390.2021.index",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil pH in H2O",
+   "provider": "openlandmap",
+   "collection_id": "ph.h2o_iso.10390.2021.index",
+   "category": "Soil",
+   "assets": [
+    "ph.h2o_iso.10390.2021.index_m_30m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_m_120m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_p16_120m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_p84_120m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_m_30m_b30cm..60cm",
+    "ph.h2o_iso.10390.2021.index_m_120m_b30cm..60cm",
+    "ph.h2o_iso.10390.2021.index_p16_120m_b30cm..60cm",
+    "ph.h2o_iso.10390.2021.index_p84_120m_b30cm..60cm",
+    "ph.h2o_iso.10390.2021.index_m_30m_b60cm..100cm",
+    "ph.h2o_iso.10390.2021.index_m_120m_b60cm..100cm",
+    "ph.h2o_iso.10390.2021.index_p16_120m_b60cm..100cm",
+    "ph.h2o_iso.10390.2021.index_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "ph.h2o_iso.10390.2021.index_m_30m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_m_120m_b0cm..30cm",
+    "ph.h2o_iso.10390.2021.index_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:clay.tot_iso.11277.2020.wpct",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil texture fraction clay [%]",
+   "provider": "openlandmap",
+   "collection_id": "clay.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "clay.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_p84_120m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_m_30m_b30cm..60cm",
+    "clay.tot_iso.11277.2020.wpct_m_120m_b30cm..60cm",
+    "clay.tot_iso.11277.2020.wpct_p16_120m_b30cm..60cm",
+    "clay.tot_iso.11277.2020.wpct_p84_120m_b30cm..60cm",
+    "clay.tot_iso.11277.2020.wpct_m_30m_b60cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_m_120m_b60cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_p16_120m_b60cm..100cm",
+    "clay.tot_iso.11277.2020.wpct_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "clay.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "clay.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2020–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2020-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:sand.tot_iso.11277.2020.wpct",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil texture fraction sand [%]",
+   "provider": "openlandmap",
+   "collection_id": "sand.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "sand.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_p84_120m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_m_30m_b30cm..60cm",
+    "sand.tot_iso.11277.2020.wpct_m_120m_b30cm..60cm",
+    "sand.tot_iso.11277.2020.wpct_p16_120m_b30cm..60cm",
+    "sand.tot_iso.11277.2020.wpct_p84_120m_b30cm..60cm",
+    "sand.tot_iso.11277.2020.wpct_m_30m_b60cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_m_120m_b60cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_p16_120m_b60cm..100cm",
+    "sand.tot_iso.11277.2020.wpct_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "sand.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "sand.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2020–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2020-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:silt.tot_iso.11277.2020.wpct",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil texture fraction silt [%]",
+   "provider": "openlandmap",
+   "collection_id": "silt.tot_iso.11277.2020.wpct",
+   "category": "Soil",
+   "assets": [
+    "silt.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_p84_120m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_m_30m_b30cm..60cm",
+    "silt.tot_iso.11277.2020.wpct_m_120m_b30cm..60cm",
+    "silt.tot_iso.11277.2020.wpct_p16_120m_b30cm..60cm",
+    "silt.tot_iso.11277.2020.wpct_p84_120m_b30cm..60cm",
+    "silt.tot_iso.11277.2020.wpct_m_30m_b60cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_m_120m_b60cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_p16_120m_b60cm..100cm",
+    "silt.tot_iso.11277.2020.wpct_p84_120m_b60cm..100cm"
+   ],
+   "default_assets": [
+    "silt.tot_iso.11277.2020.wpct_m_30m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_m_120m_b0cm..30cm",
+    "silt.tot_iso.11277.2020.wpct_p16_120m_b0cm..30cm"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2020–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2020-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:soil.types_ensemble_probabilities",
+   "label": "OpenLandMap – OpenLandMap-soildb: Soil type probability",
+   "provider": "openlandmap",
+   "collection_id": "soil.types_ensemble_probabilities",
+   "category": "Soil",
+   "assets": [
+    "soil.types_ensemble.abruptic.durixeralfs_p_30m_s",
+    "soil.types_ensemble.abruptic.xeric.argidurids_p_30m_s",
+    "soil.types_ensemble.aquic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.aquic.quartzipsamments_p_30m_s",
+    "soil.types_ensemble.aquic.torrifluvents_p_30m_s",
+    "soil.types_ensemble.aquic.udifluvents_p_30m_s",
+    "soil.types_ensemble.aquic.udipsamments_p_30m_s",
+    "soil.types_ensemble.aquic.udorthents_p_30m_s",
+    "soil.types_ensemble.aquic.ustipsamments_p_30m_s",
+    "soil.types_ensemble.aquic.xerofluvents_p_30m_s",
+    "soil.types_ensemble.aquollic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.aeric.endoaquults_p_30m_s",
+    "soil.types_ensemble.aquultic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.arenic.alaquods_p_30m_s",
+    "soil.types_ensemble.arenic.aridic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.arenic.aridic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.arenic.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.arenic.glossaqualfs_p_30m_s",
+    "soil.types_ensemble.arenic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.arenic.haplargids_p_30m_s",
+    "soil.types_ensemble.arenic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.aeric.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.arenic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.arenic.kandiudults_p_30m_s",
+    "soil.types_ensemble.arenic.kanhapludults_p_30m_s",
+    "soil.types_ensemble.arenic.oxyaquic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.arenic.oxyaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.arenic.paleudults_p_30m_s",
+    "soil.types_ensemble.arenic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.arenic.plinthaquic.paleudults_p_30m_s",
+    "soil.types_ensemble.arenic.plinthic.kandiudults_p_30m_s",
+    "soil.types_ensemble.aeric.epiaquepts_p_30m_s",
+    "soil.types_ensemble.argiaquic.argialbolls_p_30m_s",
+    "soil.types_ensemble.argic.cryaquolls_p_30m_s",
+    "soil.types_ensemble.argic.petrocalcids_p_30m_s",
+    "soil.types_ensemble.argidic.argidurids_p_30m_s",
+    "soil.types_ensemble.argiduridic.argixerolls_p_30m_s",
+    "soil.types_ensemble.argiduridic.durixerolls_p_30m_s",
+    "soil.types_ensemble.aridic.argiborolls_p_30m_s",
+    "soil.types_ensemble.aridic.argiustolls_p_30m_s",
+    "soil.types_ensemble.aridic.argixerolls_p_30m_s",
+    "soil.types_ensemble.aeric.fluvaquents_p_30m_s",
+    "soil.types_ensemble.aridic.calciustolls_p_30m_s",
+    "soil.types_ensemble.aridic.calcixerolls_p_30m_s",
+    "soil.types_ensemble.aridic.haploxererts_p_30m_s",
+    "soil.types_ensemble.aridic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.aridic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.aridic.haplustepts_p_30m_s",
+    "soil.types_ensemble.aridic.haplusterts_p_30m_s",
+    "soil.types_ensemble.aridic.haplustolls_p_30m_s",
+    "soil.types_ensemble.aridic.leptic.haplusterts_p_30m_s",
+    "soil.types_ensemble.aeric.fragiaqualfs_p_30m_s",
+    "soil.types_ensemble.aridic.lithic.argixerolls_p_30m_s",
+    "soil.types_ensemble.aridic.lithic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.aridic.lithic.haplustepts_p_30m_s",
+    "soil.types_ensemble.aridic.lithic.haplustolls_p_30m_s",
+    "soil.types_ensemble.aridic.lithic.ustorthents_p_30m_s",
+    "soil.types_ensemble.aridic.natrustalfs_p_30m_s",
+    "soil.types_ensemble.aridic.natrustolls_p_30m_s",
+    "soil.types_ensemble.aridic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.aridic.paleustolls_p_30m_s",
+    "soil.types_ensemble.aeric.fragiaquepts_p_30m_s",
+    "soil.types_ensemble.aridic.ustifluvents_p_30m_s",
+    "soil.types_ensemble.aridic.ustipsamments_p_30m_s",
+    "soil.types_ensemble.aridic.ustorthents_p_30m_s",
+    "soil.types_ensemble.borollic.haplargids_p_30m_s",
+    "soil.types_ensemble.borollic.natrargids_p_30m_s",
+    "soil.types_ensemble.calciargidic.argixerolls_p_30m_s",
+    "soil.types_ensemble.calcic.argicryolls_p_30m_s",
+    "soil.types_ensemble.calcic.argixerolls_p_30m_s",
+    "soil.types_ensemble.calcic.cryaquolls_p_30m_s",
+    "soil.types_ensemble.aeric.fragic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.calcic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.calcic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.calcic.haploxerepts_p_30m_s",
+    "soil.types_ensemble.calcic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.calcic.hapludolls_p_30m_s",
+    "soil.types_ensemble.calcic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.calcic.haplustepts_p_30m_s",
+    "soil.types_ensemble.calcic.haplusterts_p_30m_s",
+    "soil.types_ensemble.calcic.lithic.petrocalcids_p_30m_s",
+    "soil.types_ensemble.aeric.glossaqualfs_p_30m_s",
+    "soil.types_ensemble.calcic.pachic.argixerolls_p_30m_s",
+    "soil.types_ensemble.calcic.pachic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.calcic.pachic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.calcic.paleargids_p_30m_s",
+    "soil.types_ensemble.calcic.petrocalcids_p_30m_s",
+    "soil.types_ensemble.calcidic.argiustolls_p_30m_s",
+    "soil.types_ensemble.calcidic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.calcidic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.calcidic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.aeric.halaquepts_p_30m_s",
+    "soil.types_ensemble.cambidic.haplodurids_p_30m_s",
+    "soil.types_ensemble.chromic.dystraquerts_p_30m_s",
+    "soil.types_ensemble.chromic.dystruderts_p_30m_s",
+    "soil.types_ensemble.chromic.endoaquerts_p_30m_s",
+    "soil.types_ensemble.chromic.epiaquerts_p_30m_s",
+    "soil.types_ensemble.chromic.haplotorrerts_p_30m_s",
+    "soil.types_ensemble.chromic.hapluderts_p_30m_s",
+    "soil.types_ensemble.chromic.haplusterts_p_30m_s",
+    "soil.types_ensemble.chromic.udic.haplusterts_p_30m_s",
+    "soil.types_ensemble.aeric.alaquods_p_30m_s",
+    "soil.types_ensemble.chromic.vertic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.chromic.vertic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.cumulic.cryaquolls_p_30m_s",
+    "soil.types_ensemble.cumulic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.cumulic.haplaquolls_p_30m_s",
+    "soil.types_ensemble.cumulic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.cumulic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.cumulic.hapludolls_p_30m_s",
+    "soil.types_ensemble.cumulic.haplustolls_p_30m_s",
+    "soil.types_ensemble.aeric.ochraqualfs_p_30m_s",
+    "soil.types_ensemble.cumulic.ultic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.cumulic.vertic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.cumulic.vertic.epiaquolls_p_30m_s",
+    "soil.types_ensemble.duric.torriorthents_p_30m_s",
+    "soil.types_ensemble.duric.xeric.petroargids_p_30m_s",
+    "soil.types_ensemble.durinodic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.durinodic.haplocambids_p_30m_s",
+    "soil.types_ensemble.durinodic.xeric.haplargids_p_30m_s",
+    "soil.types_ensemble.durinodic.xeric.haplocalcids_p_30m_s",
+    "soil.types_ensemble.aeric.paleaquults_p_30m_s",
+    "soil.types_ensemble.dystric.eutrochrepts_p_30m_s",
+    "soil.types_ensemble.dystric.eutrudepts_p_30m_s",
+    "soil.types_ensemble.dystric.fluventic.eutrochrepts_p_30m_s",
+    "soil.types_ensemble.dystric.fluventic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.dystric.xerochrepts_p_30m_s",
+    "soil.types_ensemble.dystric.xeropsamments_p_30m_s",
+    "soil.types_ensemble.dystric.xerorthents_p_30m_s",
+    "soil.types_ensemble.entic.durustolls_p_30m_s",
+    "soil.types_ensemble.entic.haplorthods_p_30m_s",
+    "soil.types_ensemble.aeric.vertic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.entic.hapludolls_p_30m_s",
+    "soil.types_ensemble.entic.haplustolls_p_30m_s",
+    "soil.types_ensemble.eutric.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.aquorthels_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.cryaquepts_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.cryohemists_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.cryosaprists_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.endoaquepts_p_30m_s",
+    "soil.types_ensemble.albaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.epiaquepts_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.haplaquolls_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.hapludolls_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.haplustolls_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.humaquepts_p_30m_s",
+    "soil.types_ensemble.fluvaquentic.vertic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.fluventic.dystrochrepts_p_30m_s",
+    "soil.types_ensemble.albaquultic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.fluventic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.fluventic.endoaquepts_p_30m_s",
+    "soil.types_ensemble.fluventic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.fluventic.haplocambids_p_30m_s",
+    "soil.types_ensemble.fluventic.haplorthels_p_30m_s",
+    "soil.types_ensemble.fluventic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.fluventic.hapludolls_p_30m_s",
+    "soil.types_ensemble.fluventic.haplustepts_p_30m_s",
+    "soil.types_ensemble.fluventic.haplustolls_p_30m_s",
+    "soil.types_ensemble.albic.glossic.natraqualfs_p_30m_s",
+    "soil.types_ensemble.folistic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.folistic.haplorthels_p_30m_s",
+    "soil.types_ensemble.fragiaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.fragiaquic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.fragiaquic.paleudults_p_30m_s",
+    "soil.types_ensemble.fragic.oxyaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.fragic.paleudults_p_30m_s",
+    "soil.types_ensemble.glossaquic.fragiudults_p_30m_s",
+    "soil.types_ensemble.glossaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.albic.natraqualfs_p_30m_s",
+    "soil.types_ensemble.glossic.fragiudults_p_30m_s",
+    "soil.types_ensemble.glossic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.glossic.natrudolls_p_30m_s",
+    "soil.types_ensemble.glossic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.grossarenic.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.grossarenic.kandiudults_p_30m_s",
+    "soil.types_ensemble.grossarenic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.grossarenic.paleudults_p_30m_s",
+    "soil.types_ensemble.grossarenic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.alfic.alaquods_p_30m_s",
+    "soil.types_ensemble.gypsic.haplustepts_p_30m_s",
+    "soil.types_ensemble.haplic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.haplic.sulfiwassents_p_30m_s",
+    "soil.types_ensemble.haplic.udarents_p_30m_s",
+    "soil.types_ensemble.haplocalcidic.haplustepts_p_30m_s",
+    "soil.types_ensemble.haploduridic.durixerolls_p_30m_s",
+    "soil.types_ensemble.haploxeralfic.argidurids_p_30m_s",
+    "soil.types_ensemble.histic.cryaquepts_p_30m_s",
+    "soil.types_ensemble.histic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.alfic.argicryolls_p_30m_s",
+    "soil.types_ensemble.histic.humaquepts_p_30m_s",
+    "soil.types_ensemble.humaqueptic.psammaquents_p_30m_s",
+    "soil.types_ensemble.humic.cryaquepts_p_30m_s",
+    "soil.types_ensemble.humic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.humic.dystroxerepts_p_30m_s",
+    "soil.types_ensemble.humic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.humic.haploperox_p_30m_s",
+    "soil.types_ensemble.humic.haploxerands_p_30m_s",
+    "soil.types_ensemble.humic.hapludults_p_30m_s",
+    "soil.types_ensemble.aeric.albaqualfs_p_30m_s",
+    "soil.types_ensemble.humic.vitrixerands_p_30m_s",
+    "soil.types_ensemble.hydric.cryofibrists_p_30m_s",
+    "soil.types_ensemble.inceptic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.inceptic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.inceptic.hapludults_p_30m_s",
+    "soil.types_ensemble.inceptic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.lamellic.haplorthods_p_30m_s",
+    "soil.types_ensemble.lamellic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.lamellic.quartzipsamments_p_30m_s",
+    "soil.types_ensemble.alfic.fragiorthods_p_30m_s",
+    "soil.types_ensemble.lamellic.ustipsamments_p_30m_s",
+    "soil.types_ensemble.leptic.haplogypsids_p_30m_s",
+    "soil.types_ensemble.leptic.haplusterts_p_30m_s",
+    "soil.types_ensemble.leptic.natrustolls_p_30m_s",
+    "soil.types_ensemble.leptic.udic.haplusterts_p_30m_s",
+    "soil.types_ensemble.limnic.haplosaprists_p_30m_s",
+    "soil.types_ensemble.lithic.argicryolls_p_30m_s",
+    "soil.types_ensemble.lithic.argiudolls_p_30m_s",
+    "soil.types_ensemble.lithic.argiustolls_p_30m_s",
+    "soil.types_ensemble.alfic.haplorthods_p_30m_s",
+    "soil.types_ensemble.lithic.calcicryepts_p_30m_s",
+    "soil.types_ensemble.lithic.calcicryolls_p_30m_s",
+    "soil.types_ensemble.lithic.calciustepts_p_30m_s",
+    "soil.types_ensemble.lithic.calciustolls_p_30m_s",
+    "soil.types_ensemble.lithic.calcixerolls_p_30m_s",
+    "soil.types_ensemble.lithic.cryofolists_p_30m_s",
+    "soil.types_ensemble.lithic.cryorthents_p_30m_s",
+    "soil.types_ensemble.lithic.dystrochrepts_p_30m_s",
+    "soil.types_ensemble.lithic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.alfic.humic.vitrixerands_p_30m_s",
+    "soil.types_ensemble.lithic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.lithic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.lithic.haplargids_p_30m_s",
+    "soil.types_ensemble.lithic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.lithic.haplocambids_p_30m_s",
+    "soil.types_ensemble.lithic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.lithic.haplocryands_p_30m_s",
+    "soil.types_ensemble.lithic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.lithic.haplocryods_p_30m_s",
+    "soil.types_ensemble.alfic.oxyaquic.fragiorthods_p_30m_s",
+    "soil.types_ensemble.lithic.haplogypsids_p_30m_s",
+    "soil.types_ensemble.lithic.haplorthods_p_30m_s",
+    "soil.types_ensemble.lithic.haplosaprists_p_30m_s",
+    "soil.types_ensemble.lithic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.lithic.haploxerepts_p_30m_s",
+    "soil.types_ensemble.lithic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.lithic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.lithic.hapludolls_p_30m_s",
+    "soil.types_ensemble.lithic.hapludults_p_30m_s",
+    "soil.types_ensemble.alfic.oxyaquic.haplorthods_p_30m_s",
+    "soil.types_ensemble.lithic.haplustepts_p_30m_s",
+    "soil.types_ensemble.lithic.haplustolls_p_30m_s",
+    "soil.types_ensemble.lithic.haprendolls_p_30m_s",
+    "soil.types_ensemble.lithic.humicryepts_p_30m_s",
+    "soil.types_ensemble.lithic.humicryods_p_30m_s",
+    "soil.types_ensemble.lithic.humixerepts_p_30m_s",
+    "soil.types_ensemble.lithic.mollic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.lithic.petrocalcic.calciustepts_p_30m_s",
+    "soil.types_ensemble.lithic.petrocalcic.calciustolls_p_30m_s",
+    "soil.types_ensemble.alfic.udarents_p_30m_s",
+    "soil.types_ensemble.lithic.torriorthents_p_30m_s",
+    "soil.types_ensemble.lithic.torripsamments_p_30m_s",
+    "soil.types_ensemble.lithic.udifolists_p_30m_s",
+    "soil.types_ensemble.lithic.udorthents_p_30m_s",
+    "soil.types_ensemble.lithic.ultic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.lithic.ustic.haplargids_p_30m_s",
+    "soil.types_ensemble.lithic.ustic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.lithic.ustic.haplocambids_p_30m_s",
+    "soil.types_ensemble.lithic.ustic.torriorthents_p_30m_s",
+    "soil.types_ensemble.alfic.udivitrands_p_30m_s",
+    "soil.types_ensemble.lithic.xeric.haplargids_p_30m_s",
+    "soil.types_ensemble.lithic.xeric.haplocalcids_p_30m_s",
+    "soil.types_ensemble.lithic.xeric.torriorthents_p_30m_s",
+    "soil.types_ensemble.lithic.xerorthents_p_30m_s",
+    "soil.types_ensemble.mollic.albaqualfs_p_30m_s",
+    "soil.types_ensemble.mollic.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.mollic.endoaquents_p_30m_s",
+    "soil.types_ensemble.mollic.endoaquepts_p_30m_s",
+    "soil.types_ensemble.mollic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.alfic.vitrixerands_p_30m_s",
+    "soil.types_ensemble.mollic.fluvaquents_p_30m_s",
+    "soil.types_ensemble.mollic.fragiudalfs_p_30m_s",
+    "soil.types_ensemble.mollic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.mollic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.mollic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.mollic.natrustalfs_p_30m_s",
+    "soil.types_ensemble.mollic.ochraqualfs_p_30m_s",
+    "soil.types_ensemble.mollic.oxyaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.mollic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.alic.haplocryands_p_30m_s",
+    "soil.types_ensemble.mollic.psammaquents_p_30m_s",
+    "soil.types_ensemble.mollic.udifluvents_p_30m_s",
+    "soil.types_ensemble.mollic.ustifluvents_p_30m_s",
+    "soil.types_ensemble.oxic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.oxic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.alorthods_p_30m_s",
+    "soil.types_ensemble.oxyaquic.argicryolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.argiudolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.argiustolls_p_30m_s",
+    "soil.types_ensemble.aeric.calciaquolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.cryofluvents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.cryorthents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.dystruderts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.fragiudalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.fraglossudalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.andic.cryaquods_p_30m_s",
+    "soil.types_ensemble.oxyaquic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.haplorthods_p_30m_s",
+    "soil.types_ensemble.oxyaquic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.hapluderts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.hapludolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.hapludults_p_30m_s",
+    "soil.types_ensemble.oxyaquic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.haplustepts_p_30m_s",
+    "soil.types_ensemble.andic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.humicryepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.humudepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.kanhapludults_p_30m_s",
+    "soil.types_ensemble.oxyaquic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.paleudults_p_30m_s",
+    "soil.types_ensemble.oxyaquic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.torrifluvents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.torripsamments_p_30m_s",
+    "soil.types_ensemble.oxyaquic.udifluvents_p_30m_s",
+    "soil.types_ensemble.andic.dystroxerepts_p_30m_s",
+    "soil.types_ensemble.oxyaquic.udorthents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.ustifluvents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.ustipsamments_p_30m_s",
+    "soil.types_ensemble.oxyaquic.ustorthents_p_30m_s",
+    "soil.types_ensemble.oxyaquic.vertic.argiudolls_p_30m_s",
+    "soil.types_ensemble.oxyaquic.vertic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.vertic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.vertic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.oxyaquic.xerofluvents_p_30m_s",
+    "soil.types_ensemble.andic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.pachic.argiudolls_p_30m_s",
+    "soil.types_ensemble.pachic.argiustolls_p_30m_s",
+    "soil.types_ensemble.pachic.argixerolls_p_30m_s",
+    "soil.types_ensemble.pachic.calcicryolls_p_30m_s",
+    "soil.types_ensemble.pachic.calciustolls_p_30m_s",
+    "soil.types_ensemble.pachic.cryoborolls_p_30m_s",
+    "soil.types_ensemble.pachic.haploborolls_p_30m_s",
+    "soil.types_ensemble.pachic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.pachic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.andic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.pachic.haplustolls_p_30m_s",
+    "soil.types_ensemble.pachic.humixerepts_p_30m_s",
+    "soil.types_ensemble.pachic.palecryolls_p_30m_s",
+    "soil.types_ensemble.pachic.paleustolls_p_30m_s",
+    "soil.types_ensemble.pachic.palexerolls_p_30m_s",
+    "soil.types_ensemble.pachic.udertic.argiustolls_p_30m_s",
+    "soil.types_ensemble.pachic.udic.haploborolls_p_30m_s",
+    "soil.types_ensemble.pachic.ultic.argixerolls_p_30m_s",
+    "soil.types_ensemble.pachic.ultic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.andic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.petrocalcic.calciustepts_p_30m_s",
+    "soil.types_ensemble.petrocalcic.calciustolls_p_30m_s",
+    "soil.types_ensemble.petrocalcic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.petrocalcic.paleustolls_p_30m_s",
+    "soil.types_ensemble.petrocalcic.palexerolls_p_30m_s",
+    "soil.types_ensemble.petronodic.ustic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.plinthaquic.paleudults_p_30m_s",
+    "soil.types_ensemble.plinthic.kandiudults_p_30m_s",
+    "soil.types_ensemble.plinthic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.andic.haplocryods_p_30m_s",
+    "soil.types_ensemble.psammentic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.psammentic.hapludults_p_30m_s",
+    "soil.types_ensemble.psammentic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.psammentic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.rhodic.kandiudults_p_30m_s",
+    "soil.types_ensemble.rhodic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.rhodic.paleudults_p_30m_s",
+    "soil.types_ensemble.ruptic.histoturbels_p_30m_s",
+    "soil.types_ensemble.ruptic-histic.aquiturbels_p_30m_s",
+    "soil.types_ensemble.andic.haploxerepts_p_30m_s",
+    "soil.types_ensemble.sodic.gypsiusterts_p_30m_s",
+    "soil.types_ensemble.sodic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.sodic.haplocambids_p_30m_s",
+    "soil.types_ensemble.sodic.haplusterts_p_30m_s",
+    "soil.types_ensemble.sodic.ustic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.sodic.ustic.haplocambids_p_30m_s",
+    "soil.types_ensemble.spodic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.spodic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.spodic.haplocryands_p_30m_s",
+    "soil.types_ensemble.andic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.spodic.quartzipsamments_p_30m_s",
+    "soil.types_ensemble.spodic.udipsamments_p_30m_s",
+    "soil.types_ensemble.sulfic.psammowassents_p_30m_s",
+    "soil.types_ensemble.terric.cryofibrists_p_30m_s",
+    "soil.types_ensemble.terric.cryohemists_p_30m_s",
+    "soil.types_ensemble.terric.cryosaprists_p_30m_s",
+    "soil.types_ensemble.terric.fibristels_p_30m_s",
+    "soil.types_ensemble.terric.haplohemists_p_30m_s",
+    "soil.types_ensemble.terric.haplosaprists_p_30m_s",
+    "soil.types_ensemble.aeric.chromic.vertic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.terric.sapristels_p_30m_s",
+    "soil.types_ensemble.terric.sulfihemists_p_30m_s",
+    "soil.types_ensemble.terric.sulfisaprists_p_30m_s",
+    "soil.types_ensemble.thapto-histic.fluvaquents_p_30m_s",
+    "soil.types_ensemble.thapto-histic.sulfiwassents_p_30m_s",
+    "soil.types_ensemble.torrertic.argiustolls_p_30m_s",
+    "soil.types_ensemble.torrertic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.torrertic.haplustepts_p_30m_s",
+    "soil.types_ensemble.torrertic.haplustolls_p_30m_s",
+    "soil.types_ensemble.andic.humicryods_p_30m_s",
+    "soil.types_ensemble.torrertic.paleustolls_p_30m_s",
+    "soil.types_ensemble.torrertic.ustorthents_p_30m_s",
+    "soil.types_ensemble.torrifluventic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.torrifluventic.haplustepts_p_30m_s",
+    "soil.types_ensemble.torrifluventic.haplustolls_p_30m_s",
+    "soil.types_ensemble.torriorthentic.haplustolls_p_30m_s",
+    "soil.types_ensemble.typic.alaquods_p_30m_s",
+    "soil.types_ensemble.typic.albaqualfs_p_30m_s",
+    "soil.types_ensemble.typic.aquisalids_p_30m_s",
+    "soil.types_ensemble.andic.humudepts_p_30m_s",
+    "soil.types_ensemble.typic.aquorthels_p_30m_s",
+    "soil.types_ensemble.typic.argialbolls_p_30m_s",
+    "soil.types_ensemble.typic.argiaquolls_p_30m_s",
+    "soil.types_ensemble.typic.argiborolls_p_30m_s",
+    "soil.types_ensemble.typic.argicryolls_p_30m_s",
+    "soil.types_ensemble.typic.argidurids_p_30m_s",
+    "soil.types_ensemble.typic.argiudolls_p_30m_s",
+    "soil.types_ensemble.typic.argiustolls_p_30m_s",
+    "soil.types_ensemble.typic.argixerolls_p_30m_s",
+    "soil.types_ensemble.anthroportic.udorthents_p_30m_s",
+    "soil.types_ensemble.typic.calciaquolls_p_30m_s",
+    "soil.types_ensemble.typic.calciargids_p_30m_s",
+    "soil.types_ensemble.typic.calcicryepts_p_30m_s",
+    "soil.types_ensemble.typic.calcigypsids_p_30m_s",
+    "soil.types_ensemble.typic.calciorthids_p_30m_s",
+    "soil.types_ensemble.typic.calciudolls_p_30m_s",
+    "soil.types_ensemble.typic.calciustepts_p_30m_s",
+    "soil.types_ensemble.typic.calciustolls_p_30m_s",
+    "soil.types_ensemble.typic.calcixerepts_p_30m_s",
+    "soil.types_ensemble.aquandic.cryaquepts_p_30m_s",
+    "soil.types_ensemble.typic.camborthids_p_30m_s",
+    "soil.types_ensemble.typic.chromusterts_p_30m_s",
+    "soil.types_ensemble.typic.cryaquands_p_30m_s",
+    "soil.types_ensemble.typic.cryaquents_p_30m_s",
+    "soil.types_ensemble.typic.cryaquepts_p_30m_s",
+    "soil.types_ensemble.typic.cryaquolls_p_30m_s",
+    "soil.types_ensemble.typic.cryoboralfs_p_30m_s",
+    "soil.types_ensemble.typic.cryoborolls_p_30m_s",
+    "soil.types_ensemble.typic.cryochrepts_p_30m_s",
+    "soil.types_ensemble.aquandic.cryaquolls_p_30m_s",
+    "soil.types_ensemble.typic.cryofluvents_p_30m_s",
+    "soil.types_ensemble.typic.cryohemists_p_30m_s",
+    "soil.types_ensemble.typic.cryopsamments_p_30m_s",
+    "soil.types_ensemble.typic.cryorthents_p_30m_s",
+    "soil.types_ensemble.typic.cryosaprists_p_30m_s",
+    "soil.types_ensemble.typic.duraquods_p_30m_s",
+    "soil.types_ensemble.typic.dystrochrepts_p_30m_s",
+    "soil.types_ensemble.typic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.typic.dystrogelepts_p_30m_s",
+    "soil.types_ensemble.aquandic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.typic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.typic.dystrustepts_p_30m_s",
+    "soil.types_ensemble.typic.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.typic.endoaquents_p_30m_s",
+    "soil.types_ensemble.typic.endoaquepts_p_30m_s",
+    "soil.types_ensemble.typic.endoaquods_p_30m_s",
+    "soil.types_ensemble.typic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.typic.endoaquults_p_30m_s",
+    "soil.types_ensemble.typic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.aquandic.haplocryods_p_30m_s",
+    "soil.types_ensemble.typic.epiaquerts_p_30m_s",
+    "soil.types_ensemble.typic.epiaquolls_p_30m_s",
+    "soil.types_ensemble.typic.eutrochrepts_p_30m_s",
+    "soil.types_ensemble.typic.eutrocryepts_p_30m_s",
+    "soil.types_ensemble.typic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.typic.fluvaquents_p_30m_s",
+    "soil.types_ensemble.typic.folistels_p_30m_s",
+    "soil.types_ensemble.typic.fragiaqualfs_p_30m_s",
+    "soil.types_ensemble.typic.fragiaquepts_p_30m_s",
+    "soil.types_ensemble.aquertic.argiudolls_p_30m_s",
+    "soil.types_ensemble.typic.fragiochrepts_p_30m_s",
+    "soil.types_ensemble.typic.fragiudalfs_p_30m_s",
+    "soil.types_ensemble.typic.fragiudepts_p_30m_s",
+    "soil.types_ensemble.typic.fragiudults_p_30m_s",
+    "soil.types_ensemble.typic.fulvicryands_p_30m_s",
+    "soil.types_ensemble.typic.fulvudands_p_30m_s",
+    "soil.types_ensemble.typic.gelorthents_p_30m_s",
+    "soil.types_ensemble.typic.glossaqualfs_p_30m_s",
+    "soil.types_ensemble.typic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.aquertic.chromic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.typic.haplaquepts_p_30m_s",
+    "soil.types_ensemble.typic.haplaquolls_p_30m_s",
+    "soil.types_ensemble.typic.haplargids_p_30m_s",
+    "soil.types_ensemble.typic.haploborolls_p_30m_s",
+    "soil.types_ensemble.typic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.typic.haplocambids_p_30m_s",
+    "soil.types_ensemble.typic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.typic.haplocryands_p_30m_s",
+    "soil.types_ensemble.typic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.aeric.cryaquepts_p_30m_s",
+    "soil.types_ensemble.typic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.typic.haplodurids_p_30m_s",
+    "soil.types_ensemble.typic.haplogelepts_p_30m_s",
+    "soil.types_ensemble.typic.haplogypsids_p_30m_s",
+    "soil.types_ensemble.typic.haplohemists_p_30m_s",
+    "soil.types_ensemble.typic.haplohumults_p_30m_s",
+    "soil.types_ensemble.typic.haploperox_p_30m_s",
+    "soil.types_ensemble.typic.haplorthels_p_30m_s",
+    "soil.types_ensemble.typic.haplorthods_p_30m_s",
+    "soil.types_ensemble.aquertic.hapludolls_p_30m_s",
+    "soil.types_ensemble.typic.haplosaprists_p_30m_s",
+    "soil.types_ensemble.typic.haplotorrerts_p_30m_s",
+    "soil.types_ensemble.typic.haploturbels_p_30m_s",
+    "soil.types_ensemble.typic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.typic.haploxerepts_p_30m_s",
+    "soil.types_ensemble.typic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.typic.haploxerults_p_30m_s",
+    "soil.types_ensemble.typic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.typic.hapludands_p_30m_s",
+    "soil.types_ensemble.aquic.arenic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.typic.hapludolls_p_30m_s",
+    "soil.types_ensemble.typic.hapludox_p_30m_s",
+    "soil.types_ensemble.typic.hapludults_p_30m_s",
+    "soil.types_ensemble.typic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.typic.haplustepts_p_30m_s",
+    "soil.types_ensemble.typic.haplusterts_p_30m_s",
+    "soil.types_ensemble.typic.haplustolls_p_30m_s",
+    "soil.types_ensemble.typic.haplustox_p_30m_s",
+    "soil.types_ensemble.typic.hemistels_p_30m_s",
+    "soil.types_ensemble.aquic.arenic.paleudults_p_30m_s",
+    "soil.types_ensemble.typic.histoturbels_p_30m_s",
+    "soil.types_ensemble.typic.humaquepts_p_30m_s",
+    "soil.types_ensemble.typic.humicryepts_p_30m_s",
+    "soil.types_ensemble.typic.humicryods_p_30m_s",
+    "soil.types_ensemble.typic.humixerepts_p_30m_s",
+    "soil.types_ensemble.typic.humudepts_p_30m_s",
+    "soil.types_ensemble.typic.hydraquents_p_30m_s",
+    "soil.types_ensemble.typic.kandiperox_p_30m_s",
+    "soil.types_ensemble.typic.kandiudults_p_30m_s",
+    "soil.types_ensemble.aquic.arenic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.typic.kanhapludults_p_30m_s",
+    "soil.types_ensemble.typic.natraqualfs_p_30m_s",
+    "soil.types_ensemble.typic.natraquerts_p_30m_s",
+    "soil.types_ensemble.typic.natraquolls_p_30m_s",
+    "soil.types_ensemble.typic.natrargids_p_30m_s",
+    "soil.types_ensemble.typic.natrustalfs_p_30m_s",
+    "soil.types_ensemble.typic.natrustolls_p_30m_s",
+    "soil.types_ensemble.typic.ochraqualfs_p_30m_s",
+    "soil.types_ensemble.typic.paleaquults_p_30m_s",
+    "soil.types_ensemble.aquic.argiudolls_p_30m_s",
+    "soil.types_ensemble.typic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.typic.paleudolls_p_30m_s",
+    "soil.types_ensemble.typic.paleudults_p_30m_s",
+    "soil.types_ensemble.typic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.typic.paleustolls_p_30m_s",
+    "soil.types_ensemble.typic.paleustults_p_30m_s",
+    "soil.types_ensemble.typic.palexeralfs_p_30m_s",
+    "soil.types_ensemble.typic.palexerolls_p_30m_s",
+    "soil.types_ensemble.typic.palexerults_p_30m_s",
+    "soil.types_ensemble.aquic.argiustolls_p_30m_s",
+    "soil.types_ensemble.typic.petrocalcids_p_30m_s",
+    "soil.types_ensemble.typic.petrogypsids_p_30m_s",
+    "soil.types_ensemble.typic.psammaquents_p_30m_s",
+    "soil.types_ensemble.typic.quartzipsamments_p_30m_s",
+    "soil.types_ensemble.typic.sulfaquents_p_30m_s",
+    "soil.types_ensemble.typic.sulfihemists_p_30m_s",
+    "soil.types_ensemble.typic.sulfisaprists_p_30m_s",
+    "soil.types_ensemble.typic.torrifluvents_p_30m_s",
+    "soil.types_ensemble.typic.torriorthents_p_30m_s",
+    "soil.types_ensemble.aquic.calciudolls_p_30m_s",
+    "soil.types_ensemble.typic.tropaquepts_p_30m_s",
+    "soil.types_ensemble.typic.udifluvents_p_30m_s",
+    "soil.types_ensemble.typic.udipsamments_p_30m_s",
+    "soil.types_ensemble.typic.udivitrands_p_30m_s",
+    "soil.types_ensemble.typic.udorthents_p_30m_s",
+    "soil.types_ensemble.typic.umbraquults_p_30m_s",
+    "soil.types_ensemble.typic.ustifluvents_p_30m_s",
+    "soil.types_ensemble.typic.ustipsamments_p_30m_s",
+    "soil.types_ensemble.typic.ustochrepts_p_30m_s",
+    "soil.types_ensemble.aquic.cryofluvents_p_30m_s",
+    "soil.types_ensemble.typic.ustropepts_p_30m_s",
+    "soil.types_ensemble.typic.vermaqualfs_p_30m_s",
+    "soil.types_ensemble.typic.vitricryands_p_30m_s",
+    "soil.types_ensemble.typic.vitrixerands_p_30m_s",
+    "soil.types_ensemble.typic.xerochrepts_p_30m_s",
+    "soil.types_ensemble.typic.xerofluvents_p_30m_s",
+    "soil.types_ensemble.typic.xeropsamments_p_30m_s",
+    "soil.types_ensemble.typic.xerorthents_p_30m_s",
+    "soil.types_ensemble.udertic.argiustolls_p_30m_s",
+    "soil.types_ensemble.aquic.cryorthents_p_30m_s",
+    "soil.types_ensemble.udertic.haplustolls_p_30m_s",
+    "soil.types_ensemble.udertic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.udertic.paleustolls_p_30m_s",
+    "soil.types_ensemble.udic.argiustolls_p_30m_s",
+    "soil.types_ensemble.udic.calciustepts_p_30m_s",
+    "soil.types_ensemble.udic.calciusterts_p_30m_s",
+    "soil.types_ensemble.udic.calciustolls_p_30m_s",
+    "soil.types_ensemble.udic.chromusterts_p_30m_s",
+    "soil.types_ensemble.udic.haploborolls_p_30m_s",
+    "soil.types_ensemble.aeric.dystraquerts_p_30m_s",
+    "soil.types_ensemble.udic.haplustepts_p_30m_s",
+    "soil.types_ensemble.udic.haplusterts_p_30m_s",
+    "soil.types_ensemble.udic.haplustolls_p_30m_s",
+    "soil.types_ensemble.udic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.udic.paleustolls_p_30m_s",
+    "soil.types_ensemble.udic.ustifluvents_p_30m_s",
+    "soil.types_ensemble.udic.ustorthents_p_30m_s",
+    "soil.types_ensemble.udollic.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.udollic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.aquic.cumulic.haplustolls_p_30m_s",
+    "soil.types_ensemble.udorthentic.haplustolls_p_30m_s",
+    "soil.types_ensemble.ultic.alaquods_p_30m_s",
+    "soil.types_ensemble.ultic.argixerolls_p_30m_s",
+    "soil.types_ensemble.ultic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.ultic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.ultic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.ultic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.ultic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.ultic.palexeralfs_p_30m_s",
+    "soil.types_ensemble.aquic.dystric.eutrudepts_p_30m_s",
+    "soil.types_ensemble.ustertic.haplargids_p_30m_s",
+    "soil.types_ensemble.ustertic.haplocambids_p_30m_s",
+    "soil.types_ensemble.ustic.argicryolls_p_30m_s",
+    "soil.types_ensemble.ustic.calciargids_p_30m_s",
+    "soil.types_ensemble.ustic.calcicryepts_p_30m_s",
+    "soil.types_ensemble.ustic.calcicryolls_p_30m_s",
+    "soil.types_ensemble.ustic.calcigypsids_p_30m_s",
+    "soil.types_ensemble.ustic.epiaquerts_p_30m_s",
+    "soil.types_ensemble.ustic.eutrocryepts_p_30m_s",
+    "soil.types_ensemble.aquic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.ustic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.ustic.haplocambids_p_30m_s",
+    "soil.types_ensemble.ustic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.ustic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.ustic.haplocryolls_p_30m_s",
+    "soil.types_ensemble.ustic.haplogypsids_p_30m_s",
+    "soil.types_ensemble.ustic.natrargids_p_30m_s",
+    "soil.types_ensemble.ustic.paleargids_p_30m_s",
+    "soil.types_ensemble.ustic.petroargids_p_30m_s",
+    "soil.types_ensemble.aquic.dystroxerepts_p_30m_s",
+    "soil.types_ensemble.ustic.petrogypsids_p_30m_s",
+    "soil.types_ensemble.ustic.quartzipsamments_p_30m_s",
+    "soil.types_ensemble.ustic.torrifluvents_p_30m_s",
+    "soil.types_ensemble.ustic.torriorthents_p_30m_s",
+    "soil.types_ensemble.ustic.torripsamments_p_30m_s",
+    "soil.types_ensemble.ustifluventic.haplocambids_p_30m_s",
+    "soil.types_ensemble.ustollic.haplargids_p_30m_s",
+    "soil.types_ensemble.vertic.albaqualfs_p_30m_s",
+    "soil.types_ensemble.vertic.argialbolls_p_30m_s",
+    "soil.types_ensemble.aquic.dystrudepts_p_30m_s",
+    "soil.types_ensemble.vertic.argicryolls_p_30m_s",
+    "soil.types_ensemble.vertic.argiudolls_p_30m_s",
+    "soil.types_ensemble.vertic.argiustolls_p_30m_s",
+    "soil.types_ensemble.vertic.argixerolls_p_30m_s",
+    "soil.types_ensemble.vertic.endoaquepts_p_30m_s",
+    "soil.types_ensemble.vertic.endoaquolls_p_30m_s",
+    "soil.types_ensemble.vertic.epiaqualfs_p_30m_s",
+    "soil.types_ensemble.vertic.epiaquepts_p_30m_s",
+    "soil.types_ensemble.vertic.epiaquolls_p_30m_s",
+    "soil.types_ensemble.aquic.dystruderts_p_30m_s",
+    "soil.types_ensemble.vertic.fluvaquents_p_30m_s",
+    "soil.types_ensemble.vertic.haplocryalfs_p_30m_s",
+    "soil.types_ensemble.vertic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.vertic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.vertic.hapludolls_p_30m_s",
+    "soil.types_ensemble.vertic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.vertic.haplustepts_p_30m_s",
+    "soil.types_ensemble.vertic.haplustolls_p_30m_s",
+    "soil.types_ensemble.vertic.paleudalfs_p_30m_s",
+    "soil.types_ensemble.aquic.eutrocryepts_p_30m_s",
+    "soil.types_ensemble.vertic.paleustalfs_p_30m_s",
+    "soil.types_ensemble.vertic.palexerolls_p_30m_s",
+    "soil.types_ensemble.vertic.torrifluvents_p_30m_s",
+    "soil.types_ensemble.vitrandic.argicryolls_p_30m_s",
+    "soil.types_ensemble.vitrandic.argixerolls_p_30m_s",
+    "soil.types_ensemble.vitrandic.cryorthents_p_30m_s",
+    "soil.types_ensemble.vitrandic.durixerolls_p_30m_s",
+    "soil.types_ensemble.vitrandic.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.dystroxerepts_p_30m_s",
+    "soil.types_ensemble.aquic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.eutrudepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.haploxeralfs_p_30m_s",
+    "soil.types_ensemble.vitrandic.haploxerepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.vitrandic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.vitrandic.humixerepts_p_30m_s",
+    "soil.types_ensemble.vitrandic.palexeralfs_p_30m_s",
+    "soil.types_ensemble.vitrandic.palexerolls_p_30m_s",
+    "soil.types_ensemble.aquic.fragiudalfs_p_30m_s",
+    "soil.types_ensemble.vitrandic.xerorthents_p_30m_s",
+    "soil.types_ensemble.vitritorrandic.argixerolls_p_30m_s",
+    "soil.types_ensemble.vitritorrandic.durixerolls_p_30m_s",
+    "soil.types_ensemble.vitritorrandic.haploxerolls_p_30m_s",
+    "soil.types_ensemble.vitrixerandic.argidurids_p_30m_s",
+    "soil.types_ensemble.vitrixerandic.haplargids_p_30m_s",
+    "soil.types_ensemble.vitrixerandic.haplocambids_p_30m_s",
+    "soil.types_ensemble.xereptic.haplodurids_p_30m_s",
+    "soil.types_ensemble.xeric.argicryolls_p_30m_s",
+    "soil.types_ensemble.aeric.endoaqualfs_p_30m_s",
+    "soil.types_ensemble.xeric.calciargids_p_30m_s",
+    "soil.types_ensemble.xeric.calcicryolls_p_30m_s",
+    "soil.types_ensemble.xeric.dystrocryepts_p_30m_s",
+    "soil.types_ensemble.xeric.haplargids_p_30m_s",
+    "soil.types_ensemble.xeric.haplocalcids_p_30m_s",
+    "soil.types_ensemble.xeric.haplocambids_p_30m_s",
+    "soil.types_ensemble.xeric.haplocryolls_p_30m_s",
+    "soil.types_ensemble.xeric.haplodurids_p_30m_s",
+    "soil.types_ensemble.xeric.haplohumults_p_30m_s",
+    "soil.types_ensemble.aquic.fraglossudalfs_p_30m_s",
+    "soil.types_ensemble.xeric.natrargids_p_30m_s",
+    "soil.types_ensemble.xeric.paleargids_p_30m_s",
+    "soil.types_ensemble.xeric.palehumults_p_30m_s",
+    "soil.types_ensemble.xeric.torrifluvents_p_30m_s",
+    "soil.types_ensemble.xeric.torriorthents_p_30m_s",
+    "soil.types_ensemble.xeric.torripsamments_p_30m_s",
+    "soil.types_ensemble.xeric.vitricryands_p_30m_s",
+    "soil.types_ensemble.aquic.glossudalfs_p_30m_s",
+    "soil.types_ensemble.aquic.haplargids_p_30m_s",
+    "soil.types_ensemble.aquic.haplocalcids_p_30m_s",
+    "soil.types_ensemble.aquic.haplocryands_p_30m_s",
+    "soil.types_ensemble.aquic.haplocryepts_p_30m_s",
+    "soil.types_ensemble.aquic.haplocryods_p_30m_s",
+    "soil.types_ensemble.aquic.haplorthods_p_30m_s",
+    "soil.types_ensemble.aquic.hapludalfs_p_30m_s",
+    "soil.types_ensemble.aeric.endoaquents_p_30m_s",
+    "soil.types_ensemble.aquic.hapludolls_p_30m_s",
+    "soil.types_ensemble.aquic.hapludults_p_30m_s",
+    "soil.types_ensemble.aquic.haplustalfs_p_30m_s",
+    "soil.types_ensemble.aquic.haplustolls_p_30m_s",
+    "soil.types_ensemble.aquic.humicryepts_p_30m_s",
+    "soil.types_ensemble.aquic.natrudalfs_p_30m_s",
+    "soil.types_ensemble.aquic.pachic.argiudolls_p_30m_s",
+    "soil.types_ensemble.aquic.pachic.hapludolls_p_30m_s",
+    "soil.types_ensemble.aquic.paleudalfs_p_30m_s"
+   ],
+   "default_assets": [
+    "soil.types_ensemble.abruptic.durixeralfs_p_30m_s",
+    "soil.types_ensemble.abruptic.xeric.argidurids_p_30m_s",
+    "soil.types_ensemble.aquic.paleustalfs_p_30m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:grtgroup_usda.soiltax",
+   "label": "OpenLandMap – USDA long-term soil great groups",
+   "provider": "openlandmap",
+   "collection_id": "grtgroup_usda.soiltax",
+   "category": "Soil",
+   "assets": [
+    "grtgroup_usda.soiltax_c_250m_s"
+   ],
+   "default_assets": [
+    "grtgroup_usda.soiltax_c_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1950–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1950-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:snow.cover_esa.modis.ltm",
+   "label": "OpenLandMap – ESA long-term snow cover fraction",
+   "provider": "openlandmap",
+   "collection_id": "snow.cover_esa.modis.ltm",
+   "category": "Fire and snow",
+   "assets": [
+    "snow.prob_esacci.jan_p90_500m_s",
+    "snow.prob_esacci.jan_sd_500m_s",
+    "snow.prob_esacci.feb_p90_500m_s",
+    "snow.prob_esacci.feb_sd_500m_s",
+    "snow.prob_esacci.mar_p90_500m_s",
+    "snow.prob_esacci.mar_sd_500m_s",
+    "snow.prob_esacci.apr_p90_500m_s",
+    "snow.prob_esacci.apr_sd_500m_s",
+    "snow.prob_esacci.may_p90_500m_s",
+    "snow.prob_esacci.may_sd_500m_s",
+    "snow.prob_esacci.jun_p90_500m_s",
+    "snow.prob_esacci.jun_sd_500m_s",
+    "snow.prob_esacci.jul_p90_500m_s",
+    "snow.prob_esacci.jul_sd_500m_s",
+    "snow.prob_esacci.aug_p90_500m_s",
+    "snow.prob_esacci.aug_sd_500m_s",
+    "snow.prob_esacci.sep_p90_500m_s",
+    "snow.prob_esacci.sep_sd_500m_s",
+    "snow.prob_esacci.oct_p90_500m_s",
+    "snow.prob_esacci.oct_sd_500m_s",
+    "snow.prob_esacci.nov_p90_500m_s",
+    "snow.prob_esacci.nov_sd_500m_s",
+    "snow.prob_esacci.dec_p90_500m_s",
+    "snow.prob_esacci.dec_sd_500m_s"
+   ],
+   "default_assets": [
+    "snow.prob_esacci.jan_p90_500m_s",
+    "snow.prob_esacci.jan_sd_500m_s",
+    "snow.prob_esacci.feb_p90_500m_s"
+   ],
+   "native_res": 464.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 464 m · 2000–2012 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00083,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2012-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:snow.cover_esa.modis",
+   "label": "OpenLandMap – ESA monthly snow cover fraction",
+   "provider": "openlandmap",
+   "collection_id": "snow.cover_esa.modis",
+   "category": "Fire and snow",
+   "assets": [
+    "snow.cover_esa.modis_p50_1km_s",
+    "snow.cover_esa.modis_p05_1km_s",
+    "snow.cover_esa.modis_p95_1km_s"
+   ],
+   "default_assets": [
+    "snow.cover_esa.modis_p50_1km_s",
+    "snow.cover_esa.modis_p05_1km_s",
+    "snow.cover_esa.modis_p95_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 238 files · 928 m · 2000–2019 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99666,
+    179.99999,
+    87.37
+   ],
+   "interval": [
+    "2000-03-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:dsm_glo30",
+   "label": "OpenLandMap – Copernius DEM digital surface model",
+   "provider": "openlandmap",
+   "collection_id": "dsm_glo30",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dsm_glo30_m_30m_s"
+   ],
+   "default_assets": [
+    "dsm_glo30_m_30m_s"
+   ],
+   "native_res": 30.9,
+   "mode": "cog",
+   "nodata": -32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30.9 m · 2011–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00068,
+    180.00001,
+    87.37
+   ],
+   "interval": [
+    "2011-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_merit.dem",
+   "label": "OpenLandMap – MERIT geomorphometry",
+   "provider": "openlandmap",
+   "collection_id": "geom_merit.dem",
+   "category": "Elevation and terrain",
+   "assets": [
+    "geom_merit.dem_m_250m_s",
+    "dev-magnitude_merit.dem_m_5km_s",
+    "cti_merit.dem_m_5km_s",
+    "rough-scale_merit.dem_m_5km_s",
+    "vbf_merit.dem_m_5km_s"
+   ],
+   "default_assets": [
+    "geom_merit.dem_m_250m_s",
+    "dev-magnitude_merit.dem_m_5km_s",
+    "cti_merit.dem_m_5km_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2017–2018 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2017-01-01",
+    "2018-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_dfme_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Difference from mean elevation (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_dfme_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dfme_edtm_m_30m_s",
+    "dfme_edtm_m_60m_s",
+    "dfme_edtm_m_120m_s",
+    "dfme_edtm_m_240m_s",
+    "dfme_edtm_m_480m_s",
+    "dfme_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "dfme_edtm_m_30m_s",
+    "dfme_edtm_m_60m_s",
+    "dfme_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:dtm.bareearth_ensemble",
+   "label": "OpenLandMap – OpenLandMap ensemble digital terrain model",
+   "provider": "openlandmap",
+   "collection_id": "dtm.bareearth_ensemble",
+   "category": "Elevation and terrain",
+   "assets": [
+    "dtm.bareearth_ensemble_p10_30m_s",
+    "dtm.bareearth_ensemble_std_30m_s",
+    "dtm.bareearth_ensemble_p10_250m_s",
+    "dtm.bareearth_ensemble_std_250m_s"
+   ],
+   "default_assets": [
+    "dtm.bareearth_ensemble_p10_30m_s",
+    "dtm.bareearth_ensemble_p10_250m_s"
+   ],
+   "native_res": 30.9,
+   "mode": "cog",
+   "nodata": -32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30.9 m · 2018–2018 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00069,
+    180.0,
+    83.83264
+   ],
+   "interval": [
+    "2018-01-01",
+    "2018-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Ensemble Digital Terrain Model (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "legendtm_rf_30m_m_s",
+    "gendtm_rf_30m_std_s"
+   ],
+   "default_assets": [
+    "legendtm_rf_30m_m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": -2147483648.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00125,
+    -65.00125,
+    180.00125,
+    85.00125
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_geomorphon_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Geomorphons (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_geomorphon_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "geomorphon_edtm_m_30m_s",
+    "geomorphon_edtm_m_60m_s",
+    "geomorphon_edtm_m_120m_s",
+    "geomorphon_edtm_m_240m_s",
+    "geomorphon_edtm_m_480m_s",
+    "geomorphon_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "geomorphon_edtm_m_30m_s",
+    "geomorphon_edtm_m_60m_s",
+    "geomorphon_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_hillshade_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Hillshade (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_hillshade_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "hillshade_edtm_m_30m_s",
+    "hillshade_edtm_m_60m_s",
+    "hillshade_edtm_m_120m_s",
+    "hillshade_edtm_m_240m_s",
+    "hillshade_edtm_m_480m_s",
+    "hillshade_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "hillshade_edtm_m_30m_s",
+    "hillshade_edtm_m_60m_s",
+    "hillshade_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:landform_usgs.ecotapestry",
+   "label": "OpenLandMap – OpenLandMap landform classes",
+   "provider": "openlandmap",
+   "collection_id": "landform_usgs.ecotapestry",
+   "category": "Elevation and terrain",
+   "assets": [
+    "landform_usgs.ecotapestry_c_250m_s"
+   ],
+   "default_assets": [
+    "landform_usgs.ecotapestry_c_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2014–2014 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2014-01-01",
+    "2014-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_ls.factor_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap LS factor (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_ls.factor_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ls.factor_edtm_m_30m_s",
+    "ls.factor_edtm_m_60m_s",
+    "ls.factor_edtm_m_120m_s",
+    "ls.factor_edtm_m_240m_s",
+    "ls.factor_edtm_m_480m_s",
+    "ls.factor_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "ls.factor_edtm_m_30m_s",
+    "ls.factor_edtm_m_60m_s",
+    "ls.factor_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_maxic_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Maximal curvature (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_maxic_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "maxic_edtm_m_30m_s",
+    "maxic_edtm_m_60m_s",
+    "maxic_edtm_m_120m_s",
+    "maxic_edtm_m_240m_s",
+    "maxic_edtm_m_480m_s",
+    "maxic_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "maxic_edtm_m_30m_s",
+    "maxic_edtm_m_60m_s",
+    "maxic_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_minic_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Minimal curvature (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_minic_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "minic_edtm_m_30m_s",
+    "minic_edtm_m_60m_s",
+    "minic_edtm_m_120m_s",
+    "minic_edtm_m_240m_s",
+    "minic_edtm_m_480m_s",
+    "minic_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "minic_edtm_m_30m_s",
+    "minic_edtm_m_60m_s",
+    "minic_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_neg.openness_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Negative openness (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_neg.openness_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "neg.openness_edtm_m_30m_s",
+    "neg.openness_edtm_m_60m_s",
+    "neg.openness_edtm_m_120m_s",
+    "neg.openness_edtm_m_240m_s",
+    "neg.openness_edtm_m_480m_s",
+    "neg.openness_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "neg.openness_edtm_m_30m_s",
+    "neg.openness_edtm_m_60m_s",
+    "neg.openness_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_pos.openness_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Positive openness (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_pos.openness_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "pos.openness_edtm_m_30m_s",
+    "pos.openness_edtm_m_60m_s",
+    "pos.openness_edtm_m_120m_s",
+    "pos.openness_edtm_m_240m_s",
+    "pos.openness_edtm_m_480m_s",
+    "pos.openness_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "pos.openness_edtm_m_30m_s",
+    "pos.openness_edtm_m_60m_s",
+    "pos.openness_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_pro.curv_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Profile curvature (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_pro.curv_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "pro.curv_edtm_m_30m_s",
+    "pro.curv_edtm_m_60m_s",
+    "pro.curv_edtm_m_120m_s",
+    "pro.curv_edtm_m_240m_s",
+    "pro.curv_edtm_m_480m_s",
+    "pro.curv_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "pro.curv_edtm_m_30m_s",
+    "pro.curv_edtm_m_60m_s",
+    "pro.curv_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_ring.curv_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Ring curvature (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_ring.curv_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ring.curv_edtm_m_30m_s",
+    "ring.curv_edtm_m_60m_s",
+    "ring.curv_edtm_m_120m_s",
+    "ring.curv_edtm_m_240m_s",
+    "ring.curv_edtm_m_480m_s",
+    "ring.curv_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "ring.curv_edtm_m_30m_s",
+    "ring.curv_edtm_m_60m_s",
+    "ring.curv_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_shpindx_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Shape index (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_shpindx_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "shpindx_edtm_m_30m_s",
+    "shpindx_edtm_m_60m_s",
+    "shpindx_edtm_m_120m_s",
+    "shpindx_edtm_m_240m_s",
+    "shpindx_edtm_m_480m_s",
+    "shpindx_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "shpindx_edtm_m_30m_s",
+    "shpindx_edtm_m_60m_s",
+    "shpindx_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_slope.in.degree_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Slope in degree (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_slope.in.degree_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "slope.in.degree_edtm_m_30m_s",
+    "slope.in.degree_edtm_m_60m_s",
+    "slope.in.degree_edtm_m_120m_s",
+    "slope.in.degree_edtm_m_240m_s",
+    "slope.in.degree_edtm_m_480m_s",
+    "slope.in.degree_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "slope.in.degree_edtm_m_30m_s",
+    "slope.in.degree_edtm_m_60m_s",
+    "slope.in.degree_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65535.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_ssdon_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Spherical Standard Deviation of the Normals (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_ssdon_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "ssdon_edtm_m_30m_s",
+    "ssdon_edtm_m_60m_s",
+    "ssdon_edtm_m_120m_s",
+    "ssdon_edtm_m_240m_s",
+    "ssdon_edtm_m_480m_s",
+    "ssdon_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "ssdon_edtm_m_30m_s",
+    "ssdon_edtm_m_60m_s",
+    "ssdon_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:geom_tan.curv_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Tangential curvature (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "geom_tan.curv_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "tan.curv_edtm_m_30m_s",
+    "tan.curv_edtm_m_60m_s",
+    "tan.curv_edtm_m_120m_s",
+    "tan.curv_edtm_m_240m_s",
+    "tan.curv_edtm_m_480m_s",
+    "tan.curv_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "tan.curv_edtm_m_30m_s",
+    "tan.curv_edtm_m_60m_s",
+    "tan.curv_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:hydro_twi_gedtm-30m",
+   "label": "OpenLandMap – OpenLandMap Topographic Wetness Index (GEDTM30)",
+   "provider": "openlandmap",
+   "collection_id": "hydro_twi_gedtm-30m",
+   "category": "Elevation and terrain",
+   "assets": [
+    "twi_edtm_m_30m_s",
+    "twi_edtm_m_60m_s",
+    "twi_edtm_m_120m_s",
+    "twi_edtm_m_240m_s",
+    "twi_edtm_m_480m_s",
+    "twi_edtm_m_960m_s"
+   ],
+   "default_assets": [
+    "twi_edtm_m_30m_s",
+    "twi_edtm_m_60m_s",
+    "twi_edtm_m_120m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 32767.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 27.8 m · 2006–2015 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00025,
+    -57.00025,
+    180.00025,
+    84.00025
+   ],
+   "interval": [
+    "2006-01-01",
+    "2015-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:land.cover_copernicus",
+   "label": "OpenLandMap – Copernicus PROBA-V annual land cover",
+   "provider": "openlandmap",
+   "collection_id": "land.cover_copernicus",
+   "category": "Land cover and land use",
+   "assets": [
+    "land.cover_copernicus_c_100m_s"
+   ],
+   "default_assets": [
+    "land.cover_copernicus_c_100m_s"
+   ],
+   "native_res": 110.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 110 m · 2015–2019 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -60.0,
+    180.0,
+    80.0
+   ],
+   "interval": [
+    "2015-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:land.cover_esacci.lc.l4",
+   "label": "OpenLandMap – ESA CCI annual land cover",
+   "provider": "openlandmap",
+   "collection_id": "land.cover_esacci.lc.l4",
+   "category": "Land cover and land use",
+   "assets": [
+    "land.cover_esacci.lc.l4_c_250m_s"
+   ],
+   "default_assets": [
+    "land.cover_esacci.lc.l4_c_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 29 files · 232 m · 1992–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+   ],
+   "interval": [
+    "1992-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:pft.landcover_esa.cci.lc",
+   "label": "OpenLandMap – ESA CCI annual plant functional types (PFT)",
+   "provider": "openlandmap",
+   "collection_id": "pft.landcover_esa.cci.lc",
+   "category": "Land cover and land use",
+   "assets": [
+    "pft.grass.man_esa.cci.lc_pc_300m_s",
+    "pft.built_esa.cci.lc_pc_300m_s",
+    "pft.bare_esa.cci.lc_pc_300m_s",
+    "pft.grass.nat_esa.cci.lc_pc_300m_s",
+    "pft.land_esa.cci.lc_pc_300m_s",
+    "pft.shrubs.bd_esa.cci.lc_pc_300m_s",
+    "pft.shrubs.be_esa.cci.lc_pc_300m_s",
+    "pft.shrubs.nd_esa.cci.lc_pc_300m_s",
+    "pft.shrubs.ne_esa.cci.lc_pc_300m_s",
+    "pft.snowice_esa.cci.lc_pc_300m_s",
+    "pft.trees.bd_esa.cci.lc_pc_300m_s",
+    "pft.trees.be_esa.cci.lc_pc_300m_s",
+    "pft.trees.nd_esa.cci.lc_pc_300m_s",
+    "pft.trees.ne_esa.cci.lc_pc_300m_s",
+    "pft.water.inland_esa.cci.lc_pc_300m_s",
+    "pft.water.ocean_esa.cci.lc_pc_300m_s",
+    "pft.water_esa.cci.lc_pc_300m_s"
+   ],
+   "default_assets": [
+    "pft.grass.man_esa.cci.lc_pc_300m_s",
+    "pft.built_esa.cci.lc_pc_300m_s",
+    "pft.bare_esa.cci.lc_pc_300m_s"
+   ],
+   "native_res": 309.0,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 29 files · 309 m · 1992–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1992-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lc_glc.fcs30d",
+   "label": "OpenLandMap – GLC_FCS30D annual land land-cover dynamic monitoring product",
+   "provider": "openlandmap",
+   "collection_id": "lc_glc.fcs30d",
+   "category": "Land cover and land use",
+   "assets": [
+    "lc_glc.fcs30d_c_30m_s"
+   ],
+   "default_assets": [
+    "lc_glc.fcs30d_c_30m_s"
+   ],
+   "native_res": 30.9,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 26 files · 30.9 m · 1985–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00068,
+    180.00001,
+    87.37
+   ],
+   "interval": [
+    "1985-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:land.use.land.cover_hilda.plus",
+   "label": "OpenLandMap – HILDA+ annual land use and land cover change",
+   "provider": "openlandmap",
+   "collection_id": "land.use.land.cover_hilda.plus",
+   "category": "Land cover and land use",
+   "assets": [
+    "land.use.land.cover_hilda.plus_c_1km_s"
+   ],
+   "default_assets": [
+    "land.use.land.cover_hilda.plus_c_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 60 files · 928 m · 1960–2019 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.98833,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1960-01-01",
+    "2019-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:landuse.cropland_hyde",
+   "label": "OpenLandMap – HYDE annual cropland for the holocene",
+   "provider": "openlandmap",
+   "collection_id": "landuse.cropland_hyde",
+   "category": "Land cover and land use",
+   "assets": [
+    "landuse.cropland_hyde_p_10km_s"
+   ],
+   "default_assets": [
+    "landuse.cropland_hyde_p_10km_s"
+   ],
+   "native_res": 9280.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 47 files · 9280 m · 1700–2016 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.96333,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1700-01-01",
+    "2016-12-31"
+   ],
+   "license": "CC0 1.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:landuse.pasture_hyde",
+   "label": "OpenLandMap – HYDE annual pasture for the holocene",
+   "provider": "openlandmap",
+   "collection_id": "landuse.pasture_hyde",
+   "category": "Land cover and land use",
+   "assets": [
+    "landuse.pasture_hyde_p_10km_s"
+   ],
+   "default_assets": [
+    "landuse.pasture_hyde_p_10km_s"
+   ],
+   "native_res": 9280.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 47 files · 9280 m · 1700–2016 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.96333,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1700-01-01",
+    "2016-12-31"
+   ],
+   "license": "CC0 1.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lc_mcd12q1v061.p1",
+   "label": "OpenLandMap – MCD12Q1 annual land cover and land use",
+   "provider": "openlandmap",
+   "collection_id": "lc_mcd12q1v061.p1",
+   "category": "Land cover and land use",
+   "assets": [
+    "lc_mcd12q1v061.p1_c_500m_s",
+    "lc_mcd12q1v061.p1a_c_500m_s",
+    "lc_mcd12q1v061.p2_c_500m_s",
+    "lc_mcd12q1v061.p2a_c_500m_s",
+    "lc_mcd12q1v061.qc_c_500m_s",
+    "lc_mcd12q1v061.t1_c_500m_s",
+    "lc_mcd12q1v061.t2_c_500m_s",
+    "lc_mcd12q1v061.t5_c_500m_s"
+   ],
+   "default_assets": [
+    "lc_mcd12q1v061.p1_c_500m_s",
+    "lc_mcd12q1v061.p1a_c_500m_s",
+    "lc_mcd12q1v061.p2_c_500m_s"
+   ],
+   "native_res": 464.0,
+   "mode": "cog",
+   "nodata": -1.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 21 files · 464 m · 2001–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00085,
+    180.00003,
+    87.37
+   ],
+   "interval": [
+    "2001-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lc_glad.glcluc",
+   "label": "OpenLandMap – UMD GLAD annual land cover and land use (GLCLUC)",
+   "provider": "openlandmap",
+   "collection_id": "lc_glad.glcluc",
+   "category": "Land cover and land use",
+   "assets": [
+    "lc_glad.glcluc_c_30m_s"
+   ],
+   "default_assets": [
+    "lc_glad.glcluc_c_30m_s"
+   ],
+   "native_res": 30.9,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 5 files · 30.9 m · 2000–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00068,
+    180.00001,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lc_glad.glcluc.change",
+   "label": "OpenLandMap – UMD GLAD annual land cover and land use change (GLCLUC)",
+   "provider": "openlandmap",
+   "collection_id": "lc_glad.glcluc.change",
+   "category": "Land cover and land use",
+   "assets": [
+    "lc_glad.glcluc.change_c_30m_s"
+   ],
+   "default_assets": [
+    "lc_glad.glcluc.change_c_30m_s"
+   ],
+   "native_res": 30.9,
+   "mode": "cog",
+   "nodata": null,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 30.9 m · 2000–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00068,
+    180.00001,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:landsat_glad.swa.ard2_bimonthly",
+   "label": "OpenLandMap – Cloud-free reconstructed Landsat bimonthly spectral reflectance bands",
+   "provider": "openlandmap",
+   "collection_id": "landsat_glad.swa.ard2_bimonthly",
+   "category": "Optical",
+   "assets": [
+    "rgb_glad.landsat.ard2.swa_m_30m_s",
+    "s2nr_glad.landsat.ard2.swa_m_30m_s",
+    "ns1r_glad.landsat.ard2.swa_m_30m_s",
+    "blue_glad.landsat.ard2.swa_m_30m_s",
+    "green_glad.landsat.ard2.swa_m_30m_s",
+    "red_glad.landsat.ard2.swa_m_30m_s",
+    "nir_glad.landsat.ard2.swa_m_30m_s",
+    "swir1_glad.landsat.ard2.swa_m_30m_s",
+    "swir2_glad.landsat.ard2.swa_m_30m_s",
+    "thermal_glad.landsat.ard2.swa_m_30m_s"
+   ],
+   "default_assets": [
+    "rgb_glad.landsat.ard2.swa_m_30m_s",
+    "s2nr_glad.landsat.ard2.swa_m_30m_s",
+    "ns1r_glad.landsat.ard2.swa_m_30m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 168 files · 27.8 m · 1997–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    84.0005
+   ],
+   "interval": [
+    "1997-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:landsat_glad.swa.ard2_yearly.p50",
+   "label": "OpenLandMap – Cloud-free reconstructed Landsat yearly spectral reflectance bands",
+   "provider": "openlandmap",
+   "collection_id": "landsat_glad.swa.ard2_yearly.p50",
+   "category": "Optical",
+   "assets": [
+    "rgb_glad.landsat.ard2.swa_p50_30m_s",
+    "s2nr_glad.landsat.ard2.swa_p50_30m_s",
+    "ns1r_glad.landsat.ard2.swa_p50_30m_s",
+    "blue_glad.landsat.ard2.swa_p50_30m_s",
+    "green_glad.landsat.ard2.swa_p50_30m_s",
+    "red_glad.landsat.ard2.swa_p50_30m_s",
+    "nir_glad.landsat.ard2.swa_p50_30m_s",
+    "swir1_glad.landsat.ard2.swa_p50_30m_s",
+    "swir2_glad.landsat.ard2.swa_p50_30m_s",
+    "thermal_glad.landsat.ard2.swa_p50_30m_s"
+   ],
+   "default_assets": [
+    "rgb_glad.landsat.ard2.swa_p50_30m_s",
+    "s2nr_glad.landsat.ard2.swa_p50_30m_s",
+    "ns1r_glad.landsat.ard2.swa_p50_30m_s"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 28 files · 27.8 m · 1997–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    84.0005
+   ],
+   "interval": [
+    "1997-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.daytime.annual",
+   "label": "OpenLandMap – MOD11A2 annual land surface temperature (day-time)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.daytime.annual",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.daytime_p50_1km_s",
+    "lst_mod11a2.daytime_p05_1km_s",
+    "lst_mod11a2.daytime_p95_1km_s",
+    "lst_mod11a2.daytime_sd_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.daytime_p50_1km_s",
+    "lst_mod11a2.daytime_p05_1km_s",
+    "lst_mod11a2.daytime_p95_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 22 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.nighttime.annual",
+   "label": "OpenLandMap – MOD11A2 annual land surface temperature (night-time)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.nighttime.annual",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.nighttime_p50_1km_s",
+    "lst_mod11a2.nighttime_p05_1km_s",
+    "lst_mod11a2.nighttime_p95_1km_s",
+    "lst_mod11a2.nighttime_sd_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.nighttime_p50_1km_s",
+    "lst_mod11a2.nighttime_p05_1km_s",
+    "lst_mod11a2.nighttime_p95_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 22 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.daytime.trend.logit.ols.beta",
+   "label": "OpenLandMap – MOD11A2 long-term land surface temperature trend (daytime)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.daytime.trend.logit.ols.beta",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.daytime.trend.logit.ols.beta_m_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_p025_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_p975_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_pv_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_sd_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_tv_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_m_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_p025_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_p975_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_pv_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_sd_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.alpha_tv_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols_r2_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.daytime.trend.logit.ols.beta_m_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_p025_1km_s",
+    "lst_mod11a2.daytime.trend.logit.ols.beta_p975_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.nighttime.trend.logit.ols.beta",
+   "label": "OpenLandMap – MOD11A2 long-term land surface temperature trend (nighttime)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.nighttime.trend.logit.ols.beta",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_m_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_p025_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_p975_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_pv_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_sd_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_tv_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_m_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_p025_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_p975_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_pv_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_sd_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.alpha_tv_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols_r2_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_m_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_p025_1km_s",
+    "lst_mod11a2.nighttime.trend.logit.ols.beta_p975_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.daytime",
+   "label": "OpenLandMap – MOD11A2 monthly land surface temperature (day-time)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.daytime",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.daytime_p50_1km_s",
+    "lst_mod11a2.daytime_p05_1km_s",
+    "lst_mod11a2.daytime_p95_1km_s",
+    "lst_mod11a2.daytime_sd_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.daytime_p50_1km_s",
+    "lst_mod11a2.daytime_p05_1km_s",
+    "lst_mod11a2.daytime_p95_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 264 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:lst_mod11a2.nighttime",
+   "label": "OpenLandMap – MOD11A2 monthly land surface temperature (night-time)",
+   "provider": "openlandmap",
+   "collection_id": "lst_mod11a2.nighttime",
+   "category": "Temperature and climate",
+   "assets": [
+    "lst_mod11a2.nighttime_p50_1km_s",
+    "lst_mod11a2.nighttime_p05_1km_s",
+    "lst_mod11a2.nighttime_p95_1km_s",
+    "lst_mod11a2.nighttime_sd_1km_s"
+   ],
+   "default_assets": [
+    "lst_mod11a2.nighttime_p50_1km_s",
+    "lst_mod11a2.nighttime_p05_1km_s",
+    "lst_mod11a2.nighttime_p95_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 0.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 264 files · 928 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:precipitation_sm2rain.ltm",
+   "label": "OpenLandMap – SM2RAIN long-term precipitation",
+   "provider": "openlandmap",
+   "collection_id": "precipitation_sm2rain.ltm",
+   "category": "Temperature and climate",
+   "assets": [
+    "precipitation_sm2rain.jan_m_1km_s",
+    "precipitation_sm2rain.feb_m_1km_s",
+    "precipitation_sm2rain.mar_m_1km_s",
+    "precipitation_sm2rain.apr_m_1km_s",
+    "precipitation_sm2rain.may_m_1km_s",
+    "precipitation_sm2rain.jun_m_1km_s",
+    "precipitation_sm2rain.jul_m_1km_s",
+    "precipitation_sm2rain.aug_m_1km_s",
+    "precipitation_sm2rain.sep_m_1km_s",
+    "precipitation_sm2rain.oct_m_1km_s",
+    "precipitation_sm2rain.nov_m_1km_s",
+    "precipitation_sm2rain.dec_m_1km_s"
+   ],
+   "default_assets": [
+    "precipitation_sm2rain.jan_m_1km_s",
+    "precipitation_sm2rain.feb_m_1km_s",
+    "precipitation_sm2rain.mar_m_1km_s"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 2007–2018 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2007-01-01",
+    "2018-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:pot.fapar_fapar.p95.eml.m",
+   "label": "OpenLandMap – Annual potential fraction of absorbed photosynthetically active radiation (FAPAR - 2021)",
+   "provider": "openlandmap",
+   "collection_id": "pot.fapar_fapar.p95.eml.m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "pot.fapar_fapar.p95.eml.m_m_250m_s",
+    "pot.fapar_fapar.p95.eml.md_m_250m_s",
+    "fapar_essd.lstm.p95_m_250m_s"
+   ],
+   "default_assets": [
+    "pot.fapar_fapar.p95.eml.m_m_250m_s",
+    "pot.fapar_fapar.p95.eml.md_m_250m_s",
+    "fapar_essd.lstm.p95_m_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2021–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26",
+   "label": "OpenLandMap – Future potential distribution of tropical evergreen broadleaf forest (RCP 2.6)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp26_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45",
+   "label": "OpenLandMap – Future potential distribution of tropical evergreen broadleaf forest (RCP 4.5)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp45_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85",
+   "label": "OpenLandMap – Future potential distribution of tropical evergreen broadleaf forest (RCP 8.5)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest.rcp85_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.savanna.rcp26",
+   "label": "OpenLandMap – Future potential distribution of tropical savanna (RCP 2.6)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.savanna.rcp26",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.savanna.rcp26_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp26_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.savanna.rcp26_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp26_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.savanna.rcp45",
+   "label": "OpenLandMap – Future potential distribution of tropical savanna (RCP 4.5)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.savanna.rcp45",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.savanna.rcp45_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp45_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.savanna.rcp45_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp45_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.savanna.rcp85",
+   "label": "OpenLandMap – Future potential distribution of tropical savanna (RCP 8.5)",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.savanna.rcp85",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.savanna.rcp85_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp85_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.savanna.rcp85_p_1km_a",
+    "biomes_biome6k.tropical.savanna.rcp85_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 2 files · 928 m · 2041–2080 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2041-01-01",
+    "2080-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_ggc-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Annual 30-m grassland class and extent maps (v2)",
+   "provider": "openlandmap",
+   "collection_id": "gpw_ggc-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_grassland_rf.med.filt.bthr_c_30m",
+    "gpw_cultiv.grassland_rf.med.filt_p_30m",
+    "gpw_nat.semi.grassland_rf.med.filt_p_30m",
+    "gpw_open.shrubland_rf.med.filt_p_30m",
+    "gpw_grassland.n.chgs_rf.med.filt.bthr_c_30m"
+   ],
+   "default_assets": [
+    "gpw_grassland_rf.med.filt.bthr_c_30m",
+    "gpw_cultiv.grassland_rf.med.filt_p_30m",
+    "gpw_nat.semi.grassland_rf.med.filt_p_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 25 files · 27.8 m · 2000–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -179.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_gpp.grass-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Annual 30-m grassland Gross Primary Productivity (GPP)",
+   "provider": "openlandmap",
+   "collection_id": "gpw_gpp.grass-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_gpp.grass_lue.model_m_30m"
+   ],
+   "default_assets": [
+    "gpw_gpp.grass_lue.model_m_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 23 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    179.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_gsvh-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Annual 30-m short vegetation height",
+   "provider": "openlandmap",
+   "collection_id": "gpw_gsvh-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_short.veg.height_egbt_m_30m",
+    "gpw_short.veg.height_egbt_p.05_30m",
+    "gpw_short.veg.height_egbt_p.95_30m"
+   ],
+   "default_assets": [
+    "gpw_short.veg.height_egbt_m_30m",
+    "gpw_short.veg.height_egbt_p.05_30m",
+    "gpw_short.veg.height_egbt_p.95_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": -32000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 25 files · 27.8 m · 2000–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_ugpp-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Annual 30-m Uncalibrated Gross Primary Productivity (uGPP)",
+   "provider": "openlandmap",
+   "collection_id": "gpw_ugpp-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_ugpp_lue.model_m_30m"
+   ],
+   "default_assets": [
+    "gpw_ugpp_lue.model_m_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 65000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 25 files · 27.8 m · 2000–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    84.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_gpp.daily.grass-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Bi-monthly 30-m grassland Gross Primary Productivity (GPP)",
+   "provider": "openlandmap",
+   "collection_id": "gpw_gpp.daily.grass-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_gpp.daily.grass_lue.model_m_30m"
+   ],
+   "default_assets": [
+    "gpw_gpp.daily.grass_lue.model_m_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 138 files · 27.8 m · 2000–2022 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    179.0005,
+    76.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2022-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:gpw_ugpp.daily-30m",
+   "label": "OpenLandMap – Global Pasture Watch: Bi-monthly 30-m uncalibrated Gross Primary Productivity (uGPP)",
+   "provider": "openlandmap",
+   "collection_id": "gpw_ugpp.daily-30m",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "gpw_ugpp.daily_lue.model_m_30m"
+   ],
+   "default_assets": [
+    "gpw_ugpp.daily_lue.model_m_30m"
+   ],
+   "native_res": 27.8,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 150 files · 27.8 m · 2000–2024 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0005,
+    -56.0005,
+    180.0005,
+    84.0005
+   ],
+   "interval": [
+    "2000-01-01",
+    "2024-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:fapar_essd.lstm.p95.beta",
+   "label": "OpenLandMap – Long-term fraction of absorbed photosynthetically active radiation (FAPAR - trend analysis)",
+   "provider": "openlandmap",
+   "collection_id": "fapar_essd.lstm.p95.beta",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "fapar_essd.lstm.p95.beta_m_250m_s",
+    "fapar_essd.lstm.p95.beta_sd_250m_s",
+    "fapar_essd.lstm.p95.beta_tv_250m_s",
+    "fapar_essd.lstm.p95.beta_pv_250m_s",
+    "fapar_essd.lstm.p95.alpha_tv_250m_s",
+    "fapar_essd.lstm.p95.alpha_m_250m_s",
+    "fapar_essd.lstm.p95.alpha_pv_250m_s",
+    "fapar_essd.lstm.p95.alpha_sd_250m_s",
+    "fapar_essd.lstm.p95.r2_m_250m_s"
+   ],
+   "default_assets": [
+    "fapar_essd.lstm.p95.beta_m_250m_s",
+    "fapar_essd.lstm.p95.beta_sd_250m_s",
+    "fapar_essd.lstm.p95.beta_tv_250m_s"
+   ],
+   "native_res": 278.0,
+   "mode": "cog",
+   "nodata": -16000.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 278 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.0,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "2000-03-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:evi_mod13q1.tmwm.inpaint",
+   "label": "OpenLandMap – MOD13Q1 bi-monthly Enhanced Vegetation Index Index (EVI)",
+   "provider": "openlandmap",
+   "collection_id": "evi_mod13q1.tmwm.inpaint",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "evi_mod13q1.tmwm.inpaint_p.90_250m_s"
+   ],
+   "default_assets": [
+    "evi_mod13q1.tmwm.inpaint_p.90_250m_s"
+   ],
+   "native_res": 250.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 126 files · 250 m · 2000–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00217,
+    -62.14996,
+    179.99768,
+    84.27543
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:evi_mod13q1.stl.trend.logit.ols.beta",
+   "label": "OpenLandMap – MOD13Q1 long-term Enhanced Vegetation Index (EVI - trend analysis)",
+   "provider": "openlandmap",
+   "collection_id": "evi_mod13q1.stl.trend.logit.ols.beta",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "evi_mod13q1.stl.trend.logit.ols.beta_m_250m_s"
+   ],
+   "default_assets": [
+    "evi_mod13q1.stl.trend.logit.ols.beta_m_250m_s"
+   ],
+   "native_res": 250.0,
+   "mode": "cog",
+   "nodata": -32768.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 250 m · 2000–2020 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.00217,
+    -62.14996,
+    179.99768,
+    84.27543
+   ],
+   "interval": [
+    "2000-01-01",
+    "2020-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:fapar_essd.lstm",
+   "label": "OpenLandMap – Monthly fraction of absorbed photosynthetically active radiation (FAPAR)",
+   "provider": "openlandmap",
+   "collection_id": "fapar_essd.lstm",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "fapar_essd.lstm_p50_250m_s",
+    "fapar_essd.lstm_p05_250m_s",
+    "fapar_essd.lstm_p95_250m_s"
+   ],
+   "default_assets": [
+    "fapar_essd.lstm_p50_250m_s",
+    "fapar_essd.lstm_p05_250m_s",
+    "fapar_essd.lstm_p95_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 262 files · 232 m · 2000–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2000-03-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:pot.fapar_fapar.p95.eml",
+   "label": "OpenLandMap – Monthly potential fraction of absorbed photosynthetically active radiation (FAPAR - 2021)",
+   "provider": "openlandmap",
+   "collection_id": "pot.fapar_fapar.p95.eml",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "pot.fapar_fapar.p95.eml_m_250m_s"
+   ],
+   "default_assets": [
+    "pot.fapar_fapar.p95.eml_m_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 12 files · 232 m · 2021–2021 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2021-01-01",
+    "2021-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biome.type_biome00k",
+   "label": "OpenLandMap – Potential distribution of biomes",
+   "provider": "openlandmap",
+   "collection_id": "biome.type_biome00k",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biome.type_biome00k_c_250m_s",
+    "biome.type_biome00k_c_1km_s"
+   ],
+   "default_assets": [
+    "biome.type_biome00k_c_250m_s",
+    "biome.type_biome00k_c_1km_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2000–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2000-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.evergreen.broadleaf.forest",
+   "label": "OpenLandMap – Potential distribution of tropical evergreen broadleaf forest",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.evergreen.broadleaf.forest",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest_p_1km_a",
+    "biomes_biome6k.tropical.evergreen.broadleaf.forest_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 1979–2013 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1979-01-01",
+    "2013-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:biomes_biome6k.tropical.savanna",
+   "label": "OpenLandMap – Potential distribution of tropical savanna",
+   "provider": "openlandmap",
+   "collection_id": "biomes_biome6k.tropical.savanna",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "biomes_biome6k.tropical.savanna_p_1km_a",
+    "biomes_biome6k.tropical.savanna_md_1km_a"
+   ],
+   "default_assets": [
+    "biomes_biome6k.tropical.savanna_p_1km_a",
+    "biomes_biome6k.tropical.savanna_md_1km_a"
+   ],
+   "native_res": 928.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 928 m · 1979–2013 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -61.99667,
+    180.0,
+    87.37
+   ],
+   "interval": [
+    "1979-01-01",
+    "2013-12-31"
+   ],
+   "license": "CC-BY-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:fapar_proba.v",
+   "label": "OpenLandMap – PROBA-V long-term fraction of absorbed photosynthetically active radiation (FAPAR)",
+   "provider": "openlandmap",
+   "collection_id": "fapar_proba.v",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "fapar_proba.v.annual_d_250m_s",
+    "fapar_proba.v.jan_d_250m_s",
+    "fapar_proba.v.feb_d_250m_s",
+    "fapar_proba.v.mar_d_250m_s",
+    "fapar_proba.v.apr_d_250m_s",
+    "fapar_proba.v.may_d_250m_s",
+    "fapar_proba.v.jun_d_250m_s",
+    "fapar_proba.v.jul_d_250m_s",
+    "fapar_proba.v.aug_d_250m_s",
+    "fapar_proba.v.sep_d_250m_s",
+    "fapar_proba.v.oct_d_250m_s",
+    "fapar_proba.v.nov_d_250m_s",
+    "fapar_proba.v.dec_d_250m_s"
+   ],
+   "default_assets": [
+    "fapar_proba.v.annual_d_250m_s",
+    "fapar_proba.v.jan_d_250m_s",
+    "fapar_proba.v.feb_d_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 2014–2017 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "2014-01-01",
+    "2017-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:forest.cover_esacci.ifl",
+   "label": "OpenLandMap – Tree-covered and intact forest landscapes",
+   "provider": "openlandmap",
+   "collection_id": "forest.cover_esacci.ifl",
+   "category": "Vegetation and biomass",
+   "assets": [
+    "forest.cover_esacci.ifl_c_250m_s"
+   ],
+   "default_assets": [
+    "forest.cover_esacci.ifl_c_250m_s"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 6 files · 232 m · 1995–2016 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1995-01-01",
+    "2016-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  },
+  {
+   "key": "openlandmap:water.occurrence_jrc.surfacewater",
+   "label": "OpenLandMap – JRC long-term surface water occurrence",
+   "provider": "openlandmap",
+   "collection_id": "water.occurrence_jrc.surfacewater",
+   "category": "Water",
+   "assets": [
+    "water.occurrence_jrc.surfacewater_p_250m_b0t200cm"
+   ],
+   "default_assets": [
+    "water.occurrence_jrc.surfacewater_p_250m_b0t200cm"
+   ],
+   "native_res": 232.0,
+   "mode": "cog",
+   "nodata": 255.0,
+   "has_cloud_cover": false,
+   "time_filter": true,
+   "note": "Static catalogue, 1 files · 232 m · 1984–2016 · global",
+   "group_by": [],
+   "mask": null,
+   "bands": {},
+   "asset_patterns": {},
+   "bbox": [
+    -180.0,
+    -62.00081,
+    179.99994,
+    87.37
+   ],
+   "interval": [
+    "1984-01-01",
+    "2016-12-31"
+   ],
+   "license": "CC-BY-SA-4.0",
+   "generated": true
+  }
+ ]
+}

@@ -266,7 +266,10 @@ class Downloader:
         for attempt in range(1, _RAW_ATTEMPTS + 1):
             url = "/vsicurl/" + self.signer.sign(href, self.feedback)
             try:
-                size = gdal.VSIStatL(url).size
+                stat = gdal.VSIStatL(url)
+                if stat is None:  # 404, refused connection: no exception, just None
+                    raise RuntimeError(f"File not reachable: {href[:120]}")
+                size = stat.size
                 done = os.path.getsize(part) if os.path.exists(part) else 0
                 if done > size:
                     os.remove(part)

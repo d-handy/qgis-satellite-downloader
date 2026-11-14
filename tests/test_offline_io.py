@@ -239,6 +239,36 @@ class RawDownloadTest(_TempDir):
         with open(self.target, "rb") as fh:
             self.assertEqual(fh.read(), self.content)
 
+    def test_unreachable_file_is_a_failure_not_a_crash(self):
+        """A missing file counts as one failure; the other files still arrive."""
+        raw = dataclasses.replace(COLLECTIONS_BY_KEY["s2-l2a"], mode=MODE_RAW)
+        with LocalServer(self.served) as server:
+            items = [
+                {
+                    "id": item_id,
+                    "properties": {"datetime": "2026-09-01T10:00:00Z"},
+                    "assets": {"data": {"href": server.url(name)}},
+                }
+                for item_id, name in (("gone", "gone.nc"), ("S3_scene", "scene.nc"))
+            ]
+            job = DownloadJob(
+                PROVIDERS["earthsearch"],
+                raw,
+                items,
+                ["data"],
+                self.out,
+                "POINT (9 50.5)",
+                False,
+                300.0,
+                False,
+            )
+            result = Downloader(
+                job, QgsFeedback(), lambda m, _l: self.logs.append(m)
+            ).run()
+        self.assertEqual(result.failures, 1)
+        self.assertEqual(result.outputs, [self.target])
+        self.assertTrue(any("gone" in m and "failed" in m for m in self.logs))
+
     def test_existing_file_is_not_downloaded_again(self):
         os.makedirs(os.path.dirname(self.target))
         with open(self.target, "wb") as fh:

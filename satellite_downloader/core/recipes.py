@@ -229,9 +229,22 @@ def _acquisitions(
     return found
 
 
+Signer = stac.PlanetaryComputerSigner | stac.NullSigner
+
+
 def _check_clear(
-    acquisitions: list[Acquisition], aoi_unwrapped: ogr.Geometry, feedback
+    acquisitions: list[Acquisition],
+    aoi_unwrapped: ogr.Geometry,
+    feedback,
+    signers: dict[str, Signer],
 ) -> None:
+    """Fill ``clear`` in parallel; ``signers`` (provider key -> signer) is shared.
+
+    A signer caches its access tokens, so one per provider serves every
+    acquisition of a plan. Missing signers are created here, before the
+    workers start, so no two threads create one for the same provider.
+    """
+
     def work(acq: Acquisition):
         c = acq.collection
         with (
@@ -240,16 +253,16 @@ def _check_clear(
         ):
             try:
                 acq.clear = clouds.clear_percent(
-                    acq.items,
-                    c,
-                    aoi_unwrapped,
-                    stac.signer_for(PROVIDERS[c.provider]),
-                    feedback,
+                    acq.items, c, aoi_unwrapped, signers[c.provider], feedback
                 )
             except RuntimeError:
                 acq.clear = None
 
     todo = [a for a in acquisitions if a.clear is None]
+    for acq in todo:
+        provider = acq.collection.provider
+        if provider not in signers:
+            signers[provider] = stac.signer_for(PROVIDERS[provider])
     with ThreadPoolExecutor(max_workers=_CLEAR_BATCH) as pool:
         list(pool.map(work, todo))
 
@@ -307,6 +320,7 @@ class _Planner:
         self.checked: dict[str, float | None] = {}
         self.best: Acquisition | None = None
         self.unreachable: dict[str, str] = {}  # collection key -> error
+        self.signers: dict[str, Signer] = {}  # provider key -> signer, see _check_clear
 
     def choose(self) -> Acquisition:
         chosen = self._choose()
@@ -398,7 +412,7 @@ class _Planner:
             self.say(
                 f"Checking clouds in the area ({n + len(batch)} of {len(candidates)}) …"
             )
-            _check_clear(batch, self.aoi_unwrapped, self.feedback)
+            _check_clear(batch, self.aoi_unwrapped, self.feedback, self.signers)
             for acq in batch:
                 self.checked[acq.key] = acq.clear
                 if self.best is None or _score(acq) > _score(self.best):

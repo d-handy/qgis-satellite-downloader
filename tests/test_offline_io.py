@@ -458,6 +458,15 @@ class RecipePlanTest(unittest.TestCase):
         self.assertIn("Try again later", message)
         self.assertNotIn("open sea", message)  # not the "nothing here" explanation
 
+    def test_one_signer_per_provider_for_the_whole_plan(self):
+        """Each signer caches its own tokens; one per acquisition asks again each time."""
+        items = {"s2-l2a": [_s2_item(f"s{n}", f"2026-09-{10 + n}") for n in range(6)]}
+        with mock.patch.object(
+            recipes.stac, "signer_for", wraps=stac.signer_for
+        ) as signer_for:
+            self.plan("current", items, {f"s{n}": 20.0 for n in range(6)})
+        self.assertEqual(signer_for.call_count, 1)
+
     def test_partial_coverage_is_reported(self):
         item = _s2_item("edge", "2026-09-18")
         item["geometry"] = {

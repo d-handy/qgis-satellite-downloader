@@ -157,6 +157,8 @@ tests/
   test_core.py           offline tests of the logic
   test_catalog.py        generated catalogue, band mapping, normalisation (offline)
   test_static_index.py   static index search, footprints, antimeridian (offline)
+  test_offline_io.py     GDAL reads, cloud estimate, raw downloads via a local server (offline)
+  test_download_plan.py  download jobs and size estimate (offline)
   test_gui_usability.py  both modes driven with real keys and clicks (offline)
   test_gui_layout.py     window sizes with real fonts (QT_QPA_PLATFORM=windows only)
   test_live.py           against the live catalogues (SD_LIVE=1)
@@ -170,7 +172,7 @@ Run the tests with the Python that ships with QGIS, from the `tests` folder. On 
 (OSGeo4W):
 
 ```
-C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_gui_usability
+C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_download_plan test_gui_usability
 set QT_QPA_PLATFORM=windows && C:\OSGeo4W\bin\python-qgis.bat -m unittest test_gui_layout
 set SD_LIVE=1 && C:\OSGeo4W\bin\python-qgis.bat -m unittest test_live test_gui_expert test_gui_simple
 ```

@@ -33,8 +33,11 @@ Run the offline tests from the `tests` folder with the QGIS Python before openin
 request; on Windows (OSGeo4W):
 
 ```
-C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_gui_usability
+C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_download_plan test_gui_usability
 ```
+
+CI (`.github/workflows/ci.yml`) runs the same tests on every pull request, on QGIS 3.34
+and 3.44, together with ruff and mypy.
 
 Changes to downloads, recipes or catalogue entries should also pass the live tests
 (`set SD_LIVE=1`, see the README). The README section *Code checks* shows how to run mypy and

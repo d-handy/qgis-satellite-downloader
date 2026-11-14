@@ -6,10 +6,14 @@ with lon/lat axis order, unless stated otherwise.
 
 from __future__ import annotations
 
+import inspect
 import json
 import math
+import uuid
+from collections.abc import Iterator
+from contextlib import contextmanager
 
-from osgeo import ogr, osr
+from osgeo import gdal, ogr, osr
 
 METRES_PER_DEGREE = 111_320.0
 
@@ -247,3 +251,35 @@ def project(
     geom.Segmentize(segment_deg)
     geom.Transform(osr.CoordinateTransformation(srs("EPSG:4326"), ref))
     return geom
+
+
+# gdal.Warp takes cutlineWKT and cutlineSRS only from GDAL 3.9 on; QGIS 3.34
+# ships 3.8, whose Warp takes nothing but a dataset name.
+_WARP_TAKES_WKT = "cutlineWKT" in inspect.signature(gdal.WarpOptions).parameters
+
+
+@contextmanager
+def cutline_options(wkt: str | None, srs_wkt: str | None) -> Iterator[dict]:
+    """``gdal.Warp`` keyword arguments that clip to ``wkt`` (given in ``srs_wkt``).
+
+    Empty if ``wkt`` is None. GDAL 3.9+ takes the WKT directly. Older versions
+    get a ``/vsimem/`` GeoPackage that carries the geometry and its CRS; it is
+    removed when the block ends, so keep the ``gdal.Warp`` call inside it.
+    """
+    if not wkt:
+        yield {}
+        return
+    if _WARP_TAKES_WKT:
+        yield {"cutlineWKT": wkt, "cutlineSRS": srs_wkt}
+        return
+    path = f"/vsimem/cutline_{uuid.uuid4().hex}.gpkg"
+    ds = ogr.GetDriverByName("GPKG").CreateDataSource(path)
+    layer = ds.CreateLayer("cutline", srs(srs_wkt) if srs_wkt else None)
+    feature = ogr.Feature(layer.GetLayerDefn())
+    feature.SetGeometry(ogr.CreateGeometryFromWkt(wkt))
+    layer.CreateFeature(feature)
+    feature = layer = ds = None  # close to flush the file
+    try:
+        yield {"cutlineDSName": path}
+    finally:
+        gdal.GetDriverByName("GPKG").Delete(path)

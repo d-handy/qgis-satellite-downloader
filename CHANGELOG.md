@@ -16,6 +16,8 @@ in the plugin manager, so keep both in step when releasing.
 
 ### Fixed
 
+- QGIS 3.34 (GDAL 3.8): clipping to the area, the clear-sky estimate and skipping areas
+  without valid pixels failed with an error; they now work as on newer versions.
 - One unreachable file no longer stops a raw download; it counts as a failure, is retried,
   and the other files still arrive.
 - "Current image" no longer fails when one source (e.g. Landsat) is down: the remaining

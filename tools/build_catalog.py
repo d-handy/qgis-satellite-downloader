@@ -37,6 +37,7 @@ sys.path.insert(0, str(ROOT))
 
 from satellite_downloader.core.catalog import CURATED, has_classification
 from satellite_downloader.core.catalog import PROVIDERS as CATALOG_PROVIDERS
+from satellite_downloader.core.version import PLUGIN_VERSION
 
 gdal.UseExceptions()
 gdal.SetConfigOption("GDAL_DISABLE_READDIR_ON_OPEN", "EMPTY_DIR")
@@ -45,7 +46,7 @@ gdal.SetConfigOption("GDAL_HTTP_TIMEOUT", "60")
 TARGET = ROOT / "satellite_downloader" / "data" / "collections.json"
 REPORT = ROOT / "tools" / "catalog_report.md"
 UA = {
-    "User-Agent": "QGIS-SatelliteDownloader-catalog/0.3 (+https://github.com/d-handy/qgis-satellite-downloader)",
+    "User-Agent": f"QGIS-SatelliteDownloader-catalog/{PLUGIN_VERSION} (+https://github.com/d-handy/qgis-satellite-downloader)",
     "Accept": "application/json, application/geo+json",
 }
 

@@ -46,8 +46,8 @@ from ..core.catalog import COLLECTIONS_BY_KEY
 from ..tasks import GeocodeTask, PreviewTask, RecipeTask
 from . import styling
 from .messages import confirm
+from .settings import SETTINGS_PREFIX, default_out_dir
 
-SETTINGS_PREFIX = "SatelliteDownloader/"
 WGS84 = QgsCoordinateReferenceSystem("EPSG:4326")
 LARGE_AREA_KM = 100.0
 MERCATOR_MAX_LAT = 85.06  # web maps end here; beyond it clicks run towards the pole
@@ -501,10 +501,7 @@ class SimpleDock(QgsDockWidget):
         home = QgsProject.instance().homePath()
         if home:
             return os.path.join(home, "SatelliteData")
-        return QgsSettings().value(
-            SETTINGS_PREFIX + "out_dir",
-            os.path.join(os.path.expanduser("~"), "SatelliteDownloads"),
-        )
+        return QgsSettings().value(SETTINGS_PREFIX + "out_dir", default_out_dir())
 
     def _choose_folder(self):
         folder = QFileDialog.getExistingDirectory(

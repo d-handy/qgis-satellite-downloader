@@ -724,6 +724,17 @@ class FolderTest(DockBase):
         )
         self.assertEqual(self.dock.folder_label.toolTip(), os.path.normpath(target))
 
+    def test_both_modes_share_the_default_folder(self):
+        from satellite_downloader.gui import settings as gui_settings
+
+        settings = QgsSettings()
+        settings.remove(gui_settings.SETTINGS_PREFIX + "out_dir")
+        expert = DownloaderDialog(FakeIface())
+        self.addCleanup(expert.close)
+        default = gui_settings.default_out_dir()
+        self.assertEqual(self.dock.out_root(), default)
+        self.assertEqual(expert.out_dir.filePath(), default)
+
     def test_cancelled_chooser_changes_nothing(self):
         before = self.dock.out_root()
         chooser = simple_dock.QFileDialog.getExistingDirectory

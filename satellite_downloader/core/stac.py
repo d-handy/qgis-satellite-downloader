@@ -20,6 +20,7 @@ from qgis.PyQt.QtNetwork import QNetworkRequest
 
 from . import geometry, static_index
 from .catalog import SEARCH_STATIC, Collection, Provider
+from .version import PLUGIN_VERSION
 
 # URL of the anonymous token endpoint, not a secret.
 PC_TOKEN_URL = "https://planetarycomputer.microsoft.com/api/sas/v1/token"  # noqa: S105
@@ -27,7 +28,7 @@ COVERAGE_KEY = "satellite_downloader:aoi_coverage"
 CLEAR_KEY = "satellite_downloader:aoi_clear"
 REPO_URL = "https://github.com/d-handy/qgis-satellite-downloader"
 HELP_URL = REPO_URL + "#readme"
-USER_AGENT = f"QGIS-SatelliteDownloader/0.4 (+{REPO_URL})".encode()
+USER_AGENT = f"QGIS-SatelliteDownloader/{PLUGIN_VERSION} (+{REPO_URL})".encode()
 
 # Planetary Computer limits the size of geometries in a search body.
 _MAX_VERTICES = 500

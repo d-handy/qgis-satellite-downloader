@@ -68,8 +68,8 @@ from .collection_picker import CollectionPicker
 from .download_plan import BandChoice, OutputSettings, plan_downloads
 from .messages import confirm
 from .results_panel import ResultsPanel, footprints_layer
+from .settings import SETTINGS_PREFIX, default_out_dir
 
-SETTINGS_PREFIX = "SatelliteDownloader/"
 DEFAULT_COLLECTION = "s2-l2a"
 WGS84 = QgsCoordinateReferenceSystem("EPSG:4326")
 WINDOW_SIZE = (1180, 790)
@@ -421,10 +421,7 @@ class DownloaderDialog(QDialog):
             key if key in COLLECTIONS_BY_KEY else DEFAULT_COLLECTION
         )
         self.out_dir.setFilePath(
-            s.value(
-                SETTINGS_PREFIX + "out_dir",
-                os.path.join(os.path.expanduser("~"), "SatelliteDownloads"),
-            )
+            s.value(SETTINGS_PREFIX + "out_dir", default_out_dir())
         )
         self.cloud_spin.setValue(int(s.value(SETTINGS_PREFIX + "cloud", 30)))
 

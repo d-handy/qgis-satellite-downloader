@@ -273,6 +273,22 @@ class PipelineHelpersTest(unittest.TestCase):
         self.assertEqual(type_holding(gdal.GDT_Int16, -0.5), gdal.GDT_Float32)
 
 
+class VersionTest(unittest.TestCase):
+    """metadata.txt is the one place where the plugin version is written."""
+
+    def test_version_comes_from_metadata(self):
+        from satellite_downloader.core import version
+
+        metadata = version.METADATA_FILE.read_text(encoding="utf-8")
+        line = next(ln for ln in metadata.splitlines() if ln.startswith("version="))
+        self.assertEqual(version.PLUGIN_VERSION, line.partition("=")[2].strip())
+
+    def test_user_agent_carries_the_version(self):
+        from satellite_downloader.core.version import PLUGIN_VERSION
+
+        self.assertIn(f"/{PLUGIN_VERSION} ", stac.USER_AGENT.decode())
+
+
 class StacHelpersTest(unittest.TestCase):
     def test_next_page_post_merge(self):
         page = {

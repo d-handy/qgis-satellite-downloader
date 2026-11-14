@@ -327,7 +327,8 @@ class PlanetaryComputerSigner:
             return href
         account = parsed.netloc.split(".")[0]
         container = parsed.path.lstrip("/").split("/")[0]
-        return f"{href}?{self._token(account, container, feedback)}"
+        separator = "&" if parsed.query else "?"
+        return f"{href}{separator}{self._token(account, container, feedback)}"
 
     def invalidate(self) -> None:
         """Drop cached tokens, e.g. after a 403 during a long read."""

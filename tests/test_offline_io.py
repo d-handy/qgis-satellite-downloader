@@ -738,6 +738,12 @@ class SignerTest(unittest.TestCase):
             signer.sign(self.blob)
             self.assertEqual(get.call_count, 3)
 
+    def test_token_is_appended_to_an_existing_query(self):
+        signer = stac.PlanetaryComputerSigner()
+        with mock.patch.object(stac, "get_json", return_value=self.token_reply(45)):
+            signed = signer.sign(self.blob + "?version=2")
+        self.assertEqual(signed, self.blob + "?version=2&sv=x&m=45")
+
     def test_token_close_to_expiry_is_renewed(self):
         signer = stac.PlanetaryComputerSigner()
         with mock.patch.object(

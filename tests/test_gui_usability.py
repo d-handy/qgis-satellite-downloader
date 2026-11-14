@@ -767,6 +767,71 @@ class ResultPanelTest(DockBase):
         self.assertIn("%23", href)
 
 
+class WritingPreviewTask(QgsTask):
+    """Stands in for PreviewTask: writes a small raster where the server's would go."""
+
+    written: ClassVar[list[str]] = []
+
+    def __init__(self, _recipe_plan, target):
+        super().__init__("fake preview", QgsTask.Flag.CanCancel)
+        self.target = target
+        self.path: str | None = None
+
+    def run(self):
+        from osgeo import gdal
+
+        ds = gdal.GetDriverByName("GTiff").Create(self.target, 4, 4, 3, gdal.GDT_Byte)
+        ds.SetGeoTransform((7.0, 0.01, 0, 51.0, 0, -0.01))
+        ds.WriteRaster(0, 0, 4, 4, bytes(range(48)))  # not constant: stretchable
+        ds = None
+        self.path = self.target
+        WritingPreviewTask.written.append(self.target)
+        return True
+
+
+class PreviewFileTest(DockBase):
+    """The preview is a temporary file; it must not stay in the temp folder."""
+
+    def setUp(self):
+        super().setUp()
+        self._preview_task = simple_dock.PreviewTask
+        simple_dock.PreviewTask = WritingPreviewTask
+        self.addCleanup(setattr, simple_dock, "PreviewTask", self._preview_task)
+        WritingPreviewTask.written = []
+        acquisition = SimpleNamespace(
+            collection=SimpleNamespace(label="Sentinel-2"), when="2026-09-18T10:30:00Z"
+        )
+        self.task = SimpleNamespace(
+            plan=SimpleNamespace(acquisition=acquisition),
+            recipe=SimpleNamespace(style="rgb"),
+            isCanceled=lambda: True,  # _recipe_done then only tidies up
+        )
+
+    def _show_preview(self):
+        self.dock.recipe_task = self.task
+        self.dock._on_planned(self.task)
+        wait_until(lambda: self.dock.preview_task is None, 10)
+        (path,) = WritingPreviewTask.written
+        return path
+
+    def test_preview_file_goes_with_the_preview_layer(self):
+        path = self._show_preview()
+        self.assertIsNotNone(self.dock.preview_layer_id)
+        self.assertTrue(os.path.exists(path))
+        self.dock._recipe_done(self.task)  # the result replaces the preview
+        self.assertIsNone(self.dock.preview_layer_id)
+        self.assertFalse(os.path.exists(path))
+
+    def test_late_preview_is_deleted_at_once(self):
+        self.dock.recipe_task = self.task
+        self.dock._on_planned(self.task)
+        self.dock.recipe_task = None  # the result came first
+        wait_until(lambda: self.dock.preview_task is None, 10)
+        (path,) = WritingPreviewTask.written
+        self.assertIsNone(self.dock.preview_layer_id)
+        self.assertFalse(os.path.exists(path))
+
+
 class PlainStatusTest(unittest.TestCase):
     def test_every_recipe_step_has_a_plain_name(self):
         for recipe in recipes.RECIPES:

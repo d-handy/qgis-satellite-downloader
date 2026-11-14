@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import contextlib
 import html
 import os
 import tempfile
@@ -136,6 +137,7 @@ class SimpleDock(QgsDockWidget):
         self.recipe_task: RecipeTask | None = None
         self.preview_task: PreviewTask | None = None
         self.preview_layer_id: str | None = None
+        self.preview_file: str | None = None  # temporary, see _discard_preview_file
         self.last_attribution = ""
         self._applied_query = ""  # text of the search field the place came from
         self._load_after_search = False
@@ -596,30 +598,56 @@ class SimpleDock(QgsDockWidget):
             return
         acq = recipe_plan.acquisition
         self.status.setText(f"Loading {acq.collection.label} from {_date(acq.when)} …")
+        self._discard_preview_file()
         handle, target = tempfile.mkstemp(prefix="sd_preview_", suffix=".tif")
         os.close(handle)
+        self.preview_file = target
         preview = PreviewTask(recipe_plan, target)
         preview.taskCompleted.connect(lambda: self._preview_done(preview, task))
-        preview.taskTerminated.connect(lambda: setattr(self, "preview_task", None))
+        preview.taskTerminated.connect(lambda: self._preview_failed(preview))
         self.preview_task = preview
         QgsApplication.taskManager().addTask(preview)
 
     def _preview_done(self, preview: PreviewTask, task: RecipeTask):
         self.preview_task = None
         if self.recipe_task is not task or not preview.path:
-            return  # the full result is already there, or no preview possible
+            # The full result is already there, or no preview was possible.
+            self._discard_preview_file()
+            return
         group = QgsProject.instance().layerTreeRoot()
         layer = styling.add_layer(group, preview.path, "Preview (will be replaced)")
-        if layer is not None:
-            styling.style_rgb(
-                layer
-            ) if task.recipe.style == "rgb" else styling.style_gray(layer)
-            self.preview_layer_id = layer.id()
+        if layer is None:
+            self._discard_preview_file()
+            return
+        if task.recipe.style == "rgb":
+            styling.style_rgb(layer)
+        else:
+            styling.style_gray(layer)
+        self.preview_layer_id = layer.id()
+
+    def _preview_failed(self, preview: PreviewTask):
+        if self.preview_task is preview:
+            self.preview_task = None
+        self._discard_preview_file()
 
     def _remove_preview(self):
         if self.preview_layer_id:
             QgsProject.instance().removeMapLayer(self.preview_layer_id)
             self.preview_layer_id = None
+        self._discard_preview_file()
+
+    def _discard_preview_file(self):
+        """Delete the preview's temporary file and the statistics GDAL kept beside it.
+
+        Called once the layer is gone; Windows may still hold the file for a
+        moment, and a leftover in the temp folder is better than an error.
+        """
+        if not self.preview_file:
+            return
+        for path in (self.preview_file, self.preview_file + ".aux.xml"):
+            with contextlib.suppress(OSError):
+                os.remove(path)
+        self.preview_file = None
 
     def _recipe_done(self, task: RecipeTask):
         self.recipe_task = None
@@ -715,6 +743,7 @@ class SimpleDock(QgsDockWidget):
         project.homePathChanged.disconnect(self._update_folder_label)
         project.readProject.disconnect(self._update_folder_label)
         project.cleared.disconnect(self._update_folder_label)
+        self._remove_preview()
         self.rubber.reset(Qgis.GeometryType.Polygon)
         self.canvas.scene().removeItem(self.rubber)
         if self.canvas.mapTool() is self.map_tool:

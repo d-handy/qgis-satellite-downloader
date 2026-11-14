@@ -6,6 +6,8 @@ on:
   push:
     branches: [main]
   pull_request:
+  # The release workflow runs the same checks before it builds the ZIP.
+  workflow_call:
 
 permissions:
   contents: read
@@ -48,6 +50,7 @@ jobs:
           python3 -m unittest
           test_core test_catalog test_static_index
           test_offline_io test_download_plan test_gui_usability
+          test_package
       - uses: astral-sh/setup-uv@v6
         if: matrix.qgis == '3.44.15'
         with:

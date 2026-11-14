@@ -33,7 +33,7 @@ Run the offline tests from the `tests` folder with the QGIS Python before openin
 request; on Windows (OSGeo4W):
 
 ```
-C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_download_plan test_gui_usability
+C:\OSGeo4W\bin\python-qgis.bat -m unittest test_core test_catalog test_static_index test_offline_io test_download_plan test_gui_usability test_package
 ```
 
 CI (`.github/workflows/ci.yml`) runs the same tests on every pull request, on QGIS 3.34
@@ -66,3 +66,19 @@ provider's licence and mention it in the pull request.
 - Describe what changes for the user and how you tested it.
 - Commit the regenerated `collections.json` or static index together with the generator
   change that produced it.
+- Add a line under *Unreleased* in [CHANGELOG.md](CHANGELOG.md) if users notice the change.
+- Raise `PIPELINE_VERSION` in `core/pipeline.py` if the same settings now produce different
+  pixels, so earlier results are not reused.
+
+## Releasing
+
+1. Set the new `version` and the `changelog=` line in `satellite_downloader/metadata.txt`.
+2. In `CHANGELOG.md`, rename *Unreleased* to the new version and add its compare link; set
+   `version` and `date-released` in `CITATION.cff`.
+3. Check the ZIP locally: `python tools/package_plugin.py` writes
+   `dist/satellite_downloader-<version>.zip`; install it in QGIS via *Install from ZIP*.
+4. Merge to `main`, then tag and push: `git tag v<version> && git push origin v<version>`.
+   The release workflow runs CI, checks that the tag matches `metadata.txt`, builds the
+   ZIP and publishes a GitHub release with the changelog section as notes.
+5. Upload the same ZIP to [plugins.qgis.org](https://plugins.qgis.org/) (by hand, with
+   an OSGeo account).

@@ -1,0 +1,24 @@
+# How to cite this plugin. GitHub shows a "Cite this repository" button from it.
+# Update "version" and "date-released" with each release.
+cff-version: 1.2.0
+message: "If you use this plugin in your work, please cite it as below."
+type: software
+title: "Satellite Downloader: a QGIS plugin for registration-free satellite data"
+abstract: >-
+  QGIS plugin that searches public STAC catalogues and bundled indexes of static
+  catalogues for an area and date range, reads cloud-optimised GeoTIFFs only where
+  they overlap the area, and mosaics, stacks and clips them. No account or API key
+  is needed.
+authors:
+  - family-names: Handy
+    given-names: Dennis
+license: GPL-3.0-or-later
+repository-code: "https://github.com/d-handy/qgis-satellite-downloader"
+version: 0.4.0
+keywords:
+  - QGIS
+  - remote sensing
+  - STAC
+  - Sentinel
+  - Landsat
+  - cloud-optimised GeoTIFF

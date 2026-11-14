@@ -89,6 +89,23 @@ class PlanDownloadsTest(unittest.TestCase):
         separate = plan_downloads(items, settings(mosaic_by_date=False), None)
         self.assertEqual(separate.estimate, 3 * per_file)
 
+    def test_estimate_counts_the_files_the_pipeline_writes(self):
+        """Mosaics are per day *and* pass: Sentinel-1 keeps asc and desc apart."""
+        s1 = COLLECTIONS_BY_KEY["s1-rtc"]
+        items = []
+        for item_id, state, orbit in (
+            ("asc", "ascending", 88),
+            ("desc", "descending", 139),
+        ):
+            it = item(s1, item_id, "2026-09-07")
+            it["properties"].update(
+                {"sat:orbit_state": state, "sat:relative_orbit": orbit}
+            )
+            items.append(it)
+        per_file = 100 * 200 * len(s1.default_assets) * 4
+        plan = plan_downloads(items, settings(), None)
+        self.assertEqual(plan.estimate, 2 * per_file)
+
     def test_estimate_rounds_partial_pixels_up(self):
         plan = plan_downloads(
             [item(S2, "a", "2026-09-01")],

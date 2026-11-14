@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 
 from ..core import selection
 from ..core.catalog import COLLECTIONS_BY_KEY, MODE_RAW, PROVIDERS, Collection
-from ..core.pipeline import DownloadJob, safe_name
+from ..core.pipeline import DownloadJob, group_key, safe_name
 
 LARGE_DOWNLOAD_BYTES = 5 * 1024**3
 LARGE_SCENE_COUNT = 20
@@ -68,7 +68,7 @@ def plan_downloads(
         if c.mode == MODE_RAW:
             plan.raw_scenes += len(group)
         else:
-            plan.estimate += _estimate(group, settings, len(assets), res)
+            plan.estimate += _estimate(c, group, settings, len(assets), res)
         plan.jobs.append(_job(c, group, assets, res, settings))
     return plan
 
@@ -81,13 +81,18 @@ def _by_collection(items: list[dict]) -> dict[str, list[dict]]:
 
 
 def _estimate(
-    group: list[dict], settings: OutputSettings, n_assets: int, res: float
+    c: Collection,
+    group: list[dict],
+    settings: OutputSettings,
+    n_assets: int,
+    res: float,
 ) -> int:
-    """Uncompressed bytes: pixels in the AOI × bands × output files."""
-    if settings.mosaic_by_date:
-        outputs = len({(it["properties"].get("datetime") or "")[:10] for it in group})
-    else:
-        outputs = len(group)
+    """Uncompressed bytes: pixels in the AOI × bands × output files.
+
+    The files are counted with the pipeline's own ``group_key``, so a mosaic
+    per day and orbit (Sentinel-1 ascending/descending) counts as two.
+    """
+    outputs = len({group_key(it, c, settings.mosaic_by_date) for it in group})
     width, height = settings.area_size_m
     pixels = math.ceil(width / res) * math.ceil(height / res)
     return pixels * n_assets * outputs * _BYTES_PER_VALUE

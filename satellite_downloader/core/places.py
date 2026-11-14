@@ -98,7 +98,7 @@ def _hemisphere_pair(text: str) -> tuple[float, float] | None:
         values["lat" if letter in "NS" else "lon"] = value
     if set(values) != {"lat", "lon"}:
         return None
-    return _checked(values["lon"], values["lat"])
+    return checked_lonlat(values["lon"], values["lat"])
 
 
 def parse_coordinates(text: str) -> tuple[float, float] | None:
@@ -131,7 +131,7 @@ def _dms_pair(dms: list[tuple[str, str, str, str]]) -> tuple[float, float] | Non
         values["lat" if hemi in "NS" else "lon"] = -value if hemi in "SW" else value
     if set(values) != {"lat", "lon"}:
         return None
-    return _checked(values["lon"], values["lat"])
+    return checked_lonlat(values["lon"], values["lat"])
 
 
 def _utm(
@@ -141,7 +141,7 @@ def _utm(
     ref = geometry.srs(f"EPSG:{(32700 if south else 32600) + int(zone)}")
     to_wgs = osr.CoordinateTransformation(ref, geometry.srs("EPSG:4326"))
     lon, lat, _ = to_wgs.TransformPoint(_f(easting), _f(northing))
-    return _checked(lon, lat)
+    return checked_lonlat(lon, lat)
 
 
 def _decimal_pair(text: str) -> tuple[float, float] | None:
@@ -151,11 +151,12 @@ def _decimal_pair(text: str) -> tuple[float, float] | None:
         return None
     a, b = _f(pair.group(1)), _f(pair.group(2))
     if abs(a) > 90 >= abs(b):
-        return _checked(a, b)
-    return _checked(b, a)
+        return checked_lonlat(a, b)
+    return checked_lonlat(b, a)
 
 
-def _checked(lon: float, lat: float) -> tuple[float, float] | None:
+def checked_lonlat(lon: float, lat: float) -> tuple[float, float] | None:
+    """``(lon, lat)`` if both lie on the globe, otherwise None."""
     if -180 <= lon <= 180 and -90 <= lat <= 90:
         return lon, lat
     return None
@@ -209,7 +210,12 @@ def geocode(
 # -- area rules ------------------------------------------------------------------
 
 
-def _extent_km(bbox: tuple[float, float, float, float]) -> tuple[float, float]:
+def extent_km(bbox: tuple[float, float, float, float]) -> tuple[float, float]:
+    """(width, height) in km of a (south, north, west, east) box.
+
+    The width is measured at the middle latitude, and a box with west > east
+    crosses the antimeridian (Fiji: 179° to -179° is 2°, not 358°).
+    """
     south, north, west, east = bbox
     mid_lat = math.radians((south + north) / 2)
     width = (east - west) % 360 * geometry.METRES_PER_DEGREE * math.cos(mid_lat) / 1000
@@ -235,7 +241,7 @@ def area_for(place: Place, radius_km: float = 5.0, whole_extent: bool = False) -
     - larger: circle around the centre, with a note explaining why
     """
     if place.bbox is not None:
-        width, height = _extent_km(place.bbox)
+        width, height = extent_km(place.bbox)
         if max(width, height) >= POINT_EXTENT_KM:
             if whole_extent or max(width, height) <= MAX_BBOX_SIDE_KM:
                 south, north, west, east = place.bbox

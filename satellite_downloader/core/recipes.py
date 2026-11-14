@@ -267,7 +267,13 @@ def _check_clear(
         list(pool.map(work, todo))
 
 
-def _resolution(collection: Collection, area_side_m: float) -> float:
+def output_resolution(collection: Collection, area_side_m: float) -> float:
+    """Pixel size (m) for an area whose longer side is ``area_side_m``.
+
+    Native resolution while the result stays within ``MAX_OUTPUT_PIXELS``
+    across; beyond that the next whole multiple of it, so pixels still line
+    up with the source grid (30 m DEM: 60 m, 90 m …, never 45 m).
+    """
     native = collection.native_res
     needed = area_side_m / MAX_OUTPUT_PIXELS
     if needed <= native:
@@ -439,7 +445,7 @@ def plan(
     notes = planner.notes
     side_m = _side_m(planner.aoi_unwrapped)
     assets = _assets(recipe, chosen.collection, chosen.items) or []
-    resolution = _resolution(chosen.collection, side_m)
+    resolution = output_resolution(chosen.collection, side_m)
     native = chosen.collection.native_res
     if resolution > native:
         notes.append(

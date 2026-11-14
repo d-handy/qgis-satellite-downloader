@@ -395,7 +395,7 @@ class SimpleDock(QgsDockWidget):
             back = to_wgs.transform(wgs, Qgis.TransformDirection.Reverse)
         except QgsCsException:
             return None
-        if places._checked(wgs.x(), wgs.y()) is None:
+        if places.checked_lonlat(wgs.x(), wgs.y()) is None:
             return None
         if "+proj=merc" in crs.toProj() and abs(wgs.y()) > MERCATOR_MAX_LAT:
             return None
@@ -445,7 +445,7 @@ class SimpleDock(QgsDockWidget):
         self.results.hide()
         self.query.clear()
         self.place = place
-        width, height = places._extent_km(bbox)
+        width, height = places.extent_km(bbox)
         note = ""
         if max(width, height) > LARGE_AREA_KM:
             note = "Very large area: zoom in on the map for more detail."
@@ -579,7 +579,7 @@ class SimpleDock(QgsDockWidget):
             return ""
         side_m = max(area.width_km, area.height_km) * 1000
         collection = COLLECTIONS_BY_KEY[self._recipe().sources[0]]
-        resolution = recipes._resolution(collection, side_m)
+        resolution = recipes.output_resolution(collection, side_m)
         return (
             f"The area is {area.width_km:.0f} × {area.height_km:.0f} km, so the "
             f"resolution is coarsened to about {resolution:.0f} m "

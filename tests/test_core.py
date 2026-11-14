@@ -426,12 +426,12 @@ class PlacesTest(unittest.TestCase):
         self.assertAlmostEqual(lat, -33.92, delta=0.05)
 
     def test_extent_km(self):
-        width, height = places._extent_km((0.0, 1.0, 10.0, 11.0))  # S, N, W, E
+        width, height = places.extent_km((0.0, 1.0, 10.0, 11.0))  # S, N, W, E
         self.assertAlmostEqual(width, 111.32, delta=0.1)
         self.assertAlmostEqual(height, 111.32, delta=0.01)
-        width, _ = places._extent_km((59.5, 60.5, 10.0, 11.0))
+        width, _ = places.extent_km((59.5, 60.5, 10.0, 11.0))
         self.assertAlmostEqual(width, 55.66, delta=0.1)  # cos(60°) = 0.5
-        width, _ = places._extent_km((-17.0, -16.0, 179.0, -179.0))  # Fiji
+        width, _ = places.extent_km((-17.0, -16.0, 179.0, -179.0))  # Fiji
         self.assertAlmostEqual(width, 2 * 111.32 * 0.9588, delta=0.5)
 
     def test_circle_size_is_reported(self):
@@ -500,8 +500,10 @@ class RecipeHelpersTest(unittest.TestCase):
 
     def test_resolution_stays_on_native_multiples(self):
         s2 = COLLECTIONS_BY_KEY["s2-l2a"]
-        self.assertEqual(recipes._resolution(s2, 10_000), 10.0)
-        self.assertEqual(recipes._resolution(s2, 250_000), 30.0)  # 25 m needed -> 30 m
+        self.assertEqual(recipes.output_resolution(s2, 10_000), 10.0)
+        self.assertEqual(
+            recipes.output_resolution(s2, 250_000), 30.0
+        )  # 25 m needed -> 30 m
 
     def test_slug(self):
         self.assertEqual(

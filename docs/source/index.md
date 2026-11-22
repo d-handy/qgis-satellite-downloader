@@ -11,6 +11,20 @@ getting-started/installation
 getting-started/simple-mode
 ```
 
+```{toctree}
+:maxdepth: 2
+:caption: User guide
+
+user-guide/expert-mode
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Reference
+
+reference/providers
+```
+
 
 ## Citing
 

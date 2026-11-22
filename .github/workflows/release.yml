@@ -24,6 +24,10 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
+    # Expressions in run: are pasted into the script before the shell sees
+    # them; through env the tag name stays data.
+    env:
+      TAG: ${{ github.ref_name }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -33,10 +37,8 @@ jobs:
           python-version: "3.12"
       - name: Build plugin ZIP
         id: build
-        run: echo "zip=$(python tools/package_plugin.py --check-tag '${{ github.ref_name }}')" >> "$GITHUB_OUTPUT"
+        run: echo "zip=$(python tools/package_plugin.py --check-tag "$TAG")" >> "$GITHUB_OUTPUT"
       - name: Release notes from CHANGELOG.md
-        env:
-          TAG: ${{ github.ref_name }}
         # The section between "## [x.y.z]" and the next "## [".
         run: |
           awk -v v="${TAG#v}" '
@@ -48,6 +50,7 @@ jobs:
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
+          ZIP: ${{ steps.build.outputs.zip }}
         run: >-
-          gh release create "${{ github.ref_name }}" "${{ steps.build.outputs.zip }}"
-          --title "${{ github.ref_name }}" --notes-file notes.md
+          gh release create "$TAG" "$ZIP"
+          --title "$TAG" --notes-file notes.md

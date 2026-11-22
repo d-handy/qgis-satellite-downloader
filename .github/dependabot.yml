@@ -1,6 +1,7 @@
-# Keeps the pinned GitHub Actions current. The plugin has no Python
-# dependencies of its own (it runs on the QGIS Python); ruff and gitleaks are
-# pinned in .pre-commit-config.yaml and updated with `pre-commit autoupdate`.
+# Keeps the pinned GitHub Actions and the docs dependencies (uv.lock) current.
+# The plugin itself has no Python dependencies (it runs on the QGIS Python);
+# ruff and gitleaks are pinned in .pre-commit-config.yaml and updated with
+# `pre-commit autoupdate`.
 version: 2
 updates:
   - package-ecosystem: github-actions
@@ -9,4 +10,11 @@ updates:
       interval: monthly
     groups:
       actions:
+        patterns: ["*"]
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      docs:
         patterns: ["*"]

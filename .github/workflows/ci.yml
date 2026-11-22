@@ -1,5 +1,5 @@
-# The checks a pull request must pass: the same commands as in the README,
-# "Code checks" and "Project layout and tests".
+# The checks a pull request must pass: the same commands as in the docs,
+# "Testing and code checks".
 name: CI
 
 on:

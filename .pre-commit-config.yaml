@@ -1,8 +1,8 @@
 # Checks before each commit. Set up once per clone:
 #     pre-commit install
 #
-# The type checkers need the QGIS Python and are run by hand; see README,
-# "Code checks".
+# The type checkers need the QGIS Python and are run by hand; see the docs,
+# "Testing and code checks".
 repos:
   # Lint (rules in pyproject.toml) and format. Same version as the local ruff,
   # so the hook and a manual run agree.

@@ -11,5 +11,5 @@ Fixes #
 - [ ] New behaviour has a test
 - [ ] `PIPELINE_VERSION` in `core/pipeline.py` raised, if the same settings now produce different pixels
 - [ ] `CHANGELOG.md` has an entry under *Unreleased*, if users notice the change
-- [ ] README updated, if usage changed
+- [ ] Docs updated, if usage changed
 - [ ] Regenerated `collections.json` or static index committed with the generator change

@@ -23,7 +23,8 @@ The plugin runs on the Python that ships with QGIS and needs no extra packages.
    mklink /D "%APPDATA%\QGIS\QGIS3\profiles\default\python\plugins\satellite_downloader" "C:\path\to\qgis-satellite-downloader\satellite_downloader"
    ```
 
-   On Linux and macOS, use `ln -s` with the plugin paths from the README.
+   On Linux and macOS, use `ln -s` with the plugin paths from
+   [Installation](https://d-handy.github.io/qgis-satellite-downloader/getting-started/installation.html).
 3. Enable the plugin in QGIS. The *Plugin Reloader* plugin saves restarts.
 4. Install the commit hooks (ruff and a secret scan): `pre-commit install`.
 
@@ -40,8 +41,9 @@ CI (`.github/workflows/ci.yml`) runs the same tests on every pull request, on QG
 and 3.44, together with ruff and mypy.
 
 Changes to downloads, recipes or catalogue entries should also pass the live tests
-(`set SD_LIVE=1`, see the README). The README section *Code checks* shows how to run mypy and
-basedpyright; both should report no errors.
+(`set SD_LIVE=1`). How to run them, and mypy and basedpyright, is described in
+[Testing and code checks](https://d-handy.github.io/qgis-satellite-downloader/development/testing.html);
+both type checkers should report no errors.
 
 New behaviour needs a test. Interface text is English; keep it short and say what the user
 can do next.

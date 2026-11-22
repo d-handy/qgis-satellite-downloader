@@ -24,6 +24,8 @@ user-guide/how-data-is-produced
 :caption: Reference
 
 reference/providers
+reference/licences
+reference/changelog
 ```
 
 

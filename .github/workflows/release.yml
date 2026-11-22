@@ -39,10 +39,12 @@ jobs:
         id: build
         run: echo "zip=$(python tools/package_plugin.py --check-tag "$TAG")" >> "$GITHUB_OUTPUT"
       - name: Release notes from CHANGELOG.md
-        # The section between "## [x.y.z]" and the next "## [".
+        # The section between "## [x.y.z]" and the next "## [". The heading is
+        # compared as a plain string: as a dynamic regex, gawk reads "\[" as "["
+        # and the version becomes a bracket expression.
         run: |
-          awk -v v="${TAG#v}" '
-            $0 ~ "^## \[" v "\]" {on=1; next}
+          awk -v h="## [${TAG#v}]" '
+            $0 == h {on=1; next}
             on && /^## \[/ {exit}
             on {print}
           ' CHANGELOG.md > notes.md

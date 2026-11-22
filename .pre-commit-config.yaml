@@ -4,6 +4,21 @@
 # The type checkers need the QGIS Python and are run by hand; see the docs,
 # "Testing and code checks".
 repos:
+  # File hygiene that ruff doesn't cover: Markdown, YAML, TOML. The generated
+  # catalogue and indexes are written by tools/ and left as they come out.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+        exclude: ^satellite_downloader/data/
+      - id: trailing-whitespace
+        exclude: ^satellite_downloader/data/
+        # Two trailing spaces are a line break in Markdown.
+        args: [--markdown-linebreak-ext=md]
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+
   # Lint (rules in pyproject.toml) and format. Same version as the local ruff,
   # so the hook and a manual run agree.
   - repo: https://github.com/astral-sh/ruff-pre-commit

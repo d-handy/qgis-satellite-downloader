@@ -26,7 +26,7 @@ The plugin runs on the Python that ships with QGIS and needs no extra packages.
    On Linux and macOS, use `ln -s` with the plugin paths from
    [Installation](https://d-handy.github.io/qgis-satellite-downloader/getting-started/installation.html).
 3. Enable the plugin in QGIS. The *Plugin Reloader* plugin saves restarts.
-4. Install the commit hooks (ruff and a secret scan): `pre-commit install`.
+4. Install the commit hooks (file checks, ruff and a secret scan): `pre-commit install`.
 
 ## Tests and checks
 

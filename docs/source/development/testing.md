@@ -9,7 +9,8 @@ satellite_downloader/
   data/      generated catalogue (collections.json) and static indexes (static/)
   tasks.py   QgsTask wrappers around the core
 docs/
-  assets/    logos and screenshots; see docs/README.md
+  source/    this documentation (Sphinx, MyST Markdown)
+  assets/    logos and screenshots; see "Logos and screenshots"
 tools/
   build_catalog.py       builds the catalogue from the live STAC APIs
   build_static_index.py  search index for static catalogues without an API

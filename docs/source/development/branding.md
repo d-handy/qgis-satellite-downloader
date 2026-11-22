@@ -1,7 +1,7 @@
-# Documentation assets
+# Logos and screenshots
 
-Material for the README, the GitHub page, plugins.qgis.org and talks or posters. User
-documentation itself lives in the [main README](../README.md).
+Material for the README, the GitHub page, plugins.qgis.org and talks or posters. It lives in
+`docs/assets/`:
 
 ```
 docs/
@@ -42,6 +42,6 @@ through Qt. Export PNGs from a browser or a vector editor (Inkscape) instead.
 
 ## Screenshots
 
-Put screenshots in `assets/screenshots/` as PNG, named after what they show
+Put screenshots in `docs/assets/screenshots/` as PNG, named after what they show
 (`simple-mode.png`, `expert-mode-results.png`). Take them in English with a default QGIS
 theme and crop them to the plugin window. Avoid places or data that identify a person.

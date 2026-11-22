@@ -8,6 +8,7 @@ an API key or any extra Python packages: it runs on QGIS and the GDAL that ships
 :caption: Getting started
 
 getting-started/installation
+getting-started/simple-mode
 ```
 
 

@@ -16,6 +16,7 @@ getting-started/simple-mode
 :caption: User guide
 
 user-guide/expert-mode
+user-guide/how-data-is-produced
 ```
 
 ```{toctree}

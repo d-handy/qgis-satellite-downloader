@@ -21,6 +21,14 @@ user-guide/how-data-is-produced
 
 ```{toctree}
 :maxdepth: 2
+:caption: Development
+
+development/testing
+development/catalogue
+```
+
+```{toctree}
+:maxdepth: 2
 :caption: Reference
 
 reference/providers

@@ -6,7 +6,11 @@ All notable changes to this plugin. The format follows
 `satellite_downloader/metadata.txt`; the short `changelog=` line there is what QGIS shows
 in the plugin manager, so keep both in step when releasing.
 
-## [Unreleased]
+## [0.5.0]
+
+### Added
+
+- Documentation at https://d-handy.github.io/qgis-satellite-downloader/.
 
 ### Changed
 
@@ -54,7 +58,8 @@ in the plugin manager, so keep both in step when releasing.
 - Orbit-aware mosaics, antimeridian and polar support.
 - Retries and resumable downloads, pixel-exact grids.
 
-[Unreleased]: https://github.com/d-handy/qgis-satellite-downloader/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/d-handy/qgis-satellite-downloader/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/d-handy/qgis-satellite-downloader/releases/tag/v0.5.0
 [0.4.0]: https://github.com/d-handy/qgis-satellite-downloader/releases/tag/v0.4.0
 [0.3.0]: https://github.com/d-handy/qgis-satellite-downloader/releases/tag/v0.3.0
 [0.2.0]: https://github.com/d-handy/qgis-satellite-downloader/releases/tag/v0.2.0

@@ -14,7 +14,8 @@ authors:
     given-names: Dennis
 license: GPL-3.0-or-later
 repository-code: "https://github.com/d-handy/qgis-satellite-downloader"
-version: 0.4.0
+version: 0.5.0
+date-released: "2026-11-22"
 keywords:
   - QGIS
   - remote sensing

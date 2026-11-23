@@ -6,7 +6,8 @@ Bug reports, missing datasets and pull requests are welcome. Please follow the
 
 ## Reporting a problem
 
-Use the issue forms: *Bug report*, *Dataset request* or *Idea*. For a bug, the most useful
+Use the issue forms: *Bug report*, *Dataset request*, *Idea*, *Documentation* or
+*Maintenance*. For a bug, the most useful
 details are the QGIS version, the mode (simple or expert), the dataset, the place, and the
 lines from the QGIS log: *View → Panels → Log Messages*, tab "Satellite Downloader".
 
@@ -62,15 +63,45 @@ can do next.
 The plugin only includes data that can be downloaded without an account. Check the
 provider's licence and mention it in the pull request.
 
+## Workflow
+
+1. Every change starts with an issue, filed through one of the issue forms.
+2. Branch from the current `main`: `<type>/<issue-number>-<short-description>`, e.g.
+   `fix/42-clip-nodata`.
+3. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+   ```
+   fix: keep the NoData value when clipping
+
+   Clipped rasters lost their NoData value and showed black borders.
+
+   Closes #42
+   ```
+
+   - Types: `feat`, `fix`, `docs`, `test`, `refactor`, `perf`, `build`, `ci`, `chore`
+   - Summary in lowercase and imperative mood, no trailing period
+   - The body explains why the change is needed
+   - `Closes #<nr>` only in the commit that resolves the issue, otherwise `Refs #<nr>`
+4. One logical change per commit. Tidy up the branch before the merge with
+   `git rebase -i` and `git push --force-with-lease`; never rewrite `main`.
+
 ## Pull requests
 
 - One topic per pull request, on a branch of its own.
-- Describe what changes for the user and how you tested it.
+- The description says what changes for the user and how you tested it;
+  `gh pr create --fill-verbose` takes it from the commit messages (with more than one
+  commit, also pass `--title`).
+- The offline tests pass, and the live tests too if downloads, recipes or catalogue
+  entries changed.
+- Update the docs if usage changed.
 - Commit the regenerated `collections.json` or static index together with the generator
   change that produced it.
 - Add a line under *Unreleased* in [CHANGELOG.md](CHANGELOG.md) if users notice the change.
 - Raise `PIPELINE_VERSION` in `core/pipeline.py` if the same settings now produce different
   pixels, so earlier results are not reused.
+- CI must pass before merging; `main` only accepts pull requests.
+- Pull requests are squash-merged, so the commit messages become the documentation in the
+  history.
 
 ## Releasing
 

@@ -1,0 +1,11 @@
+name: Documentation
+description: Something in the docs, README or CONTRIBUTING is missing, wrong or unclear.
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is missing, wrong or unclear?
+      description: Page or file, if known.
+    validations:
+      required: true
